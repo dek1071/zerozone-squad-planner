@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "map": "Gorodok",
+  "layer": "Gorodok_AAS_v1",
+  "title": "ZeroZone · Gorodok operasyon planı",
+  "units": ["AFU_LO_CombinedArms", "RGF_LO_CombinedArms"],
+  "lane": "",
+  "observed": [],
+  "logistics": {},
+  "annotations": [
+    {"id":"demo-hab","tool":"hab","label":"İleri ikmal","points":[{"x":0.25,"y":0.69}],"style":{"color":"#b5e8fa","weight":3,"symbol":"fob","dashed":false}},
+    {"id":"demo-route","tool":"arrow","label":"Alpha · ilerleme","points":[{"x":0.70,"y":0.65},{"x":0.63,"y":0.43}],"style":{"color":"#b5e8fa","weight":4,"symbol":"pin","dashed":false}},
+    {"id":"demo-defense","tool":"circle","label":"Savunma alanı","points":[{"x":0.32,"y":0.29},{"x":0.39,"y":0.29}],"style":{"color":"#f4c27b","weight":2,"symbol":"pin","dashed":true}},
+    {"id":"demo-armor","tool":"pin","label":"Zırhlı gözlemi","points":[{"x":0.75,"y":0.23}],"style":{"color":"#f19aa4","weight":3,"symbol":"vehicle","dashed":false}}
+  ]
+}

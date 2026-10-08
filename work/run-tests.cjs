@@ -1,0 +1,1 @@
+const fs=require('fs'),{spawnSync}=require('child_process');let bad=[];for(const f of fs.readdirSync('work').filter(f=>/^test-.*\.mjs$/.test(f))){const r=spawnSync(process.execPath,['--experimental-vm-modules','work/'+f],{encoding:'utf8'});console.log(f,r.status===0?'PASS':'FAIL');if(r.status!==0){console.log(r.stdout+r.stderr);bad.push(f);}}process.exitCode=bad.length?1:0;

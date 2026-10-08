@@ -1,0 +1,12 @@
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const base=__dirname,port=Number(process.env.ZEROZONE_PREVIEW_PORT||4173);
+const mime={'.bin':'application/octet-stream','.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.webp':'image/webp','.png':'image/png','.woff2':'font/woff2','.txt':'text/plain; charset=utf-8'};
+http.createServer((req,res)=>{
+ if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);res.end();return;}
+ let pathname;try{pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400);res.end();return;}
+ if(pathname==='/haritalar/'){res.writeHead(302,{Location:'/haritalar'+new URL(req.url,'http://localhost').search});res.end();return;}
+ if(pathname==='/'||pathname==='/haritalar')pathname='/index.html';
+ const file=path.resolve(base,'.'+pathname);if(!file.startsWith(base+path.sep)||!mime[path.extname(file)]){res.writeHead(404);res.end('Not found');return;}
+ fs.stat(file,(err,stat)=>{if(err||!stat.isFile()){res.writeHead(404);res.end('Not found');return;}
+ res.writeHead(200,{'Content-Type':mime[path.extname(file)],'Content-Length':stat.size,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','X-Robots-Tag':'noindex, nofollow','Referrer-Policy':'no-referrer','Content-Security-Policy':"default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"});if(req.method==='HEAD')res.end();else fs.createReadStream(file).pipe(res);});
+}).listen(port,'127.0.0.1',()=>console.log(`ZeroZone private preview: http://127.0.0.1:${port}/haritalar`));

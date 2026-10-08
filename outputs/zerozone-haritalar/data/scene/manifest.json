@@ -1,0 +1,329 @@
+{
+  "Anvil": {
+    "corner": [
+      -2040,
+      -2040
+    ],
+    "zOffset": -71.5835,
+    "source": "https://squadcalc.app/api/img/maps/anvil/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 15754036,
+    "trees": true,
+    "treesBytes": 3359488
+  },
+  "BlackCoast": {
+    "corner": [
+      -2299,
+      -2127
+    ],
+    "zOffset": -0.9868,
+    "source": "https://squadcalc.app/api/img/maps/blackcoast/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 36568532,
+    "trees": true,
+    "treesBytes": 3714264,
+    "sourceHeightmapZOffset": -31.0188,
+    "calibration": "SDK landscape3D datum; removes 30.032 m systematic ground offset against local heightmap"
+  },
+  "FoolsRoad": {
+    "corner": [
+      -1326,
+      -1326
+    ],
+    "zOffset": -61.5903,
+    "source": "https://squadcalc.app/api/img/maps/foolsroad/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 2482156,
+    "trees": true,
+    "treesBytes": 2312664
+  },
+  "Fallujah": {
+    "corner": [
+      -1315,
+      -1545
+    ],
+    "zOffset": -48.43,
+    "source": "https://squadcalc.app/api/img/maps/fallujah/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 28861732,
+    "trees": true,
+    "treesBytes": 1765840
+  },
+  "AlBasrah": {
+    "corner": [
+      -2000,
+      -2000
+    ],
+    "zOffset": 2,
+    "source": "https://squadcalc.app/api/img/maps/albasrah/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 29558824,
+    "trees": true,
+    "treesBytes": 2964980
+  },
+  "Kamdesh": {
+    "corner": [
+      -2016,
+      -2016
+    ],
+    "zOffset": 31.6808,
+    "source": "https://squadcalc.app/api/img/maps/kamdesh/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 2031432,
+    "trees": true,
+    "treesBytes": 3259164
+  },
+  "GooseBay": {
+    "corner": [
+      -2016,
+      -2016
+    ],
+    "zOffset": -245,
+    "source": "https://squadcalc.app/api/img/maps/goosebay/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 19048248,
+    "trees": true,
+    "treesBytes": 4045644
+  },
+  "Chora": {
+    "corner": [
+      -2464,
+      -2664
+    ],
+    "zOffset": -793.5477,
+    "source": "https://squadcalc.app/api/img/maps/chora/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 19673840,
+    "trees": true,
+    "treesBytes": 2600768
+  },
+  "JensensRange": {
+    "corner": [
+      -2004,
+      -2004
+    ],
+    "zOffset": -15.5078,
+    "source": "https://squadcalc.app/api/img/maps/jensen/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 9799268,
+    "trees": true,
+    "treesBytes": 210064
+  },
+  "Harju": {
+    "corner": [
+      -2016,
+      -2016
+    ],
+    "zOffset": -21.1422,
+    "source": "https://squadcalc.app/api/img/maps/harju/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 35192708,
+    "trees": true,
+    "treesBytes": 5355392
+  },
+  "Gorodok": {
+    "corner": [
+      -2032,
+      -2032
+    ],
+    "zOffset": -62.8744,
+    "source": "https://squadcalc.app/api/img/maps/gorodok/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 19627856,
+    "trees": true,
+    "treesBytes": 6034056
+  },
+  "Kokan": {
+    "corner": [
+      -1076,
+      -1076
+    ],
+    "zOffset": -255,
+    "source": "https://squadcalc.app/api/img/maps/kokan/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 11345428,
+    "trees": true,
+    "treesBytes": 1050476
+  },
+  "Kohat": {
+    "corner": [
+      -2300,
+      -2300
+    ],
+    "zOffset": 9.4085,
+    "source": "https://squadcalc.app/api/img/maps/kohat/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 7032984,
+    "trees": true,
+    "treesBytes": 2917700
+  },
+  "Lashkar": {
+    "corner": [
+      -2167,
+      -2167
+    ],
+    "zOffset": 1.9652,
+    "source": "https://squadcalc.app/api/img/maps/lashkar/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 11481656,
+    "trees": true,
+    "treesBytes": 6277160
+  },
+  "Mestia": {
+    "corner": [
+      -1200,
+      -1100
+    ],
+    "zOffset": -153.9385,
+    "source": "https://squadcalc.app/api/img/maps/mestia/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 4562132,
+    "trees": true,
+    "treesBytes": 1585680
+  },
+  "Mutaha": {
+    "corner": [
+      -935,
+      -1140
+    ],
+    "zOffset": -8.7821,
+    "source": "https://squadcalc.app/api/img/maps/mutaha/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 5870320,
+    "trees": true,
+    "treesBytes": 1712364
+  },
+  "Logar": {
+    "corner": [
+      -881,
+      -1132
+    ],
+    "zOffset": 4.1729,
+    "source": "https://squadcalc.app/api/img/maps/logar/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 9748308,
+    "trees": true,
+    "treesBytes": 1188988
+  },
+  "PacificProvingGrounds": {
+    "corner": [
+      -2016,
+      -2016
+    ],
+    "zOffset": -79.18,
+    "source": "https://squadcalc.app/api/img/maps/pacific/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 2171096,
+    "trees": true,
+    "treesBytes": 1127456
+  },
+  "Manicouagan": {
+    "corner": [
+      -2016,
+      -2016
+    ],
+    "zOffset": 38,
+    "source": "https://squadcalc.app/api/img/maps/manicouagan/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 30811508,
+    "trees": true,
+    "treesBytes": 7594420
+  },
+  "Narva": {
+    "corner": [
+      -1390,
+      -1402
+    ],
+    "zOffset": -17.9298,
+    "source": "https://squadcalc.app/api/img/maps/narva/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 34683500,
+    "trees": true,
+    "treesBytes": 2327240
+  },
+  "Skorpo": {
+    "corner": [
+      -3611,
+      -3293
+    ],
+    "zOffset": -360.7172,
+    "source": "https://squadcalc.app/api/img/maps/skorpo/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 10881512,
+    "trees": true,
+    "treesBytes": 7742712
+  },
+  "Sumari": {
+    "corner": [
+      -640,
+      -447
+    ],
+    "zOffset": -138.0639,
+    "source": "https://squadcalc.app/api/img/maps/sumari/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 28057036,
+    "trees": true,
+    "treesBytes": 836428
+  },
+  "Sanxian_Islands": {
+    "corner": [
+      -2300,
+      -2050
+    ],
+    "zOffset": 0,
+    "source": "https://squadcalc.app/api/img/maps/sanxian/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 17215948,
+    "trees": true,
+    "treesBytes": 3233700
+  },
+  "Tallil": {
+    "corner": [
+      -2340,
+      -2340
+    ],
+    "zOffset": -83.457,
+    "source": "https://squadcalc.app/api/img/maps/tallil/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 8633400,
+    "trees": true,
+    "treesBytes": 1225424
+  },
+  "Yehorivka": {
+    "corner": [
+      -3302,
+      -3302
+    ],
+    "zOffset": -65.4916,
+    "source": "https://squadcalc.app/api/img/maps/yehorivka/3d/",
+    "date": "2026-10-08",
+    "props": true,
+    "propsBytes": 10869292,
+    "trees": true,
+    "treesBytes": 5912544
+  }
+}

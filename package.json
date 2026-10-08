@@ -1,0 +1,12 @@
+{
+  "name": "zerozone-squad-planner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zero Zone Squad tactical map preview",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node outputs/zerozone-haritalar/server.cjs",
+    "test": "node work/run-tests.cjs"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "map": "Gorodok",
+  "layer": "Gorodok_AAS_v1",
+  "title": "Örnek plan · Gorodok",
+  "units": ["AFU_LO_CombinedArms", "RGF_LO_CombinedArms"],
+  "lane": "",
+  "annotations": [
+    {"id":"example-hab","tool":"hab","points":[{"x":0.25,"y":0.69}],"label":"İleri mevzi","createdAt":"2026-10-05T12:00:00Z"},
+    {"id":"example-arrow","tool":"arrow","points":[{"x":0.70,"y":0.60},{"x":0.63,"y":0.43}],"label":"İlerleme rotası","createdAt":"2026-10-05T12:00:00Z"},
+    {"id":"example-pin","tool":"pin","points":[{"x":0.75,"y":0.23}],"label":"Gözlem noktası","createdAt":"2026-10-05T12:00:00Z"}
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "AlBasrah": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/albasrah/heightmap.png",
+    "sourcePixels": [
+      4001,
+      4001
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 36.706,
+    "widthMeters": 4000.0,
+    "heightMeters": 4000.0
+  },
+  "Anvil": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/anvil/heightmap.png",
+    "sourcePixels": [
+      3061,
+      3061
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 115.251,
+    "widthMeters": 3060.0,
+    "heightMeters": 3060.0
+  },
+  "Belaya": {
+    "available": false,
+    "reason": "Y\u00fckseklik verisi bulunamad\u0131."
+  },
+  "BlackCoast": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/blackcoast/heightmap.png",
+    "sourcePixels": [
+      4599,
+      4600
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 182.058,
+    "widthMeters": 4598.0,
+    "heightMeters": 4599.0
+  },
+  "Chora": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/chora/heightmap.png",
+    "sourcePixels": [
+      4065,
+      4065
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 500.318,
+    "widthMeters": 4064.0,
+    "heightMeters": 4064.0
+  },
+  "Fallujah": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/fallujah/heightmap.png",
+    "sourcePixels": [
+      3006,
+      3006
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 68.068,
+    "widthMeters": 3005.0,
+    "heightMeters": 3005.0
+  },
+  "FoolsRoad": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/foolsroad/heightmap.png",
+    "sourcePixels": [
+      1775,
+      1775
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 102.86,
+    "widthMeters": 1774.0,
+    "heightMeters": 1774.0
+  },
+  "GooseBay": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/goosebay/heightmap.png",
+    "sourcePixels": [
+      4032,
+      4032
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 139.95,
+    "widthMeters": 4031.0,
+    "heightMeters": 4031.0
+  },
+  "Gorodok": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/gorodok/heightmap.png",
+    "sourcePixels": [
+      4065,
+      4065
+    ],
+    "grid": 513,
+    "min": 0.174,
+    "max": 63.921,
+    "widthMeters": 4064.0,
+    "heightMeters": 4064.0
+  },
+  "Harju": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/harju/heightmap.png",
+    "sourcePixels": [
+      4033,
+      4033
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 84.613,
+    "widthMeters": 4032.0,
+    "heightMeters": 4032.0
+  },
+  "JensensRange": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/jensen/heightmap.png",
+    "sourcePixels": [
+      4009,
+      4009
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 49.959,
+    "widthMeters": 4008.0,
+    "heightMeters": 4008.0
+  },
+  "Kamdesh": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/kamdesh/heightmap.png",
+    "sourcePixels": [
+      4033,
+      4033
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 197.661,
+    "widthMeters": 4032.0,
+    "heightMeters": 4032.0
+  },
+  "Kohat": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/kohat/heightmap.png",
+    "sourcePixels": [
+      4618,
+      4618
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 382.586,
+    "widthMeters": 4617.0,
+    "heightMeters": 4617.0
+  },
+  "Kokan": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/kokan/heightmap.png",
+    "sourcePixels": [
+      2497,
+      2497
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 88.773,
+    "widthMeters": 2496.0,
+    "heightMeters": 2496.0
+  },
+  "Lashkar": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/lashkar/heightmap.png",
+    "sourcePixels": [
+      4335,
+      4335
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 151.535,
+    "widthMeters": 4334.0,
+    "heightMeters": 4334.0
+  },
+  "Logar": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/logar/heightmap.png",
+    "sourcePixels": [
+      1762,
+      1762
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 126.53,
+    "widthMeters": 1761.0,
+    "heightMeters": 1761.0
+  },
+  "Manicouagan": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/manicouagan/heightmap.png",
+    "sourcePixels": [
+      4032,
+      4032
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 205.615,
+    "widthMeters": 4031.0,
+    "heightMeters": 4031.0
+  },
+  "Mestia": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/mestia/heightmap.png",
+    "sourcePixels": [
+      2401,
+      2401
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 251.854,
+    "widthMeters": 2400.0,
+    "heightMeters": 2400.0
+  },
+  "Mutaha": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/mutaha/heightmap.png",
+    "sourcePixels": [
+      2756,
+      2756
+    ],
+    "grid": 513,
+    "min": 0.113,
+    "max": 57.419,
+    "widthMeters": 2755.0,
+    "heightMeters": 2755.0
+  },
+  "Narva": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/narva/heightmap.png",
+    "sourcePixels": [
+      2801,
+      2801
+    ],
+    "grid": 513,
+    "min": 0.205,
+    "max": 91.294,
+    "widthMeters": 2800.0,
+    "heightMeters": 2800.0
+  },
+  "PacificProvingGrounds": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/pacific/heightmap.png",
+    "sourcePixels": [
+      4033,
+      4033
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 143.285,
+    "widthMeters": 4032.0,
+    "heightMeters": 4032.0
+  },
+  "Sanxian_Islands": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/sanxian/heightmap.png",
+    "sourcePixels": [
+      4601,
+      4601
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 62.466,
+    "widthMeters": 4600.0,
+    "heightMeters": 4600.0
+  },
+  "Skorpo": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/skorpo/heightmap.png",
+    "sourcePixels": [
+      6850,
+      6870
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 1064.327,
+    "widthMeters": 6849.0,
+    "heightMeters": 6869.0
+  },
+  "Sumari": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/sumari/heightmap.png",
+    "sourcePixels": [
+      1301,
+      1301
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 136.547,
+    "widthMeters": 1300.0,
+    "heightMeters": 1300.0
+  },
+  "Tallil": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/tallil/heightmap.png",
+    "sourcePixels": [
+      4681,
+      4681
+    ],
+    "grid": 513,
+    "min": 0.152,
+    "max": 77.234,
+    "widthMeters": 4680.0,
+    "heightMeters": 4680.0
+  },
+  "Yehorivka": {
+    "available": true,
+    "source": "https://squadcalc.app/api/img/maps/yehorivka/heightmap.png",
+    "sourcePixels": [
+      6351,
+      6351
+    ],
+    "grid": 513,
+    "min": 0.0,
+    "max": 247.845,
+    "widthMeters": 6350.0,
+    "heightMeters": 6350.0
+  }
+}

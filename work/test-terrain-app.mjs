@@ -1,0 +1,43 @@
+import vm from 'node:vm';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {webcrypto} from 'node:crypto';
+const root=path.resolve('outputs/zerozone-haritalar'),storage=new Map(),nodes=new Map(),errors=[];
+const node=()=>({value:'',dataset:{},style:{setProperty(){}},classList:{add(){},remove(){},toggle(){}},querySelector(){return node()},setAttribute(){},addEventListener(){},append(){},insertAdjacentHTML(){},focus(){},close(){},showModal(){}});
+const document={querySelector(s){if(!nodes.has(s))nodes.set(s,node());return nodes.get(s);},querySelectorAll(){return [];},createElement:node,body:node(),addEventListener(){}};
+const context=vm.createContext({document,console:{...console,error:e=>errors.push(e)},localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)},location:{href:'http://127.0.0.1:4173/haritalar?map=Gorodok&layer=Gorodok_AAS_v1',search:'?map=Gorodok&layer=Gorodok_AAS_v1'},history:{replaceState(){}},URL,URLSearchParams,crypto:webcrypto,Blob,setInterval:()=>0,setTimeout:()=>0,clearTimeout(){},fetch:async url=>({ok:true,json:async()=>JSON.parse(await fs.readFile(path.join(root,url),'utf8'))})});
+const modules=new Map();
+async function load(file){
+  if(modules.has(file))return modules.get(file);
+  let source;
+  if(file.endsWith('map-engine.js'))source=`export class TacticalMap{constructor(element,callbacks){this.element=element;this.callbacks=callbacks;this.annotations=[];this.overlays={};this.tool='pan';this.style={symbol:'pin',color:'#b5e8fa',weight:2,dashed:false};this.map={doubleClickZoom:{enable(){},disable(){}}};this.L={layerGroup:()=>({addTo(){return this},clearLayers(){}})};}setTool(v){this.tool=v;}setMap(c){this.config=c;this.annotations=[];}updateObjectives(c){Object.assign(this.config,c);}exportPlan(){return this.annotations;}importPlan(a){this.annotations=a;this.callbacks.onChange(a);} _renderObjectives(){} _renderRedZones(){} _renderAnnotations(){} getGrid(){return 'A1';}}`;
+
+  else source=await fs.readFile(file,'utf8');
+  if(file.endsWith('app.js'))source+='\nexport {setTool,setTab,selectMap,workspaceBackup,importWorkspace,actions,regionEditor,regionLibrary};';
+  const m=new vm.SourceTextModule(source,{context,identifier:file});modules.set(file,m);
+  return m;
+}
+const app=await load(path.join(root,'app.js'));await app.link((spec,ref)=>load(path.resolve(path.dirname(ref.identifier),spec)));await app.evaluate();assert.deepEqual(errors,[],'application initializes without errors');
+const api=app.namespace;api.setTab('regions');assert.match(nodes.get('#side-content').innerHTML,/Sınır setleri/);
+const old=JSON.parse(JSON.stringify(api.workspaceBackup()));
+const incoming=JSON.parse(JSON.stringify(old));incoming.plan.title='İçe aktarılan';incoming.regions={regions:[],visible:false,hatch:false};incoming.sets=[{id:'event',name:'Etkinlik',state:{regions:[]}}];incoming.display={colorBlind:true,markerSize:40,labelSize:14};
+await api.importWorkspace(incoming);assert.equal(api.workspaceBackup().plan.title,'İçe aktarılan');assert.equal(api.workspaceBackup().regions.visible,false);assert.equal(api.workspaceBackup().sets.length,1);
+await api.actions['restore-import']();assert.equal(api.workspaceBackup().plan.title,old.plan.title);assert.equal(api.workspaceBackup().regions.visible,old.regions.visible);
+const targetKey='zerozone-maps-v1:regions:AlBasrah_RAAS_v1',targetBefore={visible:false,hatch:false,regions:[]};storage.set(targetKey,JSON.stringify(targetBefore));
+const cross=JSON.parse(JSON.stringify(incoming));cross.plan.map='AlBasrah';cross.plan.layer='AlBasrah_RAAS_v1';cross.plan.units=[];
+await api.importWorkspace(cross);assert.equal(api.workspaceBackup().plan.map,'AlBasrah');
+await api.actions['restore-import']();assert.equal(api.workspaceBackup().plan.map,'Gorodok');assert.deepEqual(JSON.parse(storage.get(targetKey)),targetBefore,'cross-layer import undo restores destination state');
+const legacy=JSON.parse(JSON.stringify(old.plan));legacy.title='Eski plan';await api.importWorkspace(legacy);assert.equal(api.workspaceBackup().plan.title,'Eski plan');
+const beforeInvalid=JSON.stringify(api.workspaceBackup().regions);const bad=JSON.parse(JSON.stringify(incoming));bad.regions={regions:[{points:[]}]};await assert.rejects(api.importWorkspace(bad));assert.equal(JSON.stringify(api.workspaceBackup().regions),beforeInvalid,'invalid import makes no changes');
+console.log('PASS: actual app initialization/tab wiring, full backup import, legacy import, same/cross-layer undo and invalid import isolation (DOM/map substitutes).');
+
+api.setTool('mortar');assert.match(nodes.get('#tools-content').innerHTML,/HAVAN/);assert.match(nodes.get('#side-content').innerHTML,/Havan \/ 3B/);console.log('PASS: real app + planning + terrain modules connected to mortar toolbar (DOM substitutes).');
+const mortarBackup=JSON.parse(JSON.stringify(api.workspaceBackup()));
+mortarBackup.plan.annotations=[{id:'calibration',tool:'mortar',points:[{x:.1,y:.1},{x:.25,y:.1}],mortar:{weaponOffset:13,targetOffset:4}}];
+await api.importWorkspace(mortarBackup);
+assert.equal(api.workspaceBackup().plan.annotations[0].mortar.weaponOffset,13);
+assert.equal(api.workspaceBackup().plan.annotations[0].mortar.targetOffset,4);
+await api.actions['restore-import']();
+assert.equal(api.workspaceBackup().plan.annotations.length,0);
+console.log('PASS: per-line heights retained through full backup import/export and import rollback.');

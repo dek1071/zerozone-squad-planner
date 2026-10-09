@@ -1,6 +1,6 @@
 # Zero Zone — Squad Harita Planlayıcısı
 
-Zero Zone tasarımına uygun taktik harita ve ateş desteği prototipi. Bu depo, 8 Ekim 2026 tarihindeki çalışan yerel sürümü içerir. Canlı Zero Zone sitesinden bağımsız çalışır.
+Zero Zone tasarımına uygun taktik harita ve ateş desteği prototipi. Bu depo, 9 Ekim 2026 tarihindeki yerel sürümü içerir. Canlı Zero Zone sitesinden bağımsız çalışır.
 
 ## Başlatma
 
@@ -20,6 +20,7 @@ Paket bağımlılığı veya `npm install` gerekmez. Haritalar, yükseklikler, 3
 - Havan, Hell Cannon, BM-21 Grad ve M121 profilleri; Grad yön/mesafe cetveli.
 - 25 haritada dokulu 3B arazi, bina ve bitki yerleşimleri, serbest kamera.
 - Deuteranopi, protanopi, tritanopi ve yüksek kontrast modları; şekil ve çizgi desteği.
+- Araziye göre görüş alanı, 3B topografik/standart/arazi dokusu seçimi ve layer başına üç sabit araç sayacı. [Yeni araçların kullanımı](outputs/zerozone-haritalar/NEW-FEATURES.md).
 
 3B görünümde **Serbest gezin**: W/A/S/D hareket, Space/Shift yükseklik, fareyle bakış, tekerlekle hız. Bina ve ağaç katmanları ayrı kapatılabilir. Ayrıntılı seçenekler ana ekranı doldurmamak için kapalı bölümlerdedir.
 
@@ -29,7 +30,7 @@ Planlar tarayıcıda saklanır. Başka kişiye kendi çizimlerinizi göndermek i
 
 ## Testler
 
-`npm test` ile 16 JavaScript test dosyası çalışır. Sayısal atış hesabı, plan yedekleri, bölgeler, erişilebilirlik, 3B veri ve kaynak temizliği denetlenir. Tam sahne verisi testi bellek ve zaman gerektirebilir.
+`npm test` ile 20 JavaScript test dosyası çalışır. Sayısal atış hesabı, plan yedekleri, bölgeler, erişilebilirlik, görüş alanı, sabit sayaçlar, 3B veri ve kaynak temizliği denetlenir. Tam sahne verisi testi bellek ve zaman gerektirebilir. 9 Ekim özelliklerinin yeni gerçek tarayıcı görsel kontrolü henüz tamamlanmadı.
 
 ## Kapsam sınırları
 

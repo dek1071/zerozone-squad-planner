@@ -41,6 +41,7 @@ async function selectMap(id,layerId,restore=true){
  const token=++loadId;const selected=catalog.find(m=>m.id===id);if(!selected)throw Error('Harita bulunamadı.');saveDraft();loading=true;$('.workspace').classList.add('loading');
  try{if(!cache.has(id)){const r=await fetch(`data/${encodeURIComponent(id)}.json`);if(!r.ok)throw Error('Katman dosyası okunamadı.');cache.set(id,await r.json());}if(token!==loadId)return;
  currentMap=selected;layers=sortedLayers(cache.get(id));currentLayer=layers.find(l=>l.id===layerId)||layers[0];mode='';lane='';observed=[];capture={team:1,selected:[]};logistics={};annotations=[];clearBackup=null;chosenUnits=currentLayer.teams.map(t=>t.unit);planTitle=`${selected.name} · ${currentLayer.mode} ${currentLayer.version}`;
+ planningTools?.refreshTerrain?.();
  const saved=restore?readStore('draft:'+currentLayer.id,null):null;
  if(saved){restoreCapture(saved);observed=cleanObserved(saved.observed);logistics=cleanLogistics(saved.logistics);planTitle=String(saved.title||planTitle).slice(0,80);if(Array.isArray(saved.units))chosenUnits=chosenUnits.map((u,i)=>allowedUnit(saved.units[i],i)?saved.units[i]:u);lane=currentLayer.lanes.some(l=>l.name===saved.lane)?saved.lane:'';}
  regionEditor.load(currentLayer.id,redZoneData.layers[currentLayer.id]);renderChoice();renderSide();renderMap();if(saved?.annotations){try{map.importPlan(saved.annotations,{history:false});}catch{toast('Önceki taslak okunamadı; boş plan açıldı.');}}else $('#plan-count').textContent='0';

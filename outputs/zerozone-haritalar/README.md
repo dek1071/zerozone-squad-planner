@@ -74,3 +74,7 @@ Dört silah / beş mühimmat profili; hat başına silah ve açı; oyun grid'iyl
 25 haritada SDK konumlu bina/yapı ve bitki yerleşimleri 3B görünümde yerel olarak yüklenir. Serbest kamera W/A/S/D, Space/Shift, fare bakışı, tekerlek hızı ve ekrandaki yön düğmeleriyle çalışır; kamera konumu küçük harita ve oyun karesiyle görünür. Bina ve ağaç katmanları kapatılabilir. Nesneler görsel temsildir; bina çarpışması ve nesneye göre balistik engel hesabı yoktur.
 
 BM-21 Grad için sabit araç konumundan yön+mesafeyle hedef ekleme, namlu yönüne göre kısa sağ/sol dönüş ve isteğe bağlı 100 m cetvel eklendi. Ayrıntılar kapalı bölümlerde tutulduğu için ana HUD yön, yükseliş, mesafe ve süreyi göstermeye devam eder.
+
+## 9 Ekim: görüş alanı, topografik 3B ve sabit sayaçlar
+
+Araçlar → Havan / 3B içindeki Görüş alanı, gözlemci koordinatı ve yüksekliğiyle yaklaşık arazi görünürlüğünü hesaplar. 3B görünüm ayarlarında üç harita dokusu seçilebilir. Araçlar → Sayaçlar üzerinden layer başına en fazla üç sayaç haritaya sabitlenir. Ayrıntılı kullanım, hesap sınırları ve 20 test dosyasının kapsamı: [NEW-FEATURES.md](NEW-FEATURES.md). Yeni gerçek tarayıcı görsel kontrolü bağlantı olmadığı için tamamlanmadı.

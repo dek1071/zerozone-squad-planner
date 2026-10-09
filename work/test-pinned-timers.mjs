@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict';
+import {createPlanningTools} from '../outputs/zerozone-haritalar/planning-tools.js';
+const storage=new Map(),listeners={},nodes=new Map(),messages=[];let interval;
+const state={tab:'tools',layer:{id:'Test_RAAS_v1',commander:false},teamIndex:1,chosenUnits:['U'],activeUnit:()=>({id:'U',vehicles:[{name:'Truck',count:4,respawn:5}]}),logistics:{}};
+globalThis.setInterval=fn=>{interval=fn;};
+const node=()=>({innerHTML:'',hidden:false});
+globalThis.document={addEventListener(k,fn){(listeners[k]??=[]).push(fn);},querySelector(s){if(!nodes.has(s))nodes.set(s,node());return nodes.get(s);},querySelectorAll(){return [];}};
+const init=()=>createPlanningTools({map:{style:{},exportPlan:()=>[]},getState:()=>state,escape:String,icon:()=>'',setTool(){},saveDraft(){},info(){},toast:m=>messages.push(m),readStore:(k,d)=>storage.get(k)??d,store:(k,v)=>storage.set(k,structuredClone(v))});
+let api=init();
+function click(dataset){for(const fn of listeners.click||[])fn({target:{closest:q=>q==='button'?{dataset,hasAttribute:()=>false}:null}});}
+click({toolsMode:'timers'});
+for(let i=0;i<4;i++)click({timerPin:`Test_RAAS_v1:1:U:Truck:${i}`});
+assert.equal(storage.get('pinned-timers').length,3);assert.match(messages.at(-1),/en fazla üç/);
+assert.equal((nodes.get('#pinned-timers').innerHTML.match(/class="pinned-timer"/g)||[]).length,3);
+click({timer:'Test_RAAS_v1:1:U:Truck:0',seconds:'300'});
+assert.ok(storage.get('timers')[0][1]>Date.now());
+state.layer={id:'Other_RAAS_v1',commander:false};interval();assert.equal(nodes.get('#pinned-timers').hidden,true);
+state.layer={id:'Test_RAAS_v1',commander:false};interval();assert.equal(nodes.get('#pinned-timers').hidden,false);
+// Simulate a fresh page using persisted pins and absolute timer deadlines.
+for(const k of Object.keys(listeners))delete listeners[k];nodes.clear();api=init();interval();assert.match(nodes.get('#pinned-timers').innerHTML,/Truck #1/);
+click({timerPin:'Test_RAAS_v1:1:U:Truck:0'});assert.equal(storage.get('pinned-timers').length,2);
+click({timerStop:'Test_RAAS_v1:1:U:Truck:0'});assert.equal(storage.get('timers').length,0);
+console.log('Pinned timers: 3-slot limit, persistence, layer isolation, start/stop and removal PASS');

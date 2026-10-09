@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {createTerrainTools} from '../outputs/zerozone-haritalar/terrain-tools.js';
+const handlers={},status={isConnected:true,textContent:''},values={'#sight-grid':{value:'B2'},'#sight-radius':{value:'200'},'#sight-eye':{value:'1.7'}};
+const form={id:'terrain-sight',isConnected:true,querySelector:s=>values[s],parentElement:{querySelector:()=>status}};
+let state={mapId:'Test',layer:{id:'Test_RAAS_v1',widthMeters:2000,heightMeters:2000}},groups=[],fetchResolve;
+globalThis.document={addEventListener(k,fn){(handlers[k]??=[]).push(fn);},querySelector:()=>null,createElement(){return {getContext:()=>({fillRect(){}}),toDataURL:()=> 'data:image/png;base64,test'};}};
+globalThis.fetch=async()=>({ok:true,json:async()=>({cols:2,rows:2,widthMeters:2000,heightMeters:2000,values:[0,0,0,0]})});
+const map={exportPlan:()=>[],getGrid:()=> 'B2',_latLng:p=>p,map:{},L:{imageOverlay:()=>({}),circleMarker:()=>({}),layerGroup(){const g={shown:false,addTo(){this.shown=true;return this;},remove(){this.shown=false;}};groups.push(g);return g;}}};
+const api=createTerrainTools({map,getState:()=>state,setTool(){},escape:String,toast(){},readStore:(_,d)=>d,store(){}});
+async function send(type,target){for(const fn of handlers[type]||[])await fn({target,preventDefault(){}});}
+await send('submit',form);assert.equal(groups.length,1);assert.ok(groups[0].shown);assert.match(status.textContent,/%100/);
+await send('change',{id:'sight-visible',checked:false});assert.equal(groups[0].shown,false);
+await send('change',{id:'sight-visible',checked:true});assert.equal(groups[0].shown,true);
+state.layer={...state.layer,id:'Test_RAAS_v2'};api.refresh();assert.equal(groups[0].shown,false,'layer change clears the overlay');
+globalThis.fetch=()=>new Promise(resolve=>fetchResolve=resolve);state={...state,mapId:'Other',layer:{...state.layer,id:'Other_RAAS_v1'}};
+const pending=send('submit',form);state.layer={...state.layer,id:'Other_RAAS_v2'};api.refresh();fetchResolve({ok:true,json:async()=>({cols:2,rows:2,widthMeters:2000,heightMeters:2000,values:[0,0,0,0]})});await pending;assert.equal(groups.length,1,'stale load cannot attach old layer sight');
+console.log('Sight controls: form, percentage, hide/show, layer cleanup and stale load isolation PASS');

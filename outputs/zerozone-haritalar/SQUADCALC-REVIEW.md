@@ -32,12 +32,12 @@
 
 - UB-32 / Tech UB-32: yavaşlama ve mermi ömrü için ayrı model ve doğrulama gerekli. Sabit hızlı silah hesabı bu silahlara uygulanmadı.
 - Tech Mortar, Mk19 ve AGS: nişangâh/açı ofseti, mühimmat ve kullanım sınırları ayrıca doğrulanmalı; menüye çalışmayan seçenek konmadı.
-- 3B topografik doku ve görünüm bağlantısı paylaşımı eklenmedi. Mevcut kamera standart harita dokusunu kullanır; planın kendisi JSON ile paylaşılabilir.
+- 3B görünüm bağlantısı paylaşımı henüz yoktur. Standart, Topografik ve Arazi dokuları 9 Ekim güncellemesinde eklenmiştir; plan JSON ile paylaşılabilir.
 - 3B bina ve ağaçlar görsel/konum farkındalığı içindir. Kamera bina çarpışması, bina içi dolaşma ve yapı/ağaç üzerinden balistik çarpışma hesabı yapmaz.
 - Gerçek araziye göre menzil sınırı mevcut düz zemin halkasından farklıdır; halka bunu açıkça belirtir.
 - Resmî üs koruma/inşa yasağı ve araç doğma noktaları güncel SDK eşlemesi gerektirir. Kullanıcının kırmızı çizimleri resmî oyun sınırı olarak sunulmaz.
 - Ortak oturum, hesapla kayıt ve yönetici yetkileri sunucu ve gerçek kimlik sistemi gerektirir. ZeroZone kaynakları kullanıcıda olmadığı için yerel kayıt ve dosya yedeği sürer.
-- Görüş hattı / sis alanı, ana üs varlıkları, yeniden doğma kamerası ve topluluk ısı haritası verisi henüz yoktur. Reklam ve Squad Servers kullanıcı tercihiyle kapsam dışıdır.
+- Araziye göre görüş alanı 9 Ekim güncellemesinde eklendi. Ana üs varlıkları, yeniden doğma kamerası ve topluluk ısı haritası verisi henüz yoktur. Reklam ve Squad Servers kullanıcı tercihiyle kapsam dışıdır.
 - Bayrak hover otomatik rota önerisi, kullanıcının önceki “ilk öneri hariç” tercihi nedeniyle genişletilmedi.
 
 Öncelikli sonraki iyileştirmem, silah model sayısını artırmadan önce oyun içi ölçümlerle mevcut profilleri doğrulamak. İkinci olarak isteğe bağlı en fazla üç araç sayacını küçük bir alana sabitlemek yararlı olur. HUD'a sürekli yeni panel eklememek temel tercih.
@@ -61,3 +61,7 @@ Sahne doğrulaması 25 haritanın 101 yerel dosyasını ve 482 MiB veriyi okudu;
 - [Lisans](https://github.com/sh4rkman/SquadCalc/blob/master/LICENSE)
 
 Yeni çözücü, koordinat parser'ı, panel ve 3B oynatma kodu bağımsız yazıldı. Mevcut yükseklik/oyun verisi kaynakları TERRAIN-QA.md içinde kayıtlıdır. Bu çalışma yalnızca özel yerel önizlemede; canlı ZeroZone sitesine yayın yapılmadı.
+
+## 9 Ekim: görüş alanı, topografik 3B ve sabit sayaçlar
+
+Araçlar → Havan / 3B içindeki Görüş alanı, gözlemci koordinatı ve yüksekliğiyle yaklaşık arazi görünürlüğünü hesaplar. 3B görünüm ayarlarında üç harita dokusu seçilebilir. Araçlar → Sayaçlar üzerinden layer başına en fazla üç sayaç haritaya sabitlenir. Ayrıntılı kullanım, hesap sınırları ve 20 test dosyasının kapsamı: [NEW-FEATURES.md](NEW-FEATURES.md). Yeni gerçek tarayıcı görsel kontrolü bağlantı olmadığı için tamamlanmadı.

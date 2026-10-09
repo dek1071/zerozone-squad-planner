@@ -6,7 +6,7 @@ const root=new URL('../outputs/zerozone-haritalar/',import.meta.url);
 const read=f=>JSON.parse(fs.readFileSync(new URL(f,root),'utf8'));
 const data=read('data/units.json'),layer=read('data/Gorodok.json').find(l=>l.id==='Gorodok_RAAS_v1'),unit=data.units.BAF_LO_CombinedArms;
 const budget=buildBudget(unit,layer,data.construction,{vehicles:{'HX60 Logistics':1},items:{HAB_NATO:1,AmmoCrate_BAF:2}});
-assert.equal(budget.capacity,3000);assert.equal(budget.cost,data.construction.HAB_NATO.cost+2*data.construction.AmmoCrate_BAF.cost);assert.equal(budget.remaining,3000-budget.cost);
+assert.equal(budget.capacity,3000);assert.equal(budget.cost,700);assert.equal(budget.remaining,3000-budget.cost);
 const limited=buildBudget(unit,layer,data.construction,{vehicles:{'HX60 Logistics':99,'RHIB Logistics':5},items:{HAB_NATO:999}});
 assert.equal(limited.capacity,6000);assert.equal(limited.builds.find(b=>b.id==='HAB_NATO').count,1);
 const candidate=layer.points.flatMap(p=>p.candidates).find(p=>p.name==='Russian Outpost');assert.deepEqual(matchingLanes(layer,[candidate]).map(l=>l.name),['Alpha','Bravo']);

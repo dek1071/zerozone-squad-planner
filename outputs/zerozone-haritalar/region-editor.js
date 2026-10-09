@@ -1,3 +1,4 @@
+import {paletteFor} from './accessibility.js';
 import {cleanRegions,validPolygon,RegionHistory} from './region-model.js';
 const clone=v=>JSON.parse(JSON.stringify(v));
 export function createRegionEditor({map,readStore,store,toast,escape:esc,getTab,getExtras=()=>''}){
@@ -39,9 +40,9 @@ export function createRegionEditor({map,readStore,store,toast,escape:esc,getTab,
     preview.clearLayers();bar.hidden=replacement===null;
     if(bar.hidden)return;
     const path=cursor?[...points,cursor]:points;
-    if(path.length>1)L.polyline(path.map(p=>map._latLng(p)),{color:'#f42538',weight:2,dashArray:'5 5',interactive:false}).addTo(preview);
+    if(path.length>1)L.polyline(path.map(p=>map._latLng(p)),{color:paletteFor(map.colorMode).danger,weight:2,dashArray:'5 5',interactive:false}).addTo(preview);
     if(path.length>2)L.polygon(path.map(p=>map._latLng(p)),{color:'#f42538',weight:1,fillOpacity:.13,interactive:false}).addTo(preview);
-    points.forEach((p,i)=>{const m=L.circleMarker(map._latLng(p),{radius:5,color:'#fff',fillColor:'#ef3340',fillOpacity:1,weight:2}).addTo(preview);if(i===0&&points.length>=3)m.on('click',e=>{L.DomEvent.stopPropagation(e);finish();});});
+    points.forEach((p,i)=>{const m=L.circleMarker(map._latLng(p),{radius:5,color:'#fff',fillColor:paletteFor(map.colorMode).danger,fillOpacity:1,weight:2}).addTo(preview);if(i===0&&points.length>=3)m.on('click',e=>{L.DomEvent.stopPropagation(e);finish();});});
     bar.innerHTML=`<span>${points.length} köşe</span><button data-region-action="finish" ${points.length<3?'disabled':''}>Çizimi bitir</button><button data-region-action="point-undo" ${points.length?'':'disabled'}>Son köşeyi sil</button><button data-region-action="cancel">Vazgeç</button>`;
   }
   function handlePoint(p){

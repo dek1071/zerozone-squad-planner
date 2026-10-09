@@ -1,9 +1,10 @@
+import {cleanPinnedTimers} from './planning-model.js';
 import {displayMode} from './accessibility.js';
 import {cleanRegions} from './region-model.js';
 export const DATA_VERSION='2026-10-05';
 export function cleanDisplay(value={}){
   const size=(v,f,min,max)=>Number.isFinite(Number(v))?Math.max(min,Math.min(max,Number(v))):f;
-  return {colorMode:displayMode(value),colorBlind:displayMode(value)!=='none',markerSize:size(value.markerSize,29,22,44),labelSize:size(value.labelSize,10,9,16)};
+  return {colorIntensity:size(value.colorIntensity,70,0,100),colorMode:displayMode(value),colorBlind:displayMode(value)!=='none',markerSize:size(value.markerSize,29,22,44),labelSize:size(value.labelSize,10,9,16)};
 }
 export function cleanSets(value=[]){
   if(!Array.isArray(value)||value.length>20)throw Error('En fazla 20 sınır seti saklanabilir.');
@@ -17,7 +18,8 @@ export function cleanBundle(value,catalog){
   if(!value||value.schema!==2||value.kind!=='zerozone-workspace'||!value.plan)throw Error('Birleşik yedek geçersiz.');
   const p=value.plan;
   if(!catalog.some(m=>m.id===p.map&&m.layers.some(l=>l.id===p.layer)))throw Error('Yedek harita/layer eşleşmesi geçersiz.');
-  return {...value,regions:cleanRegions(value.regions),sets:cleanSets(value.sets),display:cleanDisplay(value.display)};
+  const timerPins=value.timerPins===undefined?undefined:cleanPinnedTimers(value.timerPins,p.layer);if(timerPins?.length>3)throw Error('Bir layerda en fazla üç sayaç olabilir.');
+  return {...value,timerPins,regions:cleanRegions(value.regions),sets:cleanSets(value.sets),display:cleanDisplay(value.display)};
 }
 export function copyRegions(source,current,mode='append',idFactory=()=>crypto.randomUUID()){
   const incoming=cleanRegions(source),target=cleanRegions(current);

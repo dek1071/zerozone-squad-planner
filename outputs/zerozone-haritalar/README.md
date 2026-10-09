@@ -1,6 +1,6 @@
 # ZeroZone /haritalar — özel önizleme
 
-Mevcut ZeroZone görünümüne uygun, bağımsız ek sayfa prototipi. Üretim sitesi değiştirilmedi; hiçbir dosya dışarıya yayımlanmadı.
+Mevcut ZeroZone görünümüne uygun, bağımsız ek sayfa prototipi. Üretim sitesi değiştirilmedi. Paylaşılabilir kaynak kopyası [dek1071/zerozone-squad-planner](https://github.com/dek1071/zerozone-squad-planner) herkese açık deposundadır.
 
 Kullanıcı tercihi (6 Ekim 2026): Squad Servers, diğer sunucu listeleri ve başka sunucu reklamları bu sayfada yer almayacak.
 
@@ -10,9 +10,9 @@ Kullanıcı tercihi (6 Ekim 2026): Squad Servers, diğer sunucu listeleri ve ba�
 
 ## Çalışan özellikler
 
-- Planım → Tam yedek indir: açık layerın planı, capture seçimi, kırmızı alanları, sınır setleri ve erişilebilirlik ayarları tek JSON dosyasında. Eski planlar da içe aktarılır; son dosya aktarımı geri alınabilir.
+- Planım → Tam yedek indir: açık layerın planı, capture seçimi, kırmızı alanları, sınır setleri, sabit sayaç tercihleri ve erişilebilirlik ayarları tek JSON dosyasında. Eski planlar da içe aktarılır; son dosya aktarımı geri alınabilir.
 - Bölgeler → Sınır setleri ve layerdan kopyalama: adlandırılmış sınır kopyaları, aynı haritada başka layerdan karşılaştırmalı önizlemeyle ekleme/değiştirme.
-- Harita görünümü: deuteranopi, protanopi, tritanopi ve renksiz yüksek kontrast seçenekleri; renk yanında takım şekli, durum etiketi ve çizgi deseni; ayarlanabilir hedef/etiket boyutu ve cihazda kalıcı tercihler.
+- Harita görünümü: deuteranopi, protanopi, tritanopi ve renksiz yüksek kontrast seçenekleri; 2B harita, 3B sahne ve bütün paneller için ayarlanabilir renk desteği; renk yanında takım şekli, A–E çizim grupları, durum etiketi ve çizgi deseni; ayarlanabilir hedef/etiket boyutu ve cihazda kalıcı tercihler.
 - Bölgeler sekmesi: kırmızı alanları tek tek/topluca gösterme, her katmanda yeni poligon çizme, köşe düzenleme, yeniden çizme, adlandırma, geri alma/yineleme ve katmana özel otomatik cihaz kaydı.
 - 26 harita, 222 katman; ad/katman, oyun modu ve ordu filtreleri, cihazda favoriler.
 - Gerçek hedef koordinatları, AAS bağlantıları, TC altıgenleri ve 3.617 ele geçirme bölgesinin üstten görünümü.
@@ -77,4 +77,6 @@ BM-21 Grad için sabit araç konumundan yön+mesafeyle hedef ekleme, namlu yön�
 
 ## 9 Ekim: görüş alanı, topografik 3B ve sabit sayaçlar
 
-Araçlar → Havan / 3B içindeki Görüş alanı, gözlemci koordinatı ve yüksekliğiyle yaklaşık arazi görünürlüğünü hesaplar. 3B görünüm ayarlarında üç harita dokusu seçilebilir. Araçlar → Sayaçlar üzerinden layer başına en fazla üç sayaç haritaya sabitlenir. Ayrıntılı kullanım, hesap sınırları ve 20 test dosyasının kapsamı: [NEW-FEATURES.md](NEW-FEATURES.md). Yeni gerçek tarayıcı görsel kontrolü bağlantı olmadığı için tamamlanmadı.
+Araçlar → Havan / 3B içindeki Görüş alanı, gözlemci koordinatı ve yüksekliğiyle yaklaşık arazi görünürlüğünü hesaplar. 3B görünüm ayarlarında üç harita dokusu seçilebilir. Araçlar → Sayaçlar üzerinden layer başına en fazla üç sayaç haritaya sabitlenir. Haritaya tıklayarak tam gözlemci konumu seçilebilir; layer değişince giriş ve sonuç temizlenir. Sabit sayaçlar birlik adını gösterir, birlik değişirse önceki birlik etiketi eklenir. Ayrıntılı kullanım ve 22 test dosyasının kapsamı: [NEW-FEATURES.md](NEW-FEATURES.md). Masaüstü tarayıcıda gerçek 3B, doku geçişi, serbest kamera ve görüş seçimi kontrol edildi.
+
+İnşa birim fiyatları takım envanteriyle lojistik hesabında ortak kurala bağlandı. Yanlış HAB ve düzensiz birlik kum torbası fiyatları düzeltildi; kesin maliyet, 100’lük yükleme miktarı ve artan cons ayrı gösterilir. Kaynaklar ve doğrulama sınırları: [CONSTRUCTION-AUDIT.md](CONSTRUCTION-AUDIT.md).

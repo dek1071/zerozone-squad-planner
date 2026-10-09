@@ -20,14 +20,35 @@ export function normalizeAnnotations(items) {
 export function availableVehicles(unit,layer) {
   return unit.vehicles.filter(v=>(layer.boats||!['BOAT','RHIB'].includes(v.type)&&!/RHIB|RIB|boat/i.test(v.name))&&(layer.helicopters||v.type!=='UH')&&(layer.tanks||v.type!=='MBT'));
 }
+// Audited exceptions to the imported SquadMaps snapshot. See CONSTRUCTION-AUDIT.md.
+export function constructionFor(unit,deployable,construction){
+ const raw=construction[deployable.id];if(!raw)return null;
+ let cost=raw.cost,note='';
+ if(deployable.id==='HAB_NATO')cost=500;
+ if(['MEI','INS','IMF'].includes(unit.faction)&&['Wall_Sandbag','Wall_Sandbag_MurderHole'].includes(deployable.id))cost=10;
+ if(deployable.id.startsWith('HAB_'))note='10.6: içindeki mühimmat kutusu HAB ile gelir.';
+ if(deployable.id.startsWith('AmmoCrate_'))note='Ayrıca yerleştirilen mühimmat kutusu.';
+ return {...raw,cost,note};
+}
+export function cleanPinnedTimers(value=[],layer){
+ if(!Array.isArray(value)||value.length>100)throw Error('Sayaç listesi geçersiz.');
+ const seen=new Set();
+ return value.map(p=>{
+  if(!p||typeof p.id!=='string'||p.id.length>300||typeof p.layer!=='string'||(layer&&p.layer!==layer)||!p.id.startsWith(p.layer+':')||seen.has(p.id)||typeof p.name!=='string'||p.name.length>180||!Number.isFinite(p.seconds)||p.seconds<0||p.seconds>86400)throw Error('Sabit sayaç geçersiz.');
+  seen.add(p.id);const parts=p.id.slice(p.layer.length+1).split(':');
+  if(!['1','2'].includes(parts[0])||!parts[1])throw Error('Sayaç takımı veya birliği geçersiz.');
+  return {id:p.id,layer:p.layer,name:p.name,seconds:p.seconds,team:Number(parts[0]),unitId:parts[1]};
+ });
+}
 export function buildBudget(unit,layer,construction,plan={}) {
   const vehicles=availableVehicles(unit,layer).filter(v=>['LOGI','UH'].includes(v.type)&&v.resources>0);
   const counts=plan.vehicles||{},items=plan.items||{};
-  const bounded=(n,max)=>Math.max(0,Math.min(max,Math.floor(Number(n)||0)));
+  const bounded=(n,max)=>Math.max(0,Math.min(max,Number.isFinite(Number(n))?Math.floor(Number(n)):0));
   const capacity=vehicles.reduce((sum,v)=>sum+v.resources*bounded(counts[v.name],v.count),0);
-  const builds=unit.deployables.filter(d=>construction[d.id]&&Number.isFinite(construction[d.id].cost)).map(d=>({...d,...construction[d.id],count:bounded(items[d.id],d.availability<0?999:d.availability)}));
+  const builds=unit.deployables.filter(d=>construction[d.id]&&Number.isFinite(construction[d.id].cost)).map(d=>({...d,...constructionFor(unit,d,construction),count:bounded(items[d.id],d.availability<0?999:d.availability)}));
   const cost=builds.reduce((sum,b)=>sum+b.count*b.cost,0);
-  return {vehicles,builds,capacity,cost,remaining:capacity-cost};
+  const recommendedLoad=Math.ceil(cost/100)*100;
+  return {vehicles,builds,capacity,cost,remaining:capacity-cost,recommendedLoad,ammoCapacity:capacity-recommendedLoad,buildReserve:recommendedLoad-cost};
 }
 // Match observed physical flags against every lane, even when several clusters share a flag.
 export function matchingLanes(layer,observed=[]) {

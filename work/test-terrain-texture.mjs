@@ -16,7 +16,8 @@ const canvas={clientWidth:600,clientHeight:400,addEventListener(){},removeEventL
 const view=module.namespace.createTerrainView(canvas,{cols:2,rows:2,widthMeters:1000,heightMeters:1000,values:[0,0,0,0]},{width:1000,height:1000,image:'base'});
 requests[0].ok(requests[0].texture);flush();assert.equal(material.map,requests[0].texture);
 const first=view.setTexture('topo'),second=view.setTexture('terrain');requests[2].ok(requests[2].texture);requests[1].ok(requests[1].texture);
-assert.equal(await second,true);assert.equal(await first,false);assert.equal(material.map,requests[2].texture);assert.ok(requests[0].texture.disposed);assert.ok(requests[1].texture.disposed);
+assert.equal(await second,true);assert.equal(await first,null);assert.equal(material.map,requests[2].texture);assert.ok(requests[0].texture.disposed);assert.ok(requests[1].texture.disposed);
 const failure=view.setTexture('missing');requests[3].fail();assert.equal(await failure,false);assert.equal(material.map,requests[2].texture,'failed texture preserves previous image');
-const late=view.setTexture('late');view.destroy();requests[4].ok(requests[4].texture);assert.equal(await late,false);assert.ok(requests[2].texture.disposed);assert.ok(requests[4].texture.disposed);assert.equal(frames.size,0);
+const staleFail=view.setTexture('stale-fail'),winner=view.setTexture('winner');requests[5].ok(requests[5].texture);requests[4].fail();assert.equal(await staleFail,null);assert.equal(await winner,true);
+const late=view.setTexture('late');view.destroy();requests[6].ok(requests[6].texture);assert.equal(await late,null);assert.ok(requests[5].texture.disposed);assert.ok(requests[6].texture.disposed);assert.equal(frames.size,0);
 console.log('3D textures: latest request wins, failure preserves map, close disposes pending texture PASS');

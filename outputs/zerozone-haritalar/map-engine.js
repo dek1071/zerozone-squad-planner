@@ -1,4 +1,4 @@
-import {paletteFor} from './accessibility.js';
+import {paletteFor,mapImageFilter,annotationAppearance} from './accessibility.js';
 /* ZeroZone private tactical planning canvas. Leaflet 1.9.4 (BSD-2-Clause). */
 import { DRAW_TOOLS, cleanStyle, cleanMortarSettings, normalizeAnnotations, SYMBOLS } from './planning-model.js';
 const STYLE_ID = 'zz-tactical-map-styles';
@@ -111,6 +111,7 @@ export class TacticalMap {
     this.map.on('zoomend', () => {this._renderGrid();this._renderObjectives();});
     this._keyHandler = event => {
       if (event.key === 'Escape') {
+        this.pointPicker=null;
         this.cancelPending();
         this._status({ text: 'İşlem iptal edildi. ' + toolNames[this.tool] });
       }
@@ -128,7 +129,7 @@ export class TacticalMap {
         if(!this._validPoint(p)||this._stroke.length>=2000)return;
         if(this._geometry(this._stroke.at(-1),p).distance*this.map.options.crs.scale(this.map.getZoom())<3)return;
         this._stroke.push(p);this.previewLayer.clearLayers();
-        L.polyline(this._stroke.map(p=>this._latLng(p)),{color:this.style.color,weight:this.style.weight,interactive:false}).addTo(this.previewLayer);
+        L.polyline(this._stroke.map(p=>this._latLng(p)),{color:annotationAppearance(this.colorMode||'none',this.style.color).color,weight:this.style.weight,interactive:false}).addTo(this.previewLayer);
       },
       pointerup: () => {
         if(!this._stroke)return;
@@ -145,6 +146,7 @@ export class TacticalMap {
   }
 
   setMap(config) {
+    this.pointPicker=null;
     if (!config || !finite(config.widthMeters) || !finite(config.heightMeters) || config.widthMeters <= 0 || config.heightMeters <= 0) {
       throw new Error('Harita ölçüleri metre cinsinden pozitif sayı olmalı.');
     }
@@ -195,6 +197,7 @@ export class TacticalMap {
 
   setTool(tool) {
     if (!TOOLS.has(tool)) return this;
+    this.pointPicker=null;
     this.tool = tool;
     this.cancelPending();
     if(tool==='mortar'&&!this.mortarOrigin&&!this.mortarOriginReset){const last=this.annotations.filter(a=>a.tool==='mortar').at(-1);if(last)this.useMortarOrigin(last);}
@@ -210,6 +213,7 @@ export class TacticalMap {
   }
 
 
+  pickPoint(callback){this.setTool('pan');this.pointPicker=callback;this._status({text:'Gözlemci için haritaya tıkla · Esc: iptal'});}
   setFirePreview(value){
     this.firePreview=value;this.firePreviewLayer?.clearLayers();if(!value||!this.firePreviewLayer)return;
     this.firePreview=value;const palette=paletteFor(this.colorMode);const {analysis:a,origin,weapon:w,options,polygon}=value,L=this.L,base={pane:'zz-ranges',interactive:false,weight:1.5,fillOpacity:.04};
@@ -224,7 +228,7 @@ export class TacticalMap {
   setVisuals(options) {
     this.visuals={...this.visuals,...options};
     const image=this.baseImage?.getElement();
-    if(image){image.style.opacity=String(this.visuals.opacity);image.style.filter=`brightness(${this.visuals.brightness}) grayscale(${this.visuals.grayscale?1:0})`;}
+    if(image){image.style.opacity=String(this.visuals.opacity);image.style.filter=`brightness(${this.visuals.brightness}) grayscale(${this.visuals.grayscale?1:0}) ${mapImageFilter(this.colorMode,this.colorIntensity).replace('none','')}`;}
     return this;
   }
   updateObjectives(config) {Object.assign(this.config,config);this._renderObjectives();this._renderRedZones();return this;}
@@ -344,6 +348,7 @@ export class TacticalMap {
     if (!this.config) return;
     const point = this._point(latlng);
     if (!this._validPoint(point)) return;
+    if(this.pointPicker){const callback=this.pointPicker;this.pointPicker=null;callback(point);return;}
     this._acceptPoint(point);
   }
   _acceptPoint(point) {
@@ -394,7 +399,7 @@ export class TacticalMap {
       this.previewLayer.clearLayers();
       const geometry = this._geometry(origin, point);
       this.L.circleMarker(this._latLng(origin), { radius: 5, color: ACCENT, weight: 2, fillColor: '#152a34', fillOpacity: 1, interactive: false }).addTo(this.previewLayer);
-      this.L.polyline([this._latLng(origin), latlng], { color: ACCENT, weight: 2, dashArray: '5 6', opacity: 0.8, interactive: false }).addTo(this.previewLayer);
+      this.L.polyline([this._latLng(origin), latlng], { color: paletteFor(this.colorMode).ground, weight: 2, dashArray: '5 6', opacity: 0.8, interactive: false }).addTo(this.previewLayer);
       this._status({ text: `${Math.round(geometry.distance)} m · ${Math.round(geometry.bearing) % 360}° · ${this.tool==='mortar'?'Hedefi':'Bitiş noktasını'} seçin`, ...geometry, grid: this.getGrid(point) });
     } else this._status({ text: `${toolNames[this.tool]} · ${this.getGrid(point)}`, grid: this.getGrid(point), point });
   }
@@ -409,7 +414,7 @@ export class TacticalMap {
     const options={pane:'zz-red-zones',interactive:false,color:'#f42538',weight:2,opacity:.95,fillColor:'#ed2638',fillOpacity:.26,smoothFactor:0};
     for(const region of this.config.redZones?.regions||[]) {
       if(region.visible===false)continue;
-      const shape=this.L.polygon(region.points.map(p=>this._latLng(p)),{...options,...(this.colorBlind?{color:paletteFor(this.colorMode).danger,weight:2.5,dashArray:region.team===1?'10 5':'2 5',fillOpacity:.08}:{}),className:'zz-red-region'}).addTo(this.redZoneLayer);
+      const shape=this.L.polygon(region.points.map(p=>this._latLng(p)),{...options,...(this.colorBlind?{color:paletteFor(this.colorMode).danger,fillColor:region.team===2?paletteFor(this.colorMode).team2:paletteFor(this.colorMode).team1,weight:2.5,dashArray:region.team===1?'10 5':'2 5',fillOpacity:.08}:{}),className:'zz-red-region'}).addTo(this.redZoneLayer);
       const el=shape.getElement();
       if(el){el.setAttribute('role','img');el.setAttribute('aria-label',`Takım ${region.team} çevresindeki kırmızı sınır bölgesi`);}
     }
@@ -446,8 +451,8 @@ export class TacticalMap {
       if(point.isHex){
         const vertices=[[1,0],[.5,1],[-.5,1],[-1,0],[-.5,-1],[.5,-1]].map(([dx,dy])=>this._latLng({x:point.x+dx*point.rx,y:point.y+dy*point.ry}));
         const color=point.team===1?palette.team1:point.team===2?palette.team2:'#d2eff8';
-        const polygon=L.polygon(vertices,{color,weight:1,fillColor:color,fillOpacity:.16}).addTo(this.objectivesLayer);
-        polygon.on('click',event=>{L.DomEvent.stopPropagation(event);this.onSelect(point);});
+        const polygon=L.polygon(vertices,{color,weight:this.colorBlind?2:1,dashArray:this.colorBlind&&point.team===2?'3 4':null,fillColor:color,fillOpacity:.16}).addTo(this.objectivesLayer);
+        polygon.on('click',event=>{L.DomEvent.stopPropagation(event);if(this.pointPicker){const callback=this.pointPicker;this.pointPicker=null;callback(event.latlng?this._point(event.latlng):point);return;}this.onSelect(point);});
         polygon.bindTooltip(escapeHTML(point.name),{className:'zz-map-tooltip'});
         return;
       }
@@ -461,7 +466,7 @@ export class TacticalMap {
       const chance=state==='next'?`<span class="zz-capture-chance">%${Math.round(point.probability*100)}</span>`:'';
       const icon = this._icon(`<div class="zz-objective${state?' capture-'+state:''}${dense?' is-dense':''}"><span class="zz-objective-disc${isMain ? ' is-main' : ''}${red ? ' team-red' : ''}${dense?' dense':''}${state?' capture-'+state:''}">${inside}</span>${label}${chance}${this.colorBlind&&active?`<span class="zz-cb-state">${state==='selected'?'✓ Seçili':'→ Sıradaki'}</span>`:''}</div>`);
       const name=`${point.name||'Hedef'}${state==='selected'?' · Seçili bayrak, bu adımdan geri al':state==='next'?` · ${point.order}. hedef · %${Math.round(point.probability*100)}`:state==='future'?` · ${point.order}. hedef, ileride`:''}`;
-      const activate=event=>{L.DomEvent.stopPropagation(event);if(this.regionEditor?.handlePoint(point))return;if(this.tool!=='pan'){this._acceptPoint(point);return;}this._status({text:`${point.name||'Hedef'} · ${this.getGrid(point)}`,grid:this.getGrid(point)});this.onSelect({...point,isMain});};
+      const activate=event=>{L.DomEvent.stopPropagation(event);if(this.pointPicker){const callback=this.pointPicker;this.pointPicker=null;callback(point);return;}if(this.regionEditor?.handlePoint(point))return;if(this.tool!=='pan'){this._acceptPoint(point);return;}this._status({text:`${point.name||'Hedef'} · ${this.getGrid(point)}`,grid:this.getGrid(point)});this.onSelect({...point,isMain});};
       if(this.overlays.zones&&!isMain)for(const zone of point.zones||[]){
         const colour=state==='selected'?palette.selected:state==='next'?palette.next:'#d4e4ea';
         const options={color:colour,weight:this.colorBlind?2.5:active?1.5:1,dashArray:this.colorBlind&&state==='next'?'8 5':null,fillColor:colour,fillOpacity:active?.14:.035,opacity:active?.9:.3,bubblingMouseEvents:false};
@@ -513,10 +518,11 @@ export class TacticalMap {
     for (const item of this.annotations) {
       const a = item.points[0], b = item.points[1];
       const latA = this._latLng(a);
-      const style=cleanStyle(item.style),colour=this.colorBlind?paletteFor(this.colorMode).ground:style.color;
-      const selectable=layer=>{layer.addTo(this.annotationLayer);layer.on('click',e=>{L.DomEvent.stopPropagation(e);if(this.tool==='pan')this.selectAnnotation(item.id);else if(e.latlng)this._click(e.latlng);});return layer;};
+      const style=cleanStyle(item.style),appearance=annotationAppearance(this.colorMode||'none',style.color),colour=appearance.color;
+      if(appearance.code&&!['mortar','measure'].includes(item.tool))L.marker(latA,{icon:this._icon(`<span class="zz-draw-code">${appearance.code}</span>`,'zz-category-marker'),interactive:false,keyboard:false,zIndexOffset:400}).addTo(this.annotationLayer);
+      const selectable=layer=>{layer.addTo(this.annotationLayer);layer.on('click',e=>{L.DomEvent.stopPropagation(e);if(this.pointPicker&&e.latlng)this._click(e.latlng);else if(this.tool==='pan')this.selectAnnotation(item.id);else if(e.latlng)this._click(e.latlng);});return layer;};
       if(['circle','rectangle','line','brush'].includes(item.tool)){
-        const options={color:colour,weight:style.weight,dashArray:style.dashed?'7 6':null,fillColor:colour,fillOpacity:.12};
+        const options={color:colour,weight:style.weight,dashArray:appearance.dash||(style.dashed?'7 6':null),fillColor:colour,fillOpacity:.12};
         const latB=this._latLng(b),geometry=this._geometry(a,b);
         if(item.tool==='circle')selectable(L.circle(latA,{...options,radius:geometry.distance}));
         else if(item.tool==='rectangle')selectable(L.rectangle(L.latLngBounds(latA,latB),options));
@@ -542,7 +548,7 @@ export class TacticalMap {
         const geometry = this._geometry(a, b);
         const color = item.tool === 'mortar' ? paletteFor(this.colorMode).flight : colour;
         const latB = this._latLng(b);
-        selectable(L.polyline([latA, latB], { color, weight: style.weight, opacity: 0.95, dashArray: item.tool === 'arrow'&&!style.dashed ? null : '7 5' }));
+        selectable(L.polyline([latA, latB], { color, weight: style.weight, opacity: 0.95, dashArray: appearance.dash||(item.tool === 'arrow'&&!style.dashed ? null : '7 5') }));
         if (item.tool === 'arrow') {
           const svg = `<div class="zz-arrow-head"><svg width="24" height="24" viewBox="0 0 24 24" style="transform:rotate(${geometry.bearing}deg)"><path d="M12 1L23 23L12 17L1 23Z" fill="${color}" stroke="#21323a" stroke-width="1"/></svg></div>`;
           L.marker(latB, { icon: this._icon(svg), interactive: false, keyboard: false }).addTo(this.annotationLayer);

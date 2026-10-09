@@ -11,14 +11,14 @@ const modules=new Map();
 async function load(file){
   if(modules.has(file))return modules.get(file);
   let source;
-  if(file.endsWith('map-engine.js'))source=`export class TacticalMap{constructor(element,callbacks){this.element=element;this.callbacks=callbacks;this.annotations=[];this.overlays={};this.tool='pan';this.map={doubleClickZoom:{enable(){},disable(){}}};this.L={layerGroup:()=>({addTo(){return this},clearLayers(){}})};}setTool(v){this.tool=v;}setMap(c){this.config=c;this.annotations=[];}updateObjectives(c){Object.assign(this.config,c);}exportPlan(){return this.annotations;}importPlan(a){this.annotations=a;this.callbacks.onChange(a);} _renderObjectives(){} _renderRedZones(){} _renderAnnotations(){} getGrid(){return 'A1';}}`;
-  else if(file.endsWith('planning-tools.js'))source=`export function createPlanningTools(){return {render(){},compare(){}}}`;
+  if(file.endsWith('map-engine.js'))source=`export class TacticalMap{constructor(element,callbacks){this.element=element;this.callbacks=callbacks;this.annotations=[];this.overlays={};this.tool='pan';this.map={doubleClickZoom:{enable(){},disable(){}}};this.L={layerGroup:()=>({addTo(){return this},clearLayers(){}})};}setVisuals(){}setTool(v){this.tool=v;}setMap(c){this.config=c;this.annotations=[];}updateObjectives(c){Object.assign(this.config,c);}exportPlan(){return this.annotations;}importPlan(a){this.annotations=a;this.callbacks.onChange(a);} _renderObjectives(){} _renderRedZones(){} _renderAnnotations(){} getGrid(){return 'A1';}}`;
+  else if(file.endsWith('planning-tools.js'))source=`export function createPlanningTools(){return {render(){},compare(){},timerPins(){return [];},restoreTimerPins(){}}}`;
   else source=await fs.readFile(file,'utf8');
   if(file.endsWith('app.js'))source+='\nexport {setTab,selectMap,workspaceBackup,importWorkspace,actions,regionEditor,regionLibrary};';
   const m=new vm.SourceTextModule(source,{context,identifier:file});modules.set(file,m);
-  await m.link(spec=>load(path.resolve(path.dirname(file),spec)));return m;
+  return m;
 }
-const app=await load(path.join(root,'app.js'));await app.evaluate();assert.deepEqual(errors,[],'application initializes without errors');
+const app=await load(path.join(root,'app.js'));await app.link((spec,ref)=>load(path.resolve(path.dirname(ref.identifier),spec)));await app.evaluate();assert.deepEqual(errors,[],'application initializes without errors');
 const api=app.namespace;api.setTab('regions');assert.match(nodes.get('#side-content').innerHTML,/Sınır setleri/);
 const old=JSON.parse(JSON.stringify(api.workspaceBackup()));
 const incoming=JSON.parse(JSON.stringify(old));incoming.plan.title='İçe aktarılan';incoming.regions={regions:[],visible:false,hatch:false};incoming.sets=[{id:'event',name:'Etkinlik',state:{regions:[]}}];incoming.display={colorBlind:true,markerSize:40,labelSize:14};

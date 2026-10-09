@@ -21,3 +21,13 @@ for(const k of Object.keys(listeners))delete listeners[k];nodes.clear();api=init
 click({timerPin:'Test_RAAS_v1:1:U:Truck:0'});assert.equal(storage.get('pinned-timers').length,2);
 click({timerStop:'Test_RAAS_v1:1:U:Truck:0'});assert.equal(storage.get('timers').length,0);
 console.log('Pinned timers: 3-slot limit, persistence, layer isolation, start/stop and removal PASS');
+const pinSnapshot=api.timerPins();assert.equal(pinSnapshot.length,2);
+state.chosenUnits=['Changed'];interval();assert.match(nodes.get('#pinned-timers').innerHTML,/Önceki birlik/);
+state.chosenUnits=['U'];interval();assert.doesNotMatch(nodes.get('#pinned-timers').innerHTML,/Önceki birlik/);
+api.restoreTimerPins('Other_RAAS_v1',[{id:'Other_RAAS_v1:2:Other:Truck:0',layer:'Other_RAAS_v1',name:'T2 · Truck',seconds:240}]);
+assert.equal(api.timerPins().length,2);assert.equal(api.timerPins('Other_RAAS_v1').length,1);
+api.restoreTimerPins('Test_RAAS_v1',[]);assert.equal(api.timerPins().length,0);
+api.restoreTimerPins('Test_RAAS_v1',pinSnapshot);assert.equal(api.timerPins().length,2);
+assert.throws(()=>api.restoreTimerPins('Test_RAAS_v1',[{...pinSnapshot[0],seconds:Infinity}]));
+assert.equal(api.timerPins().length,2);
+console.log('Pinned timers: changed-unit badge, independent snapshots, per-layer restoration and invalid import isolation PASS');

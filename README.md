@@ -19,7 +19,8 @@ Paket bağımlılığı veya `npm install` gerekmez. Haritalar, yükseklikler, 3
 - Sabit havan konumu, çoklu hedef, arazi kesiti ve atış animasyonu.
 - Havan, Hell Cannon, BM-21 Grad ve M121 profilleri; Grad yön/mesafe cetveli.
 - 25 haritada dokulu 3B arazi, bina ve bitki yerleşimleri, serbest kamera.
-- Deuteranopi, protanopi, tritanopi ve yüksek kontrast modları; şekil ve çizgi desteği.
+- Deuteranopi, protanopi, tritanopi ve yüksek kontrast modları; 2B/3B harita ve bütün UI için yoğunluk ayarı, A–E çizim grupları, şekil ve çizgi desteği.
+- Ortak inşa maliyeti hesabı; kesin cons bedeli, 100’lük araç yükü ve kalan mühimmat kapasitesi. [Maliyet denetimi](outputs/zerozone-haritalar/CONSTRUCTION-AUDIT.md).
 - Araziye göre görüş alanı, 3B topografik/standart/arazi dokusu seçimi ve layer başına üç sabit araç sayacı. [Yeni araçların kullanımı](outputs/zerozone-haritalar/NEW-FEATURES.md).
 
 3B görünümde **Serbest gezin**: W/A/S/D hareket, Space/Shift yükseklik, fareyle bakış, tekerlekle hız. Bina ve ağaç katmanları ayrı kapatılabilir. Ayrıntılı seçenekler ana ekranı doldurmamak için kapalı bölümlerdedir.
@@ -30,7 +31,7 @@ Planlar tarayıcıda saklanır. Başka kişiye kendi çizimlerinizi göndermek i
 
 ## Testler
 
-`npm test` ile 20 JavaScript test dosyası çalışır. Sayısal atış hesabı, plan yedekleri, bölgeler, erişilebilirlik, görüş alanı, sabit sayaçlar, 3B veri ve kaynak temizliği denetlenir. Tam sahne verisi testi bellek ve zaman gerektirebilir. 9 Ekim özelliklerinin yeni gerçek tarayıcı görsel kontrolü henüz tamamlanmadı.
+`npm test` ile 22 JavaScript test dosyası çalışır. Sayısal atış hesabı, plan yedekleri, bölgeler, erişilebilirlik, inşa maliyetleri, görüş alanı ve nokta seçimi, sabit sayaçlar, 3B veri ve kaynak temizliği denetlenir. Tam sahne verisi testi bellek ve zaman gerektirebilir. Gerçek tarayıcıda doku geçişleri, serbest kamera, görüş seçimi, renk modları ve lojistik hesabı da kontrol edildi. [GitHub araştırması ve kalan sınırlar](outputs/zerozone-haritalar/GITHUB-REVIEW.md).
 
 ## Kapsam sınırları
 

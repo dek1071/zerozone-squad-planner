@@ -11,7 +11,7 @@ const modules=new Map();
 async function load(file){
   if(modules.has(file))return modules.get(file);
   let source;
-  if(file.endsWith('map-engine.js'))source=`export class TacticalMap{constructor(element,callbacks){this.element=element;this.callbacks=callbacks;this.annotations=[];this.overlays={};this.tool='pan';this.style={symbol:'pin',color:'#b5e8fa',weight:2,dashed:false};this.map={doubleClickZoom:{enable(){},disable(){}}};this.L={layerGroup:()=>({addTo(){return this},clearLayers(){}})};}setTool(v){this.tool=v;}setMap(c){this.config=c;this.annotations=[];}updateObjectives(c){Object.assign(this.config,c);}exportPlan(){return this.annotations;}importPlan(a){this.annotations=a;this.callbacks.onChange(a);} _renderObjectives(){} _renderRedZones(){} _renderAnnotations(){} getGrid(){return 'A1';}}`;
+  if(file.endsWith('map-engine.js'))source=`export class TacticalMap{constructor(element,callbacks){this.element=element;this.callbacks=callbacks;this.annotations=[];this.overlays={};this.tool='pan';this.style={symbol:'pin',color:'#b5e8fa',weight:2,dashed:false};this.map={doubleClickZoom:{enable(){},disable(){}}};this.L={layerGroup:()=>({addTo(){return this},clearLayers(){}})};}setVisuals(){}setTool(v){this.tool=v;}setMap(c){this.config=c;this.annotations=[];}updateObjectives(c){Object.assign(this.config,c);}exportPlan(){return this.annotations;}importPlan(a){this.annotations=a;this.callbacks.onChange(a);} _renderObjectives(){} _renderRedZones(){} _renderAnnotations(){} getGrid(){return 'A1';}}`;
 
   else source=await fs.readFile(file,'utf8');
   if(file.endsWith('app.js'))source+='\nexport {setTool,setTab,selectMap,workspaceBackup,importWorkspace,actions,regionEditor,regionLibrary};';
@@ -41,3 +41,15 @@ assert.equal(api.workspaceBackup().plan.annotations[0].mortar.targetOffset,4);
 await api.actions['restore-import']();
 assert.equal(api.workspaceBackup().plan.annotations.length,0);
 console.log('PASS: per-line heights retained through full backup import/export and import rollback.');
+const pinned=JSON.parse(JSON.stringify(api.workspaceBackup()));
+pinned.timerPins=[{id:pinned.plan.layer+':1:BAF_LO_CombinedArms:Truck:0',layer:pinned.plan.layer,name:'T1 · Truck',seconds:300}];
+await api.importWorkspace(pinned);
+assert.equal(api.workspaceBackup().timerPins[0].seconds,300);
+const invalidPins=structuredClone(pinned);invalidPins.timerPins[0].layer='Other_RAAS_v1';
+await assert.rejects(api.importWorkspace(invalidPins));assert.equal(api.workspaceBackup().timerPins.length,1);
+const other=structuredClone(pinned);other.plan.map='AlBasrah';other.plan.layer='AlBasrah_RAAS_v1';other.plan.units=[];other.timerPins=[];
+await api.importWorkspace(other);assert.equal(api.workspaceBackup().timerPins.length,0);
+await api.actions['restore-import']();assert.equal(api.workspaceBackup().timerPins.length,1);
+const legacyPins=structuredClone(pinned);delete legacyPins.timerPins;await api.importWorkspace(legacyPins);
+assert.equal(api.workspaceBackup().timerPins.length,1,'old backups preserve existing pin preferences');
+console.log('PASS: pinned timer full backup, cross-layer rollback, invalid pins rejected before mutation, legacy preferences preserved.');

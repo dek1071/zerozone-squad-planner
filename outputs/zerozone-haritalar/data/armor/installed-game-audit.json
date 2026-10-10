@@ -1,0 +1,2001 @@
+{
+  "checkedAt": "2026-10-10T18:34:30.739Z",
+  "scope": "Asset identity only; numeric values and geometry are not decoded from installed game containers.",
+  "manifestSha256": "8cefdb468ed62d64812b8fff44e49bec5af942a2ac1087c945ad343b57d0891b",
+  "vehicles": [
+    {
+      "id": "BP_AAVP7A1_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_AAVP7A1_Woodland_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_AAVP7A1",
+      "present": true
+    },
+    {
+      "id": "BP_AAVP7A1_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_ACV-15",
+      "present": true
+    },
+    {
+      "id": "BP_ACV-15_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ACV-15_M2",
+      "present": true
+    },
+    {
+      "id": "BP_ACV-15_M2_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ACV-15_MG3",
+      "present": true
+    },
+    {
+      "id": "BP_ACV-15_MG3_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ASLAV",
+      "present": true
+    },
+    {
+      "id": "BP_TLF_Util_Truck_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_TLF_Util_Truck_Logi_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_TLF_Util_Truck",
+      "present": true
+    },
+    {
+      "id": "BP_TLF_Util_Truck_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BMD1M",
+      "present": true
+    },
+    {
+      "id": "BP_BMD1M_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BMD4M",
+      "present": true
+    },
+    {
+      "id": "BP_BMD4M_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BMP1_AFU",
+      "present": true
+    },
+    {
+      "id": "BP_BMP1_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_BMP1_INS",
+      "present": true
+    },
+    {
+      "id": "BP_BMP1_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_BMP1_INS_ZU23",
+      "present": true
+    },
+    {
+      "id": "BP_BMP1_MIL_ZU23",
+      "present": true
+    },
+    {
+      "id": "BP_BMP1AM",
+      "present": true
+    },
+    {
+      "id": "BP_BMP1AM_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BMP1TS_AFU",
+      "present": true
+    },
+    {
+      "id": "BP_BMP2",
+      "present": true
+    },
+    {
+      "id": "BP_BMP2_AFU",
+      "present": true
+    },
+    {
+      "id": "BP_BMP2_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BMP2_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_BMP2_IMF",
+      "present": true
+    },
+    {
+      "id": "BP_BMP2M",
+      "present": true
+    },
+    {
+      "id": "BP_BMP2M_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BMP3M",
+      "present": true
+    },
+    {
+      "id": "BP_BMP3M_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BRDM-2_Insurgents",
+      "present": true
+    },
+    {
+      "id": "BP_BRDM-2_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_BRDM-2_RUS",
+      "present": true
+    },
+    {
+      "id": "BP_BRDM-2_RUS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BRDM-2_GFI_Spandrel",
+      "present": true
+    },
+    {
+      "id": "BP_BRDM-2_Spandrel_RUS",
+      "present": true
+    },
+    {
+      "id": "BP_BRDM-2_Spandrel_RUS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BRDM-2_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_BRDM-2L1_AFU",
+      "present": true
+    },
+    {
+      "id": "BP_BTR4_AFU",
+      "present": true
+    },
+    {
+      "id": "BP_BTR80_Militia",
+      "present": true
+    },
+    {
+      "id": "BP_BTR80_RUS",
+      "present": true
+    },
+    {
+      "id": "BP_BTR80_RUS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BTR82A_RUS",
+      "present": true
+    },
+    {
+      "id": "BP_BTR82A_RUS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-D_Transport",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-D_Transport_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-D_AGS17",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-D_AGS17_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-D_Kord",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-D_Kord_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-D_PKM",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-D_PKM_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-DG_Logistics",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-DG_Logistics_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BTRMDM_PKT_RWS",
+      "present": true
+    },
+    {
+      "id": "BP_BTRMDM_PKT_RWS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-ZD",
+      "present": true
+    },
+    {
+      "id": "BP_BTR-ZD_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CH146",
+      "present": true
+    },
+    {
+      "id": "BP_CH146_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CH146_CAS",
+      "present": true
+    },
+    {
+      "id": "BP_CH146_Desert_CAS",
+      "present": true
+    },
+    {
+      "id": "BP_CH178",
+      "present": true
+    },
+    {
+      "id": "BP_Cobra2_M2",
+      "present": true
+    },
+    {
+      "id": "BP_Cobra2_M2_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Cobra2_RWS_M2",
+      "present": true
+    },
+    {
+      "id": "BP_Cobra2_RWS_M2_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Cobra2_MG3",
+      "present": true
+    },
+    {
+      "id": "BP_Cobra2_MG3_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Cobra2_RWS_MG3",
+      "present": true
+    },
+    {
+      "id": "BP_Cobra2_RWS_MG3_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_LAV2_Coyote",
+      "present": true
+    },
+    {
+      "id": "BP_LAV2_Coyote_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_LAV2_Coyote_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_CPV_M134",
+      "present": true
+    },
+    {
+      "id": "BP_CPV_M134_Blue",
+      "present": true
+    },
+    {
+      "id": "BP_CPV_M134_Red",
+      "present": true
+    },
+    {
+      "id": "BP_CPV_Transport",
+      "present": true
+    },
+    {
+      "id": "BP_CPV_Transport_Blue",
+      "present": true
+    },
+    {
+      "id": "BP_CPV_Transport_Red",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_HJ-8ATGM",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_HJ-8ATGM_Naval",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_HJ8ATGM_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_RWS",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_RWS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_RWS_Naval",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_QJY88",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_QJY88_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_QJY88_Naval",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_QJZ89",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_QJZ89_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_QJZ89_Naval",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_QLZ87",
+      "present": true
+    },
+    {
+      "id": "BP_CSK131_QLZ87_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CTM131_Logistic",
+      "present": true
+    },
+    {
+      "id": "BP_CTM131_Logistic_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CTM131_Logistic_Naval",
+      "present": true
+    },
+    {
+      "id": "BP_CTM131_Naval",
+      "present": true
+    },
+    {
+      "id": "BP_CTM131_QJZ89_Naval",
+      "present": true
+    },
+    {
+      "id": "BP_CTM131",
+      "present": true
+    },
+    {
+      "id": "BP_CTM131_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CTM131_QJZ89",
+      "present": true
+    },
+    {
+      "id": "BP_CTM131_QJZ89_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_FV107",
+      "present": true
+    },
+    {
+      "id": "BP_FV107_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_FV4034",
+      "present": true
+    },
+    {
+      "id": "BP_FV4034_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_FV432",
+      "present": true
+    },
+    {
+      "id": "BP_FV432_woodland",
+      "present": true
+    },
+    {
+      "id": "BP_FV432_M2_RWS",
+      "present": true
+    },
+    {
+      "id": "BP_FV432_M2_RWS_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_FV432_L37A2_RWS",
+      "present": true
+    },
+    {
+      "id": "BP_FV432_L37A2_RWS_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_FV510",
+      "present": true
+    },
+    {
+      "id": "BP_FV510_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_FV510UA",
+      "present": true
+    },
+    {
+      "id": "BP_FV510UA_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_FV510UA_CTAS40",
+      "present": true
+    },
+    {
+      "id": "BP_FV510UA_CTAS40_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_Aussie_Util_Truck_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_Brit_Util_Truck_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_Brit_Util_Truck_Logi_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_Aussie_Util_Truck",
+      "present": true
+    },
+    {
+      "id": "BP_Brit_Util_Truck",
+      "present": true
+    },
+    {
+      "id": "BP_Brit_Util_Truck_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_Kamaz_5350_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_Kamaz_5350_Logi_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Kamaz_5350",
+      "present": true
+    },
+    {
+      "id": "BP_Kamaz_5350_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Kozak_2M1_AGS",
+      "present": true
+    },
+    {
+      "id": "BP_Kozak_2M1_Kord",
+      "present": true
+    },
+    {
+      "id": "BP_Kraz_6322_BM21Grad",
+      "present": true
+    },
+    {
+      "id": "BP_Kraz_6322_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_Kraz_6322",
+      "present": true
+    },
+    {
+      "id": "BP_LAV6_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_LAV6_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_LAV_RWS_C6",
+      "present": true
+    },
+    {
+      "id": "BP_LAV_RWS_C6_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_LAV_RWS_M2",
+      "present": true
+    },
+    {
+      "id": "BP_LAV_RWS_M2_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_LAV25",
+      "present": true
+    },
+    {
+      "id": "BP_LAV25_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_2A6_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_2A6_Desert_Cage",
+      "present": true
+    },
+    {
+      "id": "BP_2A6_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_2A6_Woodland_Cage",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light_Woodland_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Camo_M2_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_CPV_Transport_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_LUVW_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Transport_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_Loach_CAS",
+      "present": true
+    },
+    {
+      "id": "BP_Loach_CAS_Large",
+      "present": false
+    },
+    {
+      "id": "BP_Loach_CAS_SingleLarge",
+      "present": false
+    },
+    {
+      "id": "BP_Loach_CAS_Small",
+      "present": true
+    },
+    {
+      "id": "BP_Loach",
+      "present": true
+    },
+    {
+      "id": "BP_Armored_Technical4Seater_Logi_Camo",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Logi_Camo",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_LPPV",
+      "present": true
+    },
+    {
+      "id": "BP_LPPV_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_LPPV_M2RWS",
+      "present": true
+    },
+    {
+      "id": "BP_LPPV_M2RWS_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M-Gator_Logistics",
+      "present": true
+    },
+    {
+      "id": "BP_M-Gator_Logistics_ARID",
+      "present": true
+    },
+    {
+      "id": "BP_M-Gator_Transport",
+      "present": true
+    },
+    {
+      "id": "BP_M-Gator_Transport_ARID",
+      "present": true
+    },
+    {
+      "id": "BP_LUVW_C6",
+      "present": true
+    },
+    {
+      "id": "BP_LUVW_C6_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_LUVW_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_LUVW_Logi_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_LUVW_M2",
+      "present": true
+    },
+    {
+      "id": "BP_LUVW_M2_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_LUVW",
+      "present": true
+    },
+    {
+      "id": "BP_LUVW_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_LynxATV_Logistic",
+      "present": true
+    },
+    {
+      "id": "BP_LynxATV_Rollcage_QJZ89",
+      "present": true
+    },
+    {
+      "id": "BP_LynxATV_Rollcage_QLZ87",
+      "present": true
+    },
+    {
+      "id": "BP_LynxATV",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_CROWS",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_CROWS_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_CROWS_M240",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_CROWS_M240_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_M240",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_M240_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_Mk19",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_Mk19_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_TOW",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_TOW_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1064A3_M121",
+      "present": true
+    },
+    {
+      "id": "BP_M1064A3_M121_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M1117",
+      "present": true
+    },
+    {
+      "id": "BP_M1126",
+      "present": true
+    },
+    {
+      "id": "BP_M1126_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1126_M240",
+      "present": true
+    },
+    {
+      "id": "BP_M1126_M240_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1128",
+      "present": true
+    },
+    {
+      "id": "BP_M1128_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M113A2T_Logistics_TLF",
+      "present": true
+    },
+    {
+      "id": "BP_M113A2T_Logistics_TLF_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M1064_M121_TLF",
+      "present": true
+    },
+    {
+      "id": "BP_M1064_M121_TLF_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M113A2T_M2_TLF",
+      "present": true
+    },
+    {
+      "id": "BP_M113A2T_M2_TLF_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M113A2T_MK19_TLF",
+      "present": true
+    },
+    {
+      "id": "BP_M113A2T_MK19_TLF_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_M2_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_CAF_C6",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_CAF_C6_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_Logistics",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_Logistics_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_CAF_M2",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_CAF_M2_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_M2",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_M2_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_M2_Desert_Cage",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_WPMC_M2",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_MK19",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_MK19_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_MK19_Desert_Cage",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_MSV_WPMC",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_CAF_TLAV",
+      "present": true
+    },
+    {
+      "id": "BP_M113A3_CAF_TLAV_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_CROWS",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_CROWS_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1151",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_WPMC",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light_M240",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light_M240_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_M240",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_M240_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_M240_WPMC",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light_Mk19",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light_Mk19_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Mk19",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Mk19_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Technical",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light_TOW",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light_TOW_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Light_TOW_Woodland_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_TOW_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_TOW_WPMC",
+      "present": true
+    },
+    {
+      "id": "BP_AUS_M1A1",
+      "present": true
+    },
+    {
+      "id": "BP_M1A1_USMC",
+      "present": true
+    },
+    {
+      "id": "BP_M1A1_USMC_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M1A2",
+      "present": true
+    },
+    {
+      "id": "BP_M1A2_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_BFV_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_M60T",
+      "present": true
+    },
+    {
+      "id": "BP_M60T_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_M60T_WPMC",
+      "present": true
+    },
+    {
+      "id": "BP_M7A3_IFV",
+      "present": true
+    },
+    {
+      "id": "BP_M7A3_IFV_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_US_Util_Desert_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_US_Util_USMC_Desert_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_US_Util_USMC_Woodland_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_US_Util_Woodland_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_US_Util_Woodland_Logi_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_WPMC_Util_Black_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_US_Util_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_US_Util_USMC_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_US_Util_USMC_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_US_Util_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_WPMC_Util_Black",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_USMC_CROWS",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_USMC_CROWS_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_USMC",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_USMC_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_Mk19_USMC",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_Mk19_USMC_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_USMC_TOW",
+      "present": true
+    },
+    {
+      "id": "BP_MATV_USMC_TOW_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MI8_AFU",
+      "present": true
+    },
+    {
+      "id": "BP_MI8_VDV",
+      "present": true
+    },
+    {
+      "id": "BP_minsk",
+      "present": true
+    },
+    {
+      "id": "BP_Minsk_black",
+      "present": true
+    },
+    {
+      "id": "BP_Minsk_blue",
+      "present": true
+    },
+    {
+      "id": "BP_Minsk_green",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Camo_UB32",
+      "present": true
+    },
+    {
+      "id": "BP_MRH90_Mag58",
+      "present": true
+    },
+    {
+      "id": "BP_CAF_Util_Desert_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_CAF_Util_Woodland_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_CAF_Util_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_CAF_Util_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_LOGI_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_LOGI_IMF",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_LOGI_INS",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_LOGI_RUS",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_LOGI_RUS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_INS",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_RGF",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_RGF_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_VMK_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_VMK_RUS",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_VMK_RUS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_ZU23_INS",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_ZU23_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_MTLBM_6MA_RUS",
+      "present": true
+    },
+    {
+      "id": "BP_MTLBM_6MA_RUS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_MTLBM_6MB_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_MTLBM_6MB_RUS",
+      "present": true
+    },
+    {
+      "id": "BP_MTLBM_6MB_RUS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_MTLBM_6MA_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_LOGI_AFU",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_AFU",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_VMK_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_MTLB_ZU23_AFU",
+      "present": true
+    },
+    {
+      "id": "BP_PARS3",
+      "present": true
+    },
+    {
+      "id": "BP_PARS3_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_PARS3_M2",
+      "present": true
+    },
+    {
+      "id": "BP_PARS3_M2_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_PARS3_MG3",
+      "present": true
+    },
+    {
+      "id": "BP_PARS3_MG3_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_PARS3_MK19",
+      "present": true
+    },
+    {
+      "id": "BP_PARS3_MK19_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Transport_Black",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Transport_Grey",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Transport_Tan",
+      "present": true
+    },
+    {
+      "id": "BP_PMV_Mag58",
+      "present": true
+    },
+    {
+      "id": "BP_PMV_Mag58x3",
+      "present": true
+    },
+    {
+      "id": "BP_PMV_RWS",
+      "present": true
+    },
+    {
+      "id": "BP_Quadbike_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Quadbike_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_CH146_Raven",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_AGS17",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_DSHK",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_Logistics",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_US_M134",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_US_M2",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_US_M240",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_GFI_MG3",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_US_Mk19",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_RUS_NSV",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_PKM",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_RUS_PKP",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_QJY88",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_QJZ89",
+      "present": true
+    },
+    {
+      "id": "BP_RHIB_Transport",
+      "present": true
+    },
+    {
+      "id": "BP_SA330",
+      "present": true
+    },
+    {
+      "id": "BP_Safir_AGS-17",
+      "present": true
+    },
+    {
+      "id": "BP_Safir_Kord",
+      "present": true
+    },
+    {
+      "id": "BP_Safir_Kornet",
+      "present": true
+    },
+    {
+      "id": "BP_Safir",
+      "present": true
+    },
+    {
+      "id": "BP_Safir_MG3",
+      "present": true
+    },
+    {
+      "id": "BP_Sprut",
+      "present": true
+    },
+    {
+      "id": "BP_Sprut_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_T62",
+      "present": true
+    },
+    {
+      "id": "BP_T62_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_T62_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_T64BM2_Cage",
+      "present": true
+    },
+    {
+      "id": "BP_T72A_IMF",
+      "present": true
+    },
+    {
+      "id": "BP_T72B3",
+      "present": true
+    },
+    {
+      "id": "BP_T72B3_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_T72S_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_T90A",
+      "present": true
+    },
+    {
+      "id": "BP_T90A_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_TAPV_C16",
+      "present": true
+    },
+    {
+      "id": "BP_TAPV_C16_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Armored_Technical2Seater_Camo_AGS17",
+      "present": true
+    },
+    {
+      "id": "BP_Armored_Technical2Seater_White_AGS17",
+      "present": true
+    },
+    {
+      "id": "BP_M1151_Technical_AGS17",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Camo_AGS17",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_White_AGS17",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_White_BMP1",
+      "present": true
+    },
+    {
+      "id": "BP_Armored_Technical2Seater_Camo_DSHK",
+      "present": true
+    },
+    {
+      "id": "BP_Armored_Technical2Seater_Camo_M2",
+      "present": true
+    },
+    {
+      "id": "BP_Technical_Dshk_INS_Armoured",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Camo_DSHK",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Camo_M2",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_White_Dshk",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_White_M2",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_AFU_Kornet",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Camo_Kornet",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_White_Kornet",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Logi_Black",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Logi_Camo_CRF",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Logi_Grey",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Logi_Tan",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_M134_Black",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_M134_Grey",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_M134_Tan",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_M134_Black",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_M134_Grey",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_M134_Tan",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_M2_Black",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_M2_Grey",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_M2_Tan",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Mortar_Black",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Mortar_Grey",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Mortar_Tan",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_White_Mortar",
+      "present": true
+    },
+    {
+      "id": "BP_Armored_Technical2Seater_Camo_SPG9",
+      "present": true
+    },
+    {
+      "id": "BP_Technical_SPG9_INS_Armoured",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_Camo_SPG9",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_White_SPG9",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_White_UB32",
+      "present": true
+    },
+    {
+      "id": "BP_Technical2Seater_White_ZU23",
+      "present": true
+    },
+    {
+      "id": "BP_Tigr_AGS17",
+      "present": true
+    },
+    {
+      "id": "BP_Tigr_AGS17_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Tigr",
+      "present": true
+    },
+    {
+      "id": "BP_Tigr_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Tigr_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_Tigr_RWS",
+      "present": true
+    },
+    {
+      "id": "BP_Tigr_RWS_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_Armored_Technical4Seater_Transport_Camo",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Transport_Camo",
+      "present": true
+    },
+    {
+      "id": "BP_Technical4Seater_Transport",
+      "present": true
+    },
+    {
+      "id": "BP_UH1H_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_UH1Y",
+      "present": true
+    },
+    {
+      "id": "BP_UH60",
+      "present": true
+    },
+    {
+      "id": "BP_UH60_AUS",
+      "present": true
+    },
+    {
+      "id": "BP_UH60_TLF_PKM",
+      "present": true
+    },
+    {
+      "id": "BP_BM21Grad_IMF",
+      "present": true
+    },
+    {
+      "id": "BP_Armored_Ural_375_Logi_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_Ural_375_Logi_INS",
+      "present": true
+    },
+    {
+      "id": "BP_Ural_375_Logi_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_Armored_Ural_375_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_Ural_375_INS",
+      "present": true
+    },
+    {
+      "id": "BP_Ural_375_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_Ural_375_ZU23",
+      "present": true
+    },
+    {
+      "id": "BP_Ural_375_ZU23_MIL",
+      "present": true
+    },
+    {
+      "id": "BP_Ural_4320_logi_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_Ural_4320_GFI",
+      "present": true
+    },
+    {
+      "id": "BP_Z8G",
+      "present": true
+    },
+    {
+      "id": "BP_Z8J",
+      "present": true
+    },
+    {
+      "id": "BP_Z9A",
+      "present": true
+    },
+    {
+      "id": "BP_ZBD04A",
+      "present": true
+    },
+    {
+      "id": "BP_ZBD04A_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ZBD05_HJ73C",
+      "present": true
+    },
+    {
+      "id": "BP_ZBD05_HJ73C_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_ZBL08_HJ73C",
+      "present": true
+    },
+    {
+      "id": "BP_ZBL08_HJ73C_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ZBL08_HJ73C_Naval",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD05_QJZ-89",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD05_Logi",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD05_Logi_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD05_QJZ-89_Woodland",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD89",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD89_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD89_QLZ-87",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD89_QLZ-87_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD89II",
+      "present": true
+    },
+    {
+      "id": "BP_ZSD89II_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ZSL10_QJZ-89_Naval",
+      "present": true
+    },
+    {
+      "id": "BP_ZSL10_QJZ-89",
+      "present": true
+    },
+    {
+      "id": "BP_ZSL10_QJZ-89_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ZSL10_QLZ-87",
+      "present": true
+    },
+    {
+      "id": "BP_WZ551A",
+      "present": true
+    },
+    {
+      "id": "BP_WZ551A_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_WZ551B",
+      "present": true
+    },
+    {
+      "id": "BP_WZ551B_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_WZ551B_QLZ-87",
+      "present": true
+    },
+    {
+      "id": "BP_WZ551B_QLZ-87_Desert",
+      "present": true
+    },
+    {
+      "id": "BP_ZTD05",
+      "present": true
+    },
+    {
+      "id": "BP_ZTD05_WoodLand",
+      "present": true
+    },
+    {
+      "id": "BP_ZTZ99_Desert_wCage",
+      "present": true
+    },
+    {
+      "id": "BP_ZTZ99_wCage",
+      "present": true
+    },
+    {
+      "id": "BP_MATV",
+      "present": true
+    },
+    {
+      "id": "BP_MI8",
+      "present": true
+    },
+    {
+      "id": "BP_BFV",
+      "present": true
+    }
+  ],
+  "curves": [
+    {
+      "id": "40Telescoped-APFSDS-T_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "50cal_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "762_M134_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "25mm_M919_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "3BM-4_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "30mm_3UBR8-APDS_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "23mmAPI_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "30x170-APDS-T_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "30mm_3UBR6-AP_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "14_5mm_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "M829A3_ArmorPenetrationCurve",
+      "present": true
+    },
+    {
+      "id": "L21A1_RARDEN_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "PKM_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "M2_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "Dshk_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "NSV_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "M240_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "M252_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "M256_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "CTAS40_AP_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "KPVT_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "M134_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "PKT_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "QJZ89_DamageCurve",
+      "present": true
+    },
+    {
+      "id": "2A72_DamageCurve",
+      "present": true
+    }
+  ]
+}

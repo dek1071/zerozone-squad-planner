@@ -45,3 +45,6 @@ Envanter, karşılaştırma, lojistik ve sayaç listeleri araç görselleri içe
 390×844 dar ekranda ayar paneli ve yatay taşma kontrol edildi; Renksiz modu %20 yoğunlukta da gri kaldı. Geçici ekran boyutu testi sonunda geri alındı. Son tarayıcı konsolunda hata/uyarı yoktu.
 
 Fiziksel dokunmatik cihaz, farklı renk algılarına sahip oyuncularla kullanılabilirlik araştırması ve oyun içi atış kalibrasyonu bu doğrulamaya dahil değildir. GitHub kaynak incelemesi: [GITHUB-REVIEW.md](GITHUB-REVIEW.md).
+
+## Zırh analizi
+Harita başlığından ayrı sekmeye geçilir. 470 varyantta gerçek zırh geometrisi, atış noktasına göre katman analizi ve mermi kamerası, tekrar sürgüsü ve erişilebilirlik seçenekleri bulunur. [Kullanım, kaynaklar ve test kapsamı](ARMOR-ANALYSIS.md).

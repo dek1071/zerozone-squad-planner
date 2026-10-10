@@ -26,13 +26,17 @@ Paket bağımlılığı veya `npm install` gerekmez. Haritalar, yükseklikler, 3
 
 3B görünümde **Serbest gezin**: W/A/S/D hareket, Space/Shift yükseklik, fareyle bakış, tekerlekle hız. Bina ve ağaç katmanları ayrı kapatılabilir. Ayrıntılı seçenekler ana ekranı doldurmamak için kapalı bölümlerdedir.
 
+## Zırh analizi
+
+Harita başlığındaki **Zırh analizi** bağlantısı veya `/zirh` adresi ayrı araç laboratuvarını açar. 233 araç adı / 470 varyantın zırh geometrisi, mühimmat ve mesafeye göre katman hesabı, mermi kamerası ve tekrar sürgüsü bulunur. Renk desteği ve hareket azaltma seçenekleri vardır. [Kaynaklar, oyun manifesti karşılaştırması ve sınırlar](outputs/zerozone-haritalar/ARMOR-ANALYSIS.md).
+
 ## Plan paylaşımı
 
 Planlar tarayıcıda saklanır. Başka kişiye kendi çizimlerinizi göndermek için uygulamada **Planım → Tam yedek indir** kullanın; alıcı JSON dosyasını içe aktarabilir. Bu depo kişisel tarayıcı kayıtlarını içermez.
 
 ## Testler
 
-`npm test` ile 23 JavaScript test dosyası çalışır. Sayısal atış hesabı, plan yedekleri, bölgeler, erişilebilirlik, inşa maliyetleri, görüş alanı ve nokta seçimi, sabit sayaçlar, 3B veri ve kaynak temizliği denetlenir. Tam sahne verisi testi bellek ve zaman gerektirebilir. Önceki sürüm gerçek tarayıcıda kontrol edildi; bu turdaki yeni sekme ve araç resimleri için tarayıcı bağlantısı bulunamadı. Güncel otomasyon, 26 harita/222 layer kaynak karşılaştırması ve kalan kaynak çelişkileri [veri denetim raporunda](outputs/zerozone-haritalar/DATA-AUDIT.md). [GitHub araştırması ve kalan sınırlar](outputs/zerozone-haritalar/GITHUB-REVIEW.md).
+`npm test` ile 25 JavaScript test dosyası çalışır. Sayısal atış hesabı, plan yedekleri, bölgeler, erişilebilirlik, inşa maliyetleri, görüş alanı ve nokta seçimi, sabit sayaçlar, 3B veri ve kaynak temizliği denetlenir. Tam sahne verisi testi bellek ve zaman gerektirebilir. Zırh analizi gerçek masaüstü ve dar ekran tarayıcısında kontrol edildi; 470 model üzerinde 2.820 ışın testi yapıldı. Daha önceki araç görselleri güncellemesinin ayrı gerçek tarayıcı testi yapılmamıştı. Güncel otomasyon, 26 harita/222 layer kaynak karşılaştırması ve kalan kaynak çelişkileri [veri denetim raporunda](outputs/zerozone-haritalar/DATA-AUDIT.md). [GitHub araştırması ve kalan sınırlar](outputs/zerozone-haritalar/GITHUB-REVIEW.md).
 
 ## Kapsam sınırları
 

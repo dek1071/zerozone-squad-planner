@@ -12,3 +12,7 @@
 - Marka ve görsel tasarım referansı: https://zerozonecommunity.com/.
 
 Kaynakların lisans metinleri korunmuştur. Bu depo, üçüncü taraf oyun varlıkları üzerinde mülkiyet veya ek dağıtım/ticari kullanım hakkı iddia etmez.
+
+- Zırh geometrisi, malzeme özellikleri ve mühimmat eğrileri: https://squad-armor.com/ v10.6.0 (10 Ekim 2026). Kaynak GLB Armor grupları dönüştürülmüştür; katalog kaynak/çıktı SHA-256 değerlerini korur. Oyun varlıkları Squad / Offworld Industries ve ilgili hak sahiplerinindir. Bu atıf ek lisans vermez.
+- OrbitControls r180: Three.js MIT lisansı kapsamındadır.
+- War Thunder koruma analizi yalnızca etkileşim/sunum referansıdır; War Thunder kodu, modeli, sesi ve hasar verileri içerilmez.

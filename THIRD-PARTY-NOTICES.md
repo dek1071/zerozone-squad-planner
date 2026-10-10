@@ -16,3 +16,6 @@ Kaynakların lisans metinleri korunmuştur. Bu depo, üçüncü taraf oyun varl�
 - Zırh geometrisi, malzeme özellikleri ve mühimmat eğrileri: https://squad-armor.com/ v10.6.0 (10 Ekim 2026). Kaynak GLB Armor grupları dönüştürülmüştür; katalog kaynak/çıktı SHA-256 değerlerini korur. Oyun varlıkları Squad / Offworld Industries ve ilgili hak sahiplerinindir. Bu atıf ek lisans vermez.
 - OrbitControls r180: Three.js MIT lisansı kapsamındadır.
 - War Thunder koruma analizi yalnızca etkileşim/sunum referansıdır; War Thunder kodu, modeli, sesi ve hasar verileri içerilmez.
+
+- Dokulu araç dış modelleri ve 767 albedo kaplaması: Squad Armor vehicles/textures kaynakları; hash ve eksik kaplama listesi `data/armor/exterior-manifest.json`. Haklar Squad / Offworld Industries ve ilgili hak sahiplerindedir.
+- GLTFLoader, DRACOLoader ve BufferGeometryUtils: Three.js r180 MIT. Draco 1.5.7 decoder: Google, Apache-2.0; lisans `assets/vendor/draco/LICENSE.txt`.

@@ -45,3 +45,5 @@ Bu bir oyun planlama aracıdır. Canlı maç, ortak oturum ve hesap sistemi bağ
 ## Dosyalar ve kaynaklar
 
 Uygulama `outputs/zerozone-haritalar/`, otomatik testler `work/` klasöründedir. Kaynak ve lisans açıklamaları [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) içindedir. Bütün depo için yeni bir açık kaynak lisansı verilmemiştir; üçüncü taraf içeriklerin kendi koşulları geçerlidir.
+
+Zırh ekranı varsayılan olarak dokulu araç dış modelini gösterir. İç bileşenler görünümünde kaynaktaki parçaları seçip yakınlaşabilirsiniz; mühimmat alanları standart modda kırmızıdır. Ayrıntılar ve veri sınırları: [Zırh analizi](outputs/zerozone-haritalar/ARMOR-ANALYSIS.md).

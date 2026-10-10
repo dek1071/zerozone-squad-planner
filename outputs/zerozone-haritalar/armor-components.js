@@ -1,6 +1,7 @@
 // Visual grouping only. These categories do not add collision or damage data.
 export function componentKind(part){
- const s=[part.name,part.componentClass,part.material?.materialName].join(' ').toLowerCase();
+ // Armor material names may mention an ammo compartment without being an ammo component.
+ const s=[part.name,part.componentClass].join(' ').toLowerCase();
  if(/ammo/.test(s))return'ammo';if(/engine/.test(s))return'engine';if(/track/.test(s))return'track';if(/wheel/.test(s))return'wheel';if(/rotor/.test(s))return'rotor';
  if(/gun|barrel|weapon/.test(s))return'gun';if(/turret|crows/.test(s))return'turret';return'hull';
 }

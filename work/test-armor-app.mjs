@@ -31,7 +31,7 @@ assert.equal(api.state().exteriorGroup.visible,true);assert.equal(api.state().gr
 const view=document.querySelector('#view-mode');view.value='xray';view.dispatch('change');
 assert.equal(api.state().exteriorGroup.visible,false);assert.equal(api.state().group.visible,true);
 const ammoButton=document.querySelector('#component-list').children.find(b=>b.dataset.component==='ammo');assert.ok(ammoButton);ammoButton.dispatch('click');assert.equal(ammoButton['aria-pressed'],'true');
-const ammoParts=api.state().group.children.filter(m=>/ammo/i.test([m.userData.name,m.userData.componentClass,m.userData.material?.materialName].join(' ')));assert.ok(ammoParts.length);for(const m of ammoParts){assert.equal(m.material.color.getHexString(),'ff303b');assert.equal(m.material.opacity,1);}
+const ammoParts=api.state().group.children.filter(m=>/ammo/i.test([m.userData.name,m.userData.componentClass].join(' ')));assert.ok(ammoParts.length);for(const m of ammoParts){assert.equal(m.material.color.getHexString(),'ff303b');assert.equal(m.material.opacity,1);}
 view.value='normal';view.dispatch('change');assert.equal(api.state().selectedComponent,'all');assert.equal(api.state().exteriorGroup.visible,true);
 api.fire(new THREE.Vector2());assert.ok(api.state().shot);assert.equal(api.state().exteriorGroup.visible,false);assert.equal(api.state().group.visible,true);
 api.clearShot();assert.equal(api.state().exteriorGroup.visible,true);api.fire(new THREE.Vector2());assert.ok(api.state().shot);assert.ok(document.querySelector('#layer-list').children.length);assert.equal(api.state().playing,true);

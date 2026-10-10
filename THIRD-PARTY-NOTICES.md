@@ -6,6 +6,7 @@
 - SquadCalc kaynak lisansı: `outputs/zerozone-haritalar/data/terrain/SQUADCALC-LICENSE.txt` (MIT Non-Commercial). Bu kaynaklardan gelen içeriğe sınırsız ticari kullanım izni verildiği varsayılmamalıdır.
 - Araç fotoğrafları ve oyun ikonları: SquadCalc `public/img/vehicles/vanilla` ve `public/img/icons/ally`; Squad / Offworld Industries ve ilgili hak sahipleri. Tam kaynak, sabit commit ve dosya hash'leri `outputs/zerozone-haritalar/assets/squad/manifest.json` içindedir. SquadCalc lisansı ve oyun varlıklarının hakları geçerlidir.
 - Three.js r180: `outputs/zerozone-haritalar/assets/vendor/THREE-LICENSE.txt` (MIT).
+- Ek 21 araç görseli: https://squadintelligence.com/vehicles — Squad Intelligence üzerinden Squad oyun varlıkları. Dosyalar değiştirilmeden saklanır; ilgili araç sayfası, oyun kimliği, özgün dosya URL'si ve SHA-256 `outputs/zerozone-haritalar/data/vehicle-photo-sources.json` içinde kayıtlıdır. Bu atıf ek bir lisans veya ticari kullanım izni değildir; oyun varlıkları ve kaynak görseller üzerindeki haklar ilgili hak sahiplerine aittir.
 - Leaflet 1.9.4: `outputs/zerozone-haritalar/assets/vendor/Leaflet-LICENSE.txt` (BSD-2-Clause).
 - Montserrat: `outputs/zerozone-haritalar/assets/brand/Montserrat-OFL.txt` (SIL OFL).
 - Marka ve görsel tasarım referansı: https://zerozonecommunity.com/.

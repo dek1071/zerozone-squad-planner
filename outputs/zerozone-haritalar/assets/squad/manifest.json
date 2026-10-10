@@ -333,6 +333,18 @@
       "bytes": 29302
     },
     {
+      "vehicle": "BMP-1 ZU-23-2",
+      "rawName": "BP_BMP1_MIL_ZU23",
+      "file": "assets/squad/vehicles/BMP-1 ZU-23-2.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_BMP1_MIL_ZU23.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_BMP1_MIL_ZU23",
+      "provider": "Squad Intelligence",
+      "sha256": "45c2949dd6ba7828f1b388e74bfb81fda17829131fb6254522407c15dadb9eb5",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 65772
+    },
+    {
       "file": "assets/squad/vehicles/BMP-1.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMP-1.webp",
       "sha256": "b306ce6b0cfced4c8c6beeac1f91409a7a13f1253233f50377d5c9087004b32d",
@@ -423,6 +435,18 @@
       "bytes": 37690
     },
     {
+      "vehicle": "BTR-D PKM",
+      "rawName": "BP_BTR-D_PKM",
+      "file": "assets/squad/vehicles/BTR-D PKM.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_BTR-D_PKM.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_BTR-D_PKM",
+      "provider": "Squad Intelligence",
+      "sha256": "61f3e0313f2757e1d359f651b71edb0d4ba1604e3ddf97d2a9235225fb88ccd7",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 52870
+    },
+    {
       "file": "assets/squad/vehicles/BTR-D.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-D.webp",
       "sha256": "1e3528155628145fd10a3cc28096d401542507f0905c84abe9ae97a96b04fab8",
@@ -459,6 +483,18 @@
       "bytes": 20332
     },
     {
+      "vehicle": "CH-178",
+      "rawName": "BP_CH178",
+      "file": "assets/squad/vehicles/CH-178.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_CH178.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_CH178",
+      "provider": "Squad Intelligence",
+      "sha256": "b449fc68f0f91ed9301cf950f4645331175c4b69b1ee4e51eb1065dee38d3d0c",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 99220
+    },
+    {
       "file": "assets/squad/vehicles/Cobra II M2 RWS.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Cobra II M2 RWS.webp",
       "sha256": "11790aab14117017515aca2e7436a6b19a50363da5f5756c85cae2b908d184ea",
@@ -469,6 +505,18 @@
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Cobra II M2.webp",
       "sha256": "4058dab55e9e5df226144f4f70fd6e6b5642f1cb40c78459ec6e4c13a3474c86",
       "bytes": 32864
+    },
+    {
+      "vehicle": "Cobra II MG3 RWS",
+      "rawName": "BP_Cobra2_RWS_MG3",
+      "file": "assets/squad/vehicles/Cobra II MG3 RWS.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_Cobra2_RWS_MG3.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_Cobra2_RWS_MG3",
+      "provider": "Squad Intelligence",
+      "sha256": "787a2d09772d0b7e851aa5c08e7fc3c86283db84b97374314d62573c4d0ebb47",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 67478
     },
     {
       "file": "assets/squad/vehicles/Cobra II MG3.webp",
@@ -597,6 +645,18 @@
       "bytes": 50730
     },
     {
+      "vehicle": "FV520 CTAS40",
+      "rawName": "BP_FV510UA_CTAS40",
+      "file": "assets/squad/vehicles/FV520 CTAS40.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_FV510UA_CTAS40.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_FV510UA_CTAS40",
+      "provider": "Squad Intelligence",
+      "sha256": "8dbd2995459ddd52701b733291e97782470b19d6af288f699b66afa0df581760",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 75902
+    },
+    {
       "file": "assets/squad/vehicles/HX60 Logistics.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/HX60 Logistics.webp",
       "sha256": "034afaedc35339165c08b871c8d2274f3ff687c5fef445dd67cd96e607ac9c70",
@@ -663,6 +723,18 @@
       "bytes": 80324
     },
     {
+      "vehicle": "LAV III M2 RWS",
+      "rawName": "BP_LAV_RWS_M2_Desert",
+      "file": "assets/squad/vehicles/LAV III M2 RWS.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_LAV_RWS_M2_Desert.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_LAV_RWS_M2_Desert",
+      "provider": "Squad Intelligence",
+      "sha256": "4dea19bcf8367249ffc6ea966c715c79a2926da9d9ef956ab8720553e257239a",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 72764
+    },
+    {
       "file": "assets/squad/vehicles/LAV-25.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LAV-25.webp",
       "sha256": "94929c8b200aa4f38e56d320d712c1f35fece6b4265dfcf04a5e154348461c0d",
@@ -723,6 +795,30 @@
       "bytes": 42596
     },
     {
+      "vehicle": "LUV-A1 Logistics",
+      "rawName": "BP_M-Gator_Logistics_ARID",
+      "file": "assets/squad/vehicles/LUV-A1 Logistics.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_M-Gator_Logistics_ARID.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_M-Gator_Logistics_ARID",
+      "provider": "Squad Intelligence",
+      "sha256": "be41cfff8e90329829f55f424ed853fa8abd1aba78634731f1aea97a017ce414",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 50946
+    },
+    {
+      "vehicle": "LUV-A1 Transport",
+      "rawName": "BP_M-Gator_Transport_ARID",
+      "file": "assets/squad/vehicles/LUV-A1 Transport.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_M-Gator_Transport_ARID.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_M-Gator_Transport_ARID",
+      "provider": "Squad Intelligence",
+      "sha256": "19b23ad3d2b06b6dd1e0aaa60f2da75256c216cc06b0fc440280c3ea549aa49d",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 48030
+    },
+    {
       "file": "assets/squad/vehicles/LUVW C6.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LUVW C6.webp",
       "sha256": "f08978130712c64650620dcff6d966bbf6797be85cb4966e879dbb074eb74de9",
@@ -775,6 +871,18 @@
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M-ATV CROWS M2.webp",
       "sha256": "6cfcb9bd3cfb62a7c54ffc67940a93c085a7939a6c34199cd9ac3b25b6282c59",
       "bytes": 91204
+    },
+    {
+      "vehicle": "M-ATV CROWS M240",
+      "rawName": "BP_MATV_CROWS_M240",
+      "file": "assets/squad/vehicles/M-ATV CROWS M240.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_MATV_CROWS_M240.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_MATV_CROWS_M240",
+      "provider": "Squad Intelligence",
+      "sha256": "01d7f336d79c4546f4fe90a4c3891689ef6ff6eea4b22dc4afdfc38abf6b28cf",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 69762
     },
     {
       "file": "assets/squad/vehicles/M-ATV M2.webp",
@@ -841,6 +949,42 @@
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M113A2T M121.webp",
       "sha256": "66cd4bb5bf9dc2da7b45bdc26ccc936935e25838ede7bf4ac65a4473c1062192",
       "bytes": 128214
+    },
+    {
+      "vehicle": "M113A2T M2",
+      "rawName": "BP_M113A2T_M2_TLF",
+      "file": "assets/squad/vehicles/M113A2T M2.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_M113A2T_M2_TLF.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_M113A2T_M2_TLF",
+      "provider": "Squad Intelligence",
+      "sha256": "64aa864acedc37316c3b33b72c8e08927dd282ac72fdd87705529a1ca0f2d991",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 72980
+    },
+    {
+      "vehicle": "M113A2T Mk19",
+      "rawName": "BP_M113A2T_MK19_TLF",
+      "file": "assets/squad/vehicles/M113A2T Mk19.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_M113A2T_MK19_TLF.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_M113A2T_MK19_TLF",
+      "provider": "Squad Intelligence",
+      "sha256": "25affd14600c16c7513344251bde451211a9b6ae868f79591c16eac3e2fd4c7b",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 71054
+    },
+    {
+      "vehicle": "M113A3 C6",
+      "rawName": "BP_M113A3_CAF_C6_Desert",
+      "file": "assets/squad/vehicles/M113A3 C6.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_M113A3_CAF_C6_Desert.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_M113A3_CAF_C6_Desert",
+      "provider": "Squad Intelligence",
+      "sha256": "260c5f71654df30300aaade1c5ab9fe5dc6efd981800b44246072d8525bfd70e",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 68384
     },
     {
       "file": "assets/squad/vehicles/M113A3 Logistics.webp",
@@ -999,6 +1143,18 @@
       "bytes": 41480
     },
     {
+      "vehicle": "Modern Technical UB-32",
+      "rawName": "BP_Technical2Seater_Camo_UB32",
+      "file": "assets/squad/vehicles/Modern Technical UB-32.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_Technical2Seater_Camo_UB32.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_Technical2Seater_Camo_UB32",
+      "provider": "Squad Intelligence",
+      "sha256": "3d6b85d9e252e8dbfb08d3328064ddb5848a14c032d069423845c36ee9a908e9",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 57188
+    },
+    {
       "file": "assets/squad/vehicles/MRH-90.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MRH-90.webp",
       "sha256": "885de0f5f2284a93ad42e295863a22f221e8dd7292522c3e783ef02981949e76",
@@ -1071,6 +1227,18 @@
       "bytes": 136808
     },
     {
+      "vehicle": "MTLB VMK",
+      "rawName": "BP_MTLB_VMK_GFI",
+      "file": "assets/squad/vehicles/MTLB VMK.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_MTLB_VMK_GFI.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_MTLB_VMK_GFI",
+      "provider": "Squad Intelligence",
+      "sha256": "24b9ec98a5c69b38b46a3e005db32378380e01336e6f9428df012aaa23438d66",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 60518
+    },
+    {
       "file": "assets/squad/vehicles/MTLB ZU23.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MTLB ZU23.webp",
       "sha256": "28e50448514b67636ef93ec5f1222d169c9c53a403f89207a1afbd203e2d3ca4",
@@ -1099,6 +1267,18 @@
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/PARS III Mk19 RWS.webp",
       "sha256": "003be14d3d41de2a344a7bd480839b1ff8ac0d9eb3e861e60716a7f4470b6717",
       "bytes": 20384
+    },
+    {
+      "vehicle": "Pickup Truck",
+      "rawName": "BP_Technical4Seater_Transport_Black",
+      "file": "assets/squad/vehicles/Pickup Truck.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_Technical4Seater_Transport_Black.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_Technical4Seater_Transport_Black",
+      "provider": "Squad Intelligence",
+      "sha256": "fcb2272be0f01835114d46cebc9bc0c4af1daa931e80d0516758e4cb288cf5a7",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 49116
     },
     {
       "file": "assets/squad/vehicles/PMV Mag58.webp",
@@ -1201,6 +1381,18 @@
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB QJZ89.webp",
       "sha256": "e9c1d1b4c0f9df1c445c8985926df32d52cbbc96311dd9cbb08d597a82bfa0bd",
       "bytes": 38038
+    },
+    {
+      "vehicle": "RHIB Transport",
+      "rawName": "BP_RHIB_Transport",
+      "file": "assets/squad/vehicles/RHIB Transport.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_RHIB_Transport.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_RHIB_Transport",
+      "provider": "Squad Intelligence",
+      "sha256": "c30334d7580489386ad00506a4182b3ea1096f04185ba8d31b16180395514101",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 31406
     },
     {
       "file": "assets/squad/vehicles/SA330.webp",
@@ -1371,6 +1563,30 @@
       "bytes": 61468
     },
     {
+      "vehicle": "Transport Modern Pickup",
+      "rawName": "BP_Technical4Seater_Transport_Camo",
+      "file": "assets/squad/vehicles/Transport Modern Pickup.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_Technical4Seater_Transport_Camo.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_Technical4Seater_Transport_Camo",
+      "provider": "Squad Intelligence",
+      "sha256": "bbbe94ede216bd4365b434357292c67a8961ec566c696c41d5cb67f1fbbf9b3b",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 54894
+    },
+    {
+      "vehicle": "Transport Pickup Truck",
+      "rawName": "BP_Technical4Seater_Transport",
+      "file": "assets/squad/vehicles/Transport Pickup Truck.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_Technical4Seater_Transport.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_Technical4Seater_Transport",
+      "provider": "Squad Intelligence",
+      "sha256": "b9b13e005bba74be746834054cf43fac0b6ef6fbce4e53bd8fc6167e1c440f68",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 45684
+    },
+    {
       "file": "assets/squad/vehicles/UH-1H MG3.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/UH-1H MG3.webp",
       "sha256": "b20e27350dadb45001eab81d03f7f74228c56a81f78a8ceac68652763370920c",
@@ -1473,10 +1689,46 @@
       "bytes": 49378
     },
     {
+      "vehicle": "ZSD05 QJZ89",
+      "rawName": "BP_ZSD05_QJZ-89_Woodland",
+      "file": "assets/squad/vehicles/ZSD05 QJZ89.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_ZSD05_QJZ-89_Woodland.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_ZSD05_QJZ-89_Woodland",
+      "provider": "Squad Intelligence",
+      "sha256": "486a34a06b98448824e42a1f676fc8fda7524ebc9d5796fb91bc30e8cb52d085",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 65290
+    },
+    {
       "file": "assets/squad/vehicles/ZSD05.webp",
       "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZSD05.webp",
       "sha256": "acf5754f37a63833ad50f841e5c160386e6b46dba4644d8a7b3480728b5f0885",
       "bytes": 27114
+    },
+    {
+      "vehicle": "ZSD89 APC QJZ89",
+      "rawName": "BP_ZSD89_Desert",
+      "file": "assets/squad/vehicles/ZSD89 APC QJZ89.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_ZSD89_Desert.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_ZSD89_Desert",
+      "provider": "Squad Intelligence",
+      "sha256": "f32c3f176f721c3849c2190b96c6cafb5d70e0000955bdfd2eb647c36710e82a",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 59704
+    },
+    {
+      "vehicle": "ZSD89 APC QLZ87",
+      "rawName": "BP_ZSD89_QLZ-87_Desert",
+      "file": "assets/squad/vehicles/ZSD89 APC QLZ87.webp",
+      "source": "https://squadintelligence.com/icons/Images/BP_ZSD89_QLZ-87_Desert.webp",
+      "sourcePage": "https://squadintelligence.com/vehicles/BP_ZSD89_QLZ-87_Desert",
+      "provider": "Squad Intelligence",
+      "sha256": "88822bed08be9ffb3037c2581ea65284f93b23979cbd5568481aa097547ecf30",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 58650
     },
     {
       "file": "assets/squad/vehicles/ZSD89II IFV.webp",
@@ -1527,27 +1779,6 @@
       "bytes": 32160
     }
   ],
-  "missingPhotos": [
-    "BMP-1 ZU-23-2",
-    "BTR-D PKM",
-    "CH-178",
-    "Cobra II MG3 RWS",
-    "FV520 CTAS40",
-    "LAV III M2 RWS",
-    "LUV-A1 Logistics",
-    "LUV-A1 Transport",
-    "M-ATV CROWS M240",
-    "M113A2T M2",
-    "M113A2T Mk19",
-    "M113A3 C6",
-    "MTLB VMK",
-    "Modern Technical UB-32",
-    "Pickup Truck",
-    "RHIB Transport",
-    "Transport Modern Pickup",
-    "Transport Pickup Truck",
-    "ZSD05 QJZ89",
-    "ZSD89 APC QJZ89",
-    "ZSD89 APC QLZ87"
-  ]
+  "missingPhotos": [],
+  "supplementCheckedAt": "2026-10-10T12:51:49.723Z"
 }

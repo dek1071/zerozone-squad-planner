@@ -36,7 +36,7 @@ Takımlar listesindeki birim cons bedeli ve Araçlar → Lojistik hesabı aynı 
 
 ## Araç resimleri ve oyun ikonları
 
-Envanter, karşılaştırma, lojistik ve sayaç listeleri araç görselleri içerir. Harita işaretleri Squad ikonlarını kullanır. 209 tam ad eşleşmesi ve 21 sınıf simgesiyle yedek gösterim vardır. [Görsel kaynakları ve kapsam](SQUAD-VISUALS.md).
+Envanter, karşılaştırma, lojistik ve sayaç listeleri araç görselleri içerir. Harita işaretleri Squad ikonlarını kullanır. 230 aracın tamamı için görsel vardır; 21 eksik Squad Intelligence'ın oyun içi araç kimlikleriyle eşleştirilerek tamamlanmıştır. Bilinmeyen yeni araçlar sınıf simgesiyle gösterilir. [Görsel kaynakları ve kapsam](SQUAD-VISUALS.md).
 
 ## Doğrulama
 

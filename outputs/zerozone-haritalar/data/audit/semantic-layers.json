@@ -1,0 +1,1752 @@
+[
+  {
+    "layer": "AlBasrah_AAS_v2",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_AAS_v3_CL",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_Invasion_v3",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_RAAS_v1",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_RAAS_v2",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_RAAS_v3",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_Seed_v1",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      },
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_Seed_v2",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      },
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_Skirmish_v1",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      },
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_Skirmish_v2",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      },
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "AlBasrah_Skirmish_v3",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      },
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Anvil_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Anvil_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Anvil_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Anvil_RAAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Anvil_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "BlackCoast_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "BlackCoast_AAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "BlackCoast_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "BlackCoast_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "BlackCoast_Invasion_v3",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "BlackCoast_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "BlackCoast_RAAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "BlackCoast_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "BlackCoast_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Chora_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Chora_AAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Chora_AAS_v3",
+    "differences": []
+  },
+  {
+    "layer": "Chora_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Chora_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Chora_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Chora_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Chora_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "Fallujah_AAS_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Fallujah_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Fallujah_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Fallujah_Invasion_v3_CL",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Fallujah_RAAS_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Fallujah_RAAS_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Fallujah_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Fallujah_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Fallujah_Skirmish_v2",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Fallujah_TC_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "FoolsRoad_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "FoolsRoad_AAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "FoolsRoad_Destruction_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "FoolsRoad_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "FoolsRoad_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "FoolsRoad_Skirmish_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "FoolsRoad_Skirmish_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "FoolsRoad_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "GooseBay_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "GooseBay_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "GooseBay_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "GooseBay_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "GooseBay_RAAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "GooseBay_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "GooseBay_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Gorodok_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Gorodok_Destruction_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Gorodok_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Gorodok_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Gorodok_Invasion_v3",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Gorodok_Invasion_v4_CL",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Gorodok_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Gorodok_RAAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Gorodok_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Gorodok_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "Harju_AAS_v1",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Harju_AAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Harju_AAS_v3",
+    "differences": []
+  },
+  {
+    "layer": "Harju_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Harju_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Harju_Invasion_v3",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Harju_Invasion_v4_CL",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Harju_RAAS_v1",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Harju_RAAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Harju_RAAS_v3_CL",
+    "differences": []
+  },
+  {
+    "layer": "Harju_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Harju_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Harju_Skirmish_v2",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Harju_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "Kamdesh_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Kamdesh_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Kamdesh_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Kamdesh_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Kamdesh_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "Kohat_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Kohat_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Kohat_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Kohat_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Kohat_RAAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Kohat_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Kohat_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "Kokan_AAS_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Kokan_AAS_v2",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Kokan_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Kokan_RAAS_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Kokan_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Kokan_TC_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Lashkar_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Lashkar_AAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Lashkar_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Lashkar_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Lashkar_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Lashkar_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "Lashkar_TC_v2",
+    "differences": []
+  },
+  {
+    "layer": "Logar_AAS_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Logar_RAAS_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Logar_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Logar_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Logar_TC_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Manicouagan_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Manicouagan_AAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Manicouagan_AAS_v3",
+    "differences": []
+  },
+  {
+    "layer": "Manicouagan_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Manicouagan_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Manicouagan_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Manicouagan_RAAS_v2",
+    "differences": [
+      {
+        "field": "lanes"
+      }
+    ]
+  },
+  {
+    "layer": "Manicouagan_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Manicouagan_Seed_v2_CL",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Manicouagan_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Manicouagan_Skirmish_v2",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Manicouagan_Skirmish_v3",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Mestia_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Mestia_AAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Mestia_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Mestia_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Mestia_Skirmish_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Mestia_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "Mutaha_AAS_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Mutaha_AAS_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Mutaha_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Mutaha_RAAS_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Mutaha_RAAS_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Mutaha_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Mutaha_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Mutaha_TC_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Narva_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Narva_AAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Narva_AAS_v3",
+    "differences": []
+  },
+  {
+    "layer": "Narva_Destruction_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Narva_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Narva_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Narva_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Narva_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Narva_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "PacificProvingGrounds_AAS_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "PacificProvingGrounds_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_AAS_v1",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_AAS_v2",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_AAS_v3",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_Invasion_v3",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_RAAS_v1",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_RAAS_v2",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_RAAS_v3_CL",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sanxian_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Skorpo_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Skorpo_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Skorpo_Invasion_v3",
+    "differences": [
+      {
+        "field": "unitOptions"
+      },
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Skorpo_RAAS_v1",
+    "differences": [
+      {
+        "field": "boatsAvailable",
+        "values": [
+          true,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Skorpo_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sumari_AAS_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sumari_AAS_v2",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sumari_AAS_v3",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sumari_Invasion_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sumari_RAAS_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sumari_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sumari_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Sumari_TC_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Tallil_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Tallil_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Tallil_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Tallil_RAAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Tallil_Seed_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Tallil_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Tallil_Skirmish_v2",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Tallil_Skirmish_v3",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Tallil_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "Yehorivka_AAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Yehorivka_AAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Yehorivka_Destruction_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Yehorivka_Invasion_v1",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Yehorivka_Invasion_v2",
+    "differences": [
+      {
+        "field": "unitOptions"
+      }
+    ]
+  },
+  {
+    "layer": "Yehorivka_RAAS_v1",
+    "differences": []
+  },
+  {
+    "layer": "Yehorivka_RAAS_v2",
+    "differences": []
+  },
+  {
+    "layer": "Yehorivka_Skirmish_v1",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Yehorivka_Skirmish_v2",
+    "differences": [
+      {
+        "field": "commanderDisabled",
+        "values": [
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "layer": "Yehorivka_TC_v1",
+    "differences": []
+  },
+  {
+    "layer": "Yehorivka_TC_v2",
+    "differences": []
+  }
+]

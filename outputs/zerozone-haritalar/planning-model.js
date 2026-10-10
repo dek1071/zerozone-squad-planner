@@ -1,6 +1,8 @@
 import {WEAPONS} from './fire-support.js';
 export const DRAW_TOOLS = ['pin','hab','arrow','measure','mortar','line','circle','rectangle','brush'];
 export const SYMBOLS = {pin:'İşaret',fob:'FOB',rally:'Rally',infantry:'Piyade',vehicle:'Araç',support:'Destek',mine:'Mayın',repair:'Onarım',mortar:'Havan',hmg:'Ağır makineli'};
+// SquadCalc src/data/maps.js: small-map FOB radio exclusion is 300 m.
+export function fobRadii(mapId){return {build:150,exclusion:['Chora','FoolsRoad','Kokan','Logar','Sumari'].includes(mapId)?300:400};}
 export const COLOURS = ['#b5e8fa','#f19aa4','#f4c27b','#addeb2','#f4f3ef'];
 export function cleanMortarSettings(value={}) {
   const bounded=(n,fallback)=>Number.isFinite(n)?Math.max(0,Math.min(100,n)):fallback;

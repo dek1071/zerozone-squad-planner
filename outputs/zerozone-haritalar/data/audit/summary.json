@@ -1,0 +1,190 @@
+{
+  "checkedAt": "2026-10-10T06:55:47.651Z",
+  "squadmaps": {
+    "url": "https://squadmaps.com/_next/static/chunks/2-p5k1buhnqwj.js",
+    "sha256": "edde301f9a0002aea8f0605fb9560e8f490d6f563ab659223dba4230ab02adf8",
+    "blocks": [
+      {
+        "index": 0,
+        "keys": [
+          "vehicles",
+          "meta"
+        ],
+        "sameAsSnapshot": true
+      },
+      {
+        "index": 1,
+        "keys": [
+          "emplacements",
+          "curves"
+        ],
+        "sameAsSnapshot": true
+      },
+      {
+        "index": 2,
+        "keys": [
+          "factions",
+          "factionSetups"
+        ],
+        "sameAsSnapshot": true
+      },
+      {
+        "index": 3,
+        "keys": [
+          "Maps"
+        ],
+        "sameAsSnapshot": true
+      },
+      {
+        "index": 4,
+        "keys": [
+          "Maps"
+        ],
+        "sameAsSnapshot": true
+      },
+      {
+        "index": 5,
+        "keys": [
+          "Maps"
+        ],
+        "sameAsSnapshot": true
+      },
+      {
+        "index": 6,
+        "keys": [
+          "vehicles",
+          "version",
+          "materials",
+          "curves"
+        ],
+        "sameAsSnapshot": true
+      }
+    ]
+  },
+  "generated": [
+    {
+      "file": "data\\AlBasrah.json",
+      "same": true
+    },
+    {
+      "file": "data\\Sanxian_Islands.json",
+      "same": true
+    },
+    {
+      "file": "data\\Harju.json",
+      "same": true
+    },
+    {
+      "file": "data\\BlackCoast.json",
+      "same": true
+    },
+    {
+      "file": "data\\Yehorivka.json",
+      "same": true
+    },
+    {
+      "file": "data\\Tallil.json",
+      "same": true
+    },
+    {
+      "file": "data\\Sumari.json",
+      "same": true
+    },
+    {
+      "file": "data\\Skorpo.json",
+      "same": true
+    },
+    {
+      "file": "data\\PacificProvingGrounds.json",
+      "same": true
+    },
+    {
+      "file": "data\\Narva.json",
+      "same": true
+    },
+    {
+      "file": "data\\Mutaha.json",
+      "same": true
+    },
+    {
+      "file": "data\\Anvil.json",
+      "same": true
+    },
+    {
+      "file": "data\\Mestia.json",
+      "same": true
+    },
+    {
+      "file": "data\\Manicouagan.json",
+      "same": true
+    },
+    {
+      "file": "data\\Logar.json",
+      "same": true
+    },
+    {
+      "file": "data\\Lashkar.json",
+      "same": true
+    },
+    {
+      "file": "data\\Kokan.json",
+      "same": true
+    },
+    {
+      "file": "data\\Kohat.json",
+      "same": true
+    },
+    {
+      "file": "data\\Kamdesh.json",
+      "same": true
+    },
+    {
+      "file": "data\\JensensRange.json",
+      "same": true
+    },
+    {
+      "file": "data\\Gorodok.json",
+      "same": true
+    },
+    {
+      "file": "data\\GooseBay.json",
+      "same": true
+    },
+    {
+      "file": "data\\FoolsRoad.json",
+      "same": true
+    },
+    {
+      "file": "data\\Fallujah.json",
+      "same": true
+    },
+    {
+      "file": "data\\Chora.json",
+      "same": true
+    },
+    {
+      "file": "data\\Belaya.json",
+      "same": true
+    },
+    {
+      "file": "data\\catalog.json",
+      "same": true
+    },
+    {
+      "file": "data\\units.json",
+      "same": true
+    }
+  ],
+  "squadcalc": {
+    "maps": {
+      "url": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/master/src/data/maps.js",
+      "sha256": "54ea952e9d37d7d7ff920148f246d0f416ebd7b6c956f0e38ea46d1aa63b7b63",
+      "sameAsSnapshot": true
+    },
+    "weapons": {
+      "url": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/master/src/data/weapons.js",
+      "sha256": "c746320bfcc90d2720396b7620066f30ce2167e3ed29c4767619c67734d46d2c",
+      "sameAsSnapshot": true
+    }
+  }
+}

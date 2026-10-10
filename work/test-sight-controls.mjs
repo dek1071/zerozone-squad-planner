@@ -11,7 +11,11 @@ async function send(type,target){for(const fn of handlers[type]||[])await fn({ta
 await send('submit',form);assert.equal(groups.length,1);assert.ok(groups[0].shown);assert.match(status.textContent,/%100/);
 await send('change',{id:'sight-visible',checked:false});assert.equal(groups[0].shown,false);
 await send('change',{id:'sight-visible',checked:true});assert.equal(groups[0].shown,true);
+await send('input',{id:'sight-eye',value:'2.5'});assert.equal(groups[0].shown,false,'changing eye clears old result');
+await send('submit',form);assert.equal(groups.length,2);
+await send('input',{id:'sight-radius',value:'500'});assert.equal(groups[1].shown,false,'changing radius clears old result');
+map.pointPicker=()=>{};await send('click',{closest:s=>s==='[data-sight-clear]'?{}:null});assert.equal(map.pointPicker,null,'clear cancels a pending observer pick');
 state.layer={...state.layer,id:'Test_RAAS_v2'};api.refresh();assert.equal(groups[0].shown,false,'layer change clears the overlay');
 globalThis.fetch=()=>new Promise(resolve=>fetchResolve=resolve);state={...state,mapId:'Other',layer:{...state.layer,id:'Other_RAAS_v1'}};
-const pending=send('submit',form);state.layer={...state.layer,id:'Other_RAAS_v2'};api.refresh();fetchResolve({ok:true,json:async()=>({cols:2,rows:2,widthMeters:2000,heightMeters:2000,values:[0,0,0,0]})});await pending;assert.equal(groups.length,1,'stale load cannot attach old layer sight');
+const pending=send('submit',form);state.layer={...state.layer,id:'Other_RAAS_v2'};api.refresh();fetchResolve({ok:true,json:async()=>({cols:2,rows:2,widthMeters:2000,heightMeters:2000,values:[0,0,0,0]})});await pending;assert.equal(groups.length,2,'stale load cannot attach old layer sight');
 console.log('Sight controls: form, percentage, hide/show, layer cleanup and stale load isolation PASS');

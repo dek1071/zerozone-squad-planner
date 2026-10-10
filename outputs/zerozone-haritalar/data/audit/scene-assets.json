@@ -1,0 +1,702 @@
+[
+  {
+    "file": "data/scene/Anvil/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/anvil/3d/trees.bin",
+    "bytes": 3359488,
+    "same": true,
+    "remoteHash": "e86ecce1a7e1705d96feb41fed13261a61ee5d164af73c79bebc10880773a8de"
+  },
+  {
+    "file": "data/scene/Anvil/props.json",
+    "url": "https://squadcalc.app/api/img/maps/anvil/3d/props.json",
+    "bytes": 473109,
+    "same": true,
+    "remoteHash": "90222357ecd124bec49748ed002966e5a904943a7a2bc580dcc66d3132c1be8e"
+  },
+  {
+    "file": "data/scene/Anvil/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/anvil/3d/trees.json",
+    "bytes": 20342,
+    "same": true,
+    "remoteHash": "32e35776b618fd9cf3e2af33cbd1402cd7d982fd1896131634d19a777ba122ad"
+  },
+  {
+    "file": "data/scene/Anvil/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/anvil/3d/props.bin",
+    "bytes": 15754036,
+    "same": true,
+    "remoteHash": "4aaedd3014eaeed2aaba913ead0712e7dab0c6bef9243717bf754ebbc1e2bbb3"
+  },
+  {
+    "file": "data/scene/BlackCoast/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/blackcoast/3d/props.bin",
+    "bytes": 36568532,
+    "same": true,
+    "remoteHash": "f8285a55236048a3cf0f376fb98eab5321c6b2c1aec47bfa9358190276e4d358"
+  },
+  {
+    "file": "data/scene/BlackCoast/props.json",
+    "url": "https://squadcalc.app/api/img/maps/blackcoast/3d/props.json",
+    "bytes": 527194,
+    "same": true,
+    "remoteHash": "0218a505d52d67baa6805c6496b138dc56b33c570a537c9fff9910d1438d45f4"
+  },
+  {
+    "file": "data/scene/BlackCoast/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/blackcoast/3d/trees.json",
+    "bytes": 31100,
+    "same": true,
+    "remoteHash": "22f3eda3307fd8037de1d61ce9d23e4dd29ad504f17cc447d3f08ad6db8f3ef6"
+  },
+  {
+    "file": "data/scene/BlackCoast/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/blackcoast/3d/trees.bin",
+    "bytes": 3714264,
+    "same": true,
+    "remoteHash": "15965393ca0fb5d550965f4c0e5f80b69178dfe517fd8a5026cc99d2cd55c48a"
+  },
+  {
+    "file": "data/scene/FoolsRoad/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/foolsroad/3d/props.bin",
+    "bytes": 2482156,
+    "same": true,
+    "remoteHash": "b9b1e0f0002e208e3063de8465e9d32e154b1979a23280b7389358acdd79faf7"
+  },
+  {
+    "file": "data/scene/FoolsRoad/props.json",
+    "url": "https://squadcalc.app/api/img/maps/foolsroad/3d/props.json",
+    "bytes": 104345,
+    "same": true,
+    "remoteHash": "afe02a1af1e0766cdecd40895265c7b151c8e76255eda53de95d93108d75c1d4"
+  },
+  {
+    "file": "data/scene/FoolsRoad/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/foolsroad/3d/trees.json",
+    "bytes": 15097,
+    "same": true,
+    "remoteHash": "f90286c7dca4064e4749ea746775ceb16aa697cc88fffd3991703454f45c3018"
+  },
+  {
+    "file": "data/scene/FoolsRoad/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/foolsroad/3d/trees.bin",
+    "bytes": 2312664,
+    "same": true,
+    "remoteHash": "d3861a950fc9e12eecad5d27f7e7a976aa6e503f7214f4d05a400755a5960dab"
+  },
+  {
+    "file": "data/scene/Fallujah/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/fallujah/3d/trees.bin",
+    "bytes": 1765840,
+    "same": true,
+    "remoteHash": "2e7cbd3731d1ba9ca9078fe770115dde5462d1c42b0d8c85323f086024a5c309"
+  },
+  {
+    "file": "data/scene/Fallujah/props.json",
+    "url": "https://squadcalc.app/api/img/maps/fallujah/3d/props.json",
+    "bytes": 655322,
+    "same": true,
+    "remoteHash": "bc055a9e40dbe4d8a4f5bc00394a06c6184cc9738ebc6175f62c50b2d24fad21"
+  },
+  {
+    "file": "data/scene/Fallujah/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/fallujah/3d/trees.json",
+    "bytes": 48294,
+    "same": true,
+    "remoteHash": "e04d8753d21f97fa149638a722d5933299e140da1f6c957d56362bf6a33f4bfa"
+  },
+  {
+    "file": "data/scene/Fallujah/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/fallujah/3d/props.bin",
+    "bytes": 28861732,
+    "same": true,
+    "remoteHash": "7165875a4be46d4e48c1a1050f995253dd431d701506a6426714141c609b5ecb"
+  },
+  {
+    "file": "data/scene/AlBasrah/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/albasrah/3d/props.bin",
+    "bytes": 29558824,
+    "same": true,
+    "remoteHash": "0ed5719ccf9112db22f321d3b91173371733bcc343259b0fc946f6dc3e81af60"
+  },
+  {
+    "file": "data/scene/AlBasrah/props.json",
+    "url": "https://squadcalc.app/api/img/maps/albasrah/3d/props.json",
+    "bytes": 1278511,
+    "same": true,
+    "remoteHash": "403df64cf7efcb15e6b60461b6276aa21e4c7c598adb667f33fe56f627c115d5"
+  },
+  {
+    "file": "data/scene/AlBasrah/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/albasrah/3d/trees.json",
+    "bytes": 35590,
+    "same": true,
+    "remoteHash": "3a3e5c973043459a2ca6989955b06d97d5679accdacd500c598260b89feddb8d"
+  },
+  {
+    "file": "data/scene/Kamdesh/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/kamdesh/3d/props.bin",
+    "bytes": 2031432,
+    "same": true,
+    "remoteHash": "043881cccd37d8af6688cc1d3072e5803b00729dee6facf094301349116c53bb"
+  },
+  {
+    "file": "data/scene/AlBasrah/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/albasrah/3d/trees.bin",
+    "bytes": 2964980,
+    "same": true,
+    "remoteHash": "94acff780ea7be0a34285865931eab7bbff5647a33cc1b1c27380498227a6746"
+  },
+  {
+    "file": "data/scene/Kamdesh/props.json",
+    "url": "https://squadcalc.app/api/img/maps/kamdesh/3d/props.json",
+    "bytes": 36649,
+    "same": true,
+    "remoteHash": "f157d91e459217471854e909d92869c7b55add26fb489f1c0cdc799961a46d24"
+  },
+  {
+    "file": "data/scene/Kamdesh/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/kamdesh/3d/trees.json",
+    "bytes": 8732,
+    "same": true,
+    "remoteHash": "fb5058cc6e6d35cd725ccdfa649d3932cc32a0d3789ae50957b50d7365d89d09"
+  },
+  {
+    "file": "data/scene/Kamdesh/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/kamdesh/3d/trees.bin",
+    "bytes": 3259164,
+    "same": true,
+    "remoteHash": "e0a25e03dad9b0e9f1fb236b791a218afb922468b3cb6600e9734da015eeebbe"
+  },
+  {
+    "file": "data/scene/GooseBay/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/goosebay/3d/trees.bin",
+    "bytes": 4045644,
+    "same": true,
+    "remoteHash": "9a0466cf64b2e4799e2b7eb2c6389590cfdee4b78a494e9793966f8b38c9b874"
+  },
+  {
+    "file": "data/scene/GooseBay/props.json",
+    "url": "https://squadcalc.app/api/img/maps/goosebay/3d/props.json",
+    "bytes": 499487,
+    "same": true,
+    "remoteHash": "52daef1ae896c4aaa691c48adfb6a5cc7eb71417a2a6413b65629284e80e5538"
+  },
+  {
+    "file": "data/scene/GooseBay/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/goosebay/3d/trees.json",
+    "bytes": 49928,
+    "same": true,
+    "remoteHash": "19934bd9df8bfd9fed4f8259299e6d5499870a3b24fb11cf40ebb97514366ab7"
+  },
+  {
+    "file": "data/scene/Chora/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/chora/3d/props.bin",
+    "bytes": 19673840,
+    "same": true,
+    "remoteHash": "9c1902fa85a21e87f357041e446f1896b9bf59d50b60569e831e448df2798c69"
+  },
+  {
+    "file": "data/scene/Chora/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/chora/3d/trees.bin",
+    "bytes": 2600768,
+    "same": true,
+    "remoteHash": "1f1314b75cefa80977436e3a4a47828f5cf5b9770ecc46584b6357f988d3537f"
+  },
+  {
+    "file": "data/scene/Chora/props.json",
+    "url": "https://squadcalc.app/api/img/maps/chora/3d/props.json",
+    "bytes": 539577,
+    "same": true,
+    "remoteHash": "461a3a9e0562e7a7f0a4bc29aa9c7af7636933a0820405f1fa8cc56a11673344"
+  },
+  {
+    "file": "data/scene/Chora/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/chora/3d/trees.json",
+    "bytes": 10877,
+    "same": true,
+    "remoteHash": "5a5837a10064bedfbfa245f3907955e181212e702145c227650d6317c3cc2061"
+  },
+  {
+    "file": "data/scene/JensensRange/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/jensen/3d/props.bin",
+    "bytes": 9799268,
+    "same": true,
+    "remoteHash": "a41293903a092b274b0fcefb3f5f6f17d3cf8adda64ae5323747f4ccf685fed6"
+  },
+  {
+    "file": "data/scene/JensensRange/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/jensen/3d/trees.bin",
+    "bytes": 210064,
+    "same": true,
+    "remoteHash": "618d54760c46eff8c945d268c2ca796b215a21760ee6f12813ecb0cb32dd0312"
+  },
+  {
+    "file": "data/scene/JensensRange/props.json",
+    "url": "https://squadcalc.app/api/img/maps/jensen/3d/props.json",
+    "bytes": 298229,
+    "same": true,
+    "remoteHash": "9e06e122676fa8bf1b2e219e7e5c91b0fc4f4da45e61a17ef67760c727b6ba57"
+  },
+  {
+    "file": "data/scene/JensensRange/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/jensen/3d/trees.json",
+    "bytes": 1157,
+    "same": true,
+    "remoteHash": "c42a4c9d00a390be98fd483a5b9949685850fc58b8429f8ab92ef60d23d41981"
+  },
+  {
+    "file": "data/scene/GooseBay/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/goosebay/3d/props.bin",
+    "bytes": 19048248,
+    "same": true,
+    "remoteHash": "b9b455a54a9ab43066724bc03b7fa624b527510ee2b32b163ffac61875b169c4"
+  },
+  {
+    "file": "data/scene/Harju/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/harju/3d/trees.bin",
+    "bytes": 5355392,
+    "same": true,
+    "remoteHash": "f51151cef993083f973082882215de5156cc726c4afbb860ef83fbc69e8dfaad"
+  },
+  {
+    "file": "data/scene/Harju/props.json",
+    "url": "https://squadcalc.app/api/img/maps/harju/3d/props.json",
+    "bytes": 1245123,
+    "same": true,
+    "remoteHash": "3252cceda923eb5c6eb84dd01faffda6ce29f9b8a9c4f6e3be4037156cd8e124"
+  },
+  {
+    "file": "data/scene/Harju/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/harju/3d/trees.json",
+    "bytes": 39360,
+    "same": true,
+    "remoteHash": "8d3fe54aca7f1893da8e0c4219d72dcca40bd8fcbb467ba6ffa0457c0d5ab041"
+  },
+  {
+    "file": "data/scene/Harju/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/harju/3d/props.bin",
+    "bytes": 35192708,
+    "same": true,
+    "remoteHash": "58714e1153a17043f0f1d8124603f38b0a141f642c4d8a7ab439edecd377cd74"
+  },
+  {
+    "file": "data/scene/Gorodok/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/gorodok/3d/trees.bin",
+    "bytes": 6034056,
+    "same": true,
+    "remoteHash": "b8a6f410b97fb21856d5912a8b9788ad45e22c3bd8971caae8149dcbd9b98091"
+  },
+  {
+    "file": "data/scene/Gorodok/props.json",
+    "url": "https://squadcalc.app/api/img/maps/gorodok/3d/props.json",
+    "bytes": 568729,
+    "same": true,
+    "remoteHash": "e6a8c22205820bbbe9ce1e201c1e8f629f787c10342c7a75ee1d93596ac585a3"
+  },
+  {
+    "file": "data/scene/Gorodok/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/gorodok/3d/trees.json",
+    "bytes": 25672,
+    "same": true,
+    "remoteHash": "f4c6c9320c26e64eb01edb8b31505325b371c5d8d0646dd589ca3303d7db3903"
+  },
+  {
+    "file": "data/scene/Gorodok/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/gorodok/3d/props.bin",
+    "bytes": 19627856,
+    "same": true,
+    "remoteHash": "64b24abd01c4b61ee161c89cf456487928e3e3ce3ae6f8d8214efae5c8d4cb93"
+  },
+  {
+    "file": "data/scene/Kokan/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/kokan/3d/trees.bin",
+    "bytes": 1050476,
+    "same": true,
+    "remoteHash": "a82bd939a1a1e4aa9d5179dcf772c3adfed0f58b3b403cfee7d30c4b48d7f909"
+  },
+  {
+    "file": "data/scene/Kokan/props.json",
+    "url": "https://squadcalc.app/api/img/maps/kokan/3d/props.json",
+    "bytes": 445523,
+    "same": true,
+    "remoteHash": "a0d280422c4a017512385ad044b27799c34a9698079e3a2c6fdd01bb050c2245"
+  },
+  {
+    "file": "data/scene/Kokan/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/kokan/3d/trees.json",
+    "bytes": 9120,
+    "same": true,
+    "remoteHash": "cf42a505110d1324990bf707e94b9e487f9a534b220143dd508e927ad686311e"
+  },
+  {
+    "file": "data/scene/Kokan/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/kokan/3d/props.bin",
+    "bytes": 11345428,
+    "same": true,
+    "remoteHash": "b4bbbdc21376607de6656b884a2320601ee5e03f7e2ea2a0ea72b1994f704b4e"
+  },
+  {
+    "file": "data/scene/Kohat/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/kohat/3d/props.bin",
+    "bytes": 7032984,
+    "same": true,
+    "remoteHash": "b04fd51b75481ab59c4a8bedfb26edccc373e6f3e342a8d4cd5ea7cef9944b63"
+  },
+  {
+    "file": "data/scene/Kohat/props.json",
+    "url": "https://squadcalc.app/api/img/maps/kohat/3d/props.json",
+    "bytes": 202320,
+    "same": true,
+    "remoteHash": "9b45d58fba0e81fc2799d1274a60ef888ae740cbd96a9da087bd07e3255176d6"
+  },
+  {
+    "file": "data/scene/Kohat/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/kohat/3d/trees.json",
+    "bytes": 8520,
+    "same": true,
+    "remoteHash": "5978ad5ccf9fab6b66724c199e9c45e64cec1af730650df759ab13d1998e799e"
+  },
+  {
+    "file": "data/scene/Kohat/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/kohat/3d/trees.bin",
+    "bytes": 2917700,
+    "same": true,
+    "remoteHash": "38e12d2f038a0e8236e6aa69b61613d2d7133dd27c25db3bfa75d48bc5838b15"
+  },
+  {
+    "file": "data/scene/Lashkar/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/lashkar/3d/trees.bin",
+    "bytes": 6277160,
+    "same": true,
+    "remoteHash": "2143fc044c9ce28528e776e71ae65672906fd90e0b66debb98499dbe1e785bcc"
+  },
+  {
+    "file": "data/scene/Lashkar/props.json",
+    "url": "https://squadcalc.app/api/img/maps/lashkar/3d/props.json",
+    "bytes": 317510,
+    "same": true,
+    "remoteHash": "d51c392455fd9c2f353e585e63bbbe6ebfb0477a8fa6632aa8b5dfac84d5cca8"
+  },
+  {
+    "file": "data/scene/Lashkar/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/lashkar/3d/trees.json",
+    "bytes": 18136,
+    "same": true,
+    "remoteHash": "8cee7516da2f3187d2c34b7eb830e2f699ffde66a1dd70d86445ff85e8f02cd1"
+  },
+  {
+    "file": "data/scene/Lashkar/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/lashkar/3d/props.bin",
+    "bytes": 11481656,
+    "same": true,
+    "remoteHash": "1a351ae5134cc7db1e2d5324a9c6f36fe6a1d17b06e1f68b5fbdda8756925775"
+  },
+  {
+    "file": "data/scene/Mestia/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/mestia/3d/trees.bin",
+    "bytes": 1585680,
+    "same": true,
+    "remoteHash": "9e84b6552ef1c6088bf4c224362d460f5a7c78d7914195e90d74afd8d68581fb"
+  },
+  {
+    "file": "data/scene/Mestia/props.json",
+    "url": "https://squadcalc.app/api/img/maps/mestia/3d/props.json",
+    "bytes": 53049,
+    "same": true,
+    "remoteHash": "7b666cb5c9846e629ba82251b2169b958f1643f690de9be089ded36ea2445528"
+  },
+  {
+    "file": "data/scene/Mestia/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/mestia/3d/trees.json",
+    "bytes": 8845,
+    "same": true,
+    "remoteHash": "aed3d08b871b36307765d92291649a7bd79ba49e86cef981bc3ba00337e6a861"
+  },
+  {
+    "file": "data/scene/Mestia/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/mestia/3d/props.bin",
+    "bytes": 4562132,
+    "same": true,
+    "remoteHash": "bf5495f3b5fe673e4124f4d908cb6553a6eab8988356b9852926b9bcb7d79958"
+  },
+  {
+    "file": "data/scene/Mutaha/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/mutaha/3d/trees.bin",
+    "bytes": 1712364,
+    "same": true,
+    "remoteHash": "340aeb80ef11b2d8e6801205b31022baeed62d3459caf1e9f23e3a0acdfb0329"
+  },
+  {
+    "file": "data/scene/Mutaha/props.json",
+    "url": "https://squadcalc.app/api/img/maps/mutaha/3d/props.json",
+    "bytes": 172431,
+    "same": true,
+    "remoteHash": "bb2a7d442e335853929d0ed771a4252f009321671849d4b4f3a6a5afaadc445c"
+  },
+  {
+    "file": "data/scene/Mutaha/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/mutaha/3d/trees.json",
+    "bytes": 22568,
+    "same": true,
+    "remoteHash": "a62e304ed49a5a8a6a530d92ec33a56061bd2d4c914c8a42b9da6375facf2a45"
+  },
+  {
+    "file": "data/scene/Mutaha/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/mutaha/3d/props.bin",
+    "bytes": 5870320,
+    "same": true,
+    "remoteHash": "cf54106a7e17fd258a915b1e4e26f36ee081a0891b8170771da5570567653fd8"
+  },
+  {
+    "file": "data/scene/Logar/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/logar/3d/trees.bin",
+    "bytes": 1188988,
+    "same": true,
+    "remoteHash": "a2f2a9e57ea9967846c23e3751d992c2245bd79cd81f776c3ef79ed5a056b903"
+  },
+  {
+    "file": "data/scene/Logar/props.json",
+    "url": "https://squadcalc.app/api/img/maps/logar/3d/props.json",
+    "bytes": 251352,
+    "same": true,
+    "remoteHash": "5fd060634d016bf49b23199e959c11f46fcad2a50dcf1f4aea0c7da6045df78f"
+  },
+  {
+    "file": "data/scene/Logar/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/logar/3d/trees.json",
+    "bytes": 7142,
+    "same": true,
+    "remoteHash": "51351042f15e84587f05f79a1344f14025c3184735d130603399e869b56df50c"
+  },
+  {
+    "file": "data/scene/PacificProvingGrounds/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/pacific/3d/props.bin",
+    "bytes": 2171096,
+    "same": true,
+    "remoteHash": "166ed5d22f461c4665408fc41f7695ac78a4b5848b52e31b91868824b97475dc"
+  },
+  {
+    "file": "data/scene/Logar/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/logar/3d/props.bin",
+    "bytes": 9748308,
+    "same": true,
+    "remoteHash": "2afbf7697ef8423978262282b441714039449e6be7552e4efacba15fea0b01cf"
+  },
+  {
+    "file": "data/scene/PacificProvingGrounds/props.json",
+    "url": "https://squadcalc.app/api/img/maps/pacific/3d/props.json",
+    "bytes": 62175,
+    "same": true,
+    "remoteHash": "745cc3e0c92825edf6d9687545f45cf4d2de8ddb2d66fa311164087087041ce5"
+  },
+  {
+    "file": "data/scene/PacificProvingGrounds/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/pacific/3d/trees.bin",
+    "bytes": 1127456,
+    "same": true,
+    "remoteHash": "dd12ffcf5f7ea7b07937309477a4114c0d2f6f5544adc75be64becb278e961b6"
+  },
+  {
+    "file": "data/scene/PacificProvingGrounds/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/pacific/3d/trees.json",
+    "bytes": 2679,
+    "same": true,
+    "remoteHash": "e9a876c3d4da02f906810265594a5d11fd17654f6a27d9a46eeeeca7b3befbd2"
+  },
+  {
+    "file": "data/scene/Manicouagan/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/manicouagan/3d/trees.bin",
+    "bytes": 7594420,
+    "same": true,
+    "remoteHash": "c2e61a910e55e42029d9e45ab2a0f9e6cb82d3c073b75b1c803ff16f5230b082"
+  },
+  {
+    "file": "data/scene/Manicouagan/props.json",
+    "url": "https://squadcalc.app/api/img/maps/manicouagan/3d/props.json",
+    "bytes": 1030180,
+    "same": true,
+    "remoteHash": "30fd0555cd9bbd190710bd80843cb19392c8552252d08f89b609fb207f5b23f7"
+  },
+  {
+    "file": "data/scene/Manicouagan/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/manicouagan/3d/trees.json",
+    "bytes": 36724,
+    "same": true,
+    "remoteHash": "1964d0ad410a00b047a355c7a6c38b71a33c033075bb2f943ee5bcc4ead35014"
+  },
+  {
+    "file": "data/scene/Manicouagan/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/manicouagan/3d/props.bin",
+    "bytes": 30811508,
+    "same": true,
+    "remoteHash": "8b64ec8e1c8a8fe084846049a96e87c0dc417effcfd7113a3399e88b2b9ea142"
+  },
+  {
+    "file": "data/scene/Narva/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/narva/3d/trees.bin",
+    "bytes": 2327240,
+    "same": true,
+    "remoteHash": "9e4c124f08f913d491fb659d44abb2037a590638363a151941e125922e9dba35"
+  },
+  {
+    "file": "data/scene/Narva/props.json",
+    "url": "https://squadcalc.app/api/img/maps/narva/3d/props.json",
+    "bytes": 964810,
+    "same": true,
+    "remoteHash": "1e93e6fea3f1d8d783a2120562f87da149cf8006b73dec1dbf94948247701f93"
+  },
+  {
+    "file": "data/scene/Narva/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/narva/3d/trees.json",
+    "bytes": 50083,
+    "same": true,
+    "remoteHash": "73506806539f17885a2b1602cf50f941c3dd041cfedc33cf750d7f0969c6ed72"
+  },
+  {
+    "file": "data/scene/Skorpo/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/skorpo/3d/props.bin",
+    "bytes": 10881512,
+    "same": true,
+    "remoteHash": "56810a0c940519acfb42d474bcfa8e5a75b7f534426c145dcac11c5dd594c78b"
+  },
+  {
+    "file": "data/scene/Skorpo/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/skorpo/3d/trees.bin",
+    "bytes": 7742712,
+    "same": true,
+    "remoteHash": "4854d71e3301d7d5132a9b8e59b963312abac1f664e651e393b0dc58bf9ca224"
+  },
+  {
+    "file": "data/scene/Skorpo/props.json",
+    "url": "https://squadcalc.app/api/img/maps/skorpo/3d/props.json",
+    "bytes": 398640,
+    "same": true,
+    "remoteHash": "f85bfdbc6338292b16971172f9ed6b60ac64d756f90a0e95a56cf0a8fccfb4b7"
+  },
+  {
+    "file": "data/scene/Skorpo/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/skorpo/3d/trees.json",
+    "bytes": 43449,
+    "same": true,
+    "remoteHash": "009d6724fd61cf3a531a1b9ebfd4351be77e25b7889c1b8166f17b3dcb3c121f"
+  },
+  {
+    "file": "data/scene/Narva/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/narva/3d/props.bin",
+    "bytes": 34683500,
+    "same": true,
+    "remoteHash": "fa24b7c56daa3609fe7964543422d32c8d348da8edbcc628930b65dfa0f6cad5"
+  },
+  {
+    "file": "data/scene/Sumari/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/sumari/3d/trees.bin",
+    "bytes": 836428,
+    "same": true,
+    "remoteHash": "e6cb0849bdf53d393d3fae88ec252ccdeb2d1b3e1fff9a2f936f2954777a0ae4"
+  },
+  {
+    "file": "data/scene/Sumari/props.json",
+    "url": "https://squadcalc.app/api/img/maps/sumari/3d/props.json",
+    "bytes": 1086033,
+    "same": true,
+    "remoteHash": "b50134c05151e92185a698ad26236999185346e1db776d2d363dfbfa4477ce1e"
+  },
+  {
+    "file": "data/scene/Sumari/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/sumari/3d/trees.json",
+    "bytes": 10857,
+    "same": true,
+    "remoteHash": "c35ed23a1257317c40794c330d3f4561a96d238cf067318b889413e9f1ea0a93"
+  },
+  {
+    "file": "data/scene/Sumari/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/sumari/3d/props.bin",
+    "bytes": 28057036,
+    "same": true,
+    "remoteHash": "d9ba06829785fa3bbc79d0078713f3cfc1eca8b2d25da2790789152f8779525c"
+  },
+  {
+    "file": "data/scene/Sanxian_Islands/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/sanxian/3d/trees.bin",
+    "bytes": 3233700,
+    "same": true,
+    "remoteHash": "a7c9559f8317e8567a98cb363e8cd93179c6411e90f8d8acb19d3fdd38c4502e"
+  },
+  {
+    "file": "data/scene/Sanxian_Islands/props.json",
+    "url": "https://squadcalc.app/api/img/maps/sanxian/3d/props.json",
+    "bytes": 289537,
+    "same": true,
+    "remoteHash": "3df61b4902d8fe7f3511dcc52be3eb8b58580c0b83e39bf5b2d416142c8768d9"
+  },
+  {
+    "file": "data/scene/Sanxian_Islands/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/sanxian/3d/trees.json",
+    "bytes": 20103,
+    "same": true,
+    "remoteHash": "7a5a377765950d3ee6166fbf7832335088373f61eac6790d5635c21f6a4712e7"
+  },
+  {
+    "file": "data/scene/Tallil/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/tallil/3d/props.bin",
+    "bytes": 8633400,
+    "same": true,
+    "remoteHash": "36dcfe775a0160f269ad29f93ab4907a0ab6601a8a022e8075e45384c684b0e3"
+  },
+  {
+    "file": "data/scene/Sanxian_Islands/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/sanxian/3d/props.bin",
+    "bytes": 17215948,
+    "same": true,
+    "remoteHash": "b47de93e0f390cf8244ca16bacd7977f6599dca5d027cae4390f1e74da43e1bd"
+  },
+  {
+    "file": "data/scene/Tallil/props.json",
+    "url": "https://squadcalc.app/api/img/maps/tallil/3d/props.json",
+    "bytes": 365411,
+    "same": true,
+    "remoteHash": "46f0481028b1c7ad0fa24e8d881c05f2ace9ab20c3d4b799f9887f68fc6a225b"
+  },
+  {
+    "file": "data/scene/Tallil/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/tallil/3d/trees.json",
+    "bytes": 30041,
+    "same": true,
+    "remoteHash": "0d04d0a571d1a491ddd2914edc634374cdaa8be287b249f3875b5978d4aa3e29"
+  },
+  {
+    "file": "data/scene/Tallil/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/tallil/3d/trees.bin",
+    "bytes": 1225424,
+    "same": true,
+    "remoteHash": "48fda10941cde95dec248aeaff5eab7762c7e854ed2796fce8ffec9f0b3f3d2e"
+  },
+  {
+    "file": "data/scene/Yehorivka/trees.bin",
+    "url": "https://squadcalc.app/api/img/maps/yehorivka/3d/trees.bin",
+    "bytes": 5912544,
+    "same": true,
+    "remoteHash": "ed2082dd546182c4184b13f631e8ed21aeca8d8b6db48f3ddcbd23cef9294635"
+  },
+  {
+    "file": "data/scene/Yehorivka/props.json",
+    "url": "https://squadcalc.app/api/img/maps/yehorivka/3d/props.json",
+    "bytes": 633866,
+    "same": true,
+    "remoteHash": "aa6736ae06e1a3e2511e9df6e147db5c80dbcc19a6d6baf8f94facb58544717f"
+  },
+  {
+    "file": "data/scene/Yehorivka/trees.json",
+    "url": "https://squadcalc.app/api/img/maps/yehorivka/3d/trees.json",
+    "bytes": 24497,
+    "same": true,
+    "remoteHash": "4886c5dff86b301ae2c1cacdc164e5877d898c8a131e87ca7f74eceb6112599c"
+  },
+  {
+    "file": "data/scene/Yehorivka/props.bin",
+    "url": "https://squadcalc.app/api/img/maps/yehorivka/3d/props.bin",
+    "bytes": 10869292,
+    "same": true,
+    "remoteHash": "3f420f4af7a60ea21bfd021a3e2d561333f975224426cb994bf503a6535b9bca"
+  }
+]

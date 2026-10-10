@@ -16,4 +16,10 @@ assert.equal(corner.bounds.left,0);assert.equal(corner.bounds.top,0);assert.ok(c
 assert.throws(()=>terrainSight(data,origin,{radius:Infinity}));
 assert.throws(()=>terrainSight(data,origin,{eye:-1}));
 assert.throws(()=>terrainSight(data,{x:2,y:0}));
+// An inclined plane has no intervening terrain: every ground sample must be visible.
+const plane={...data,values:Array.from({length:10201},(_,i)=>Math.floor(i/101)*1.3+(i%101)*-.7)};
+for(const p of [{x:.01,y:.99},{x:.5,y:.5},{x:.99,y:.01}]){const r=terrainSight(plane,p,{radius:700,eye:.1,size:41});assert.equal(r.visible,r.total,'unobstructed tilted plane');}
+// Analytic tall vertical ridge: a ground target beyond it is occluded at low eye height.
+const fence={...data,values:Array.from({length:10201},(_,i)=>i%101===50?100:0)};
+for(const p of [{x:.25,y:.3},{x:.75,y:.7}]){const r=terrainSight(fence,p,{radius:700,eye:1.7,size:51});assert.equal(at(r,1-p.x,p.y),2);assert.equal(at(r,p.x,p.y),1);}
 console.log('Sight: flat plane, ridge occlusion, eye height, bounds and invalid inputs PASS');

@@ -1,6 +1,7 @@
+import {squadSymbol} from './squad-visuals.js';
 import {paletteFor,mapImageFilter,annotationAppearance} from './accessibility.js';
 /* ZeroZone private tactical planning canvas. Leaflet 1.9.4 (BSD-2-Clause). */
-import { DRAW_TOOLS, cleanStyle, cleanMortarSettings, normalizeAnnotations, SYMBOLS } from './planning-model.js';
+import { DRAW_TOOLS, cleanStyle, cleanMortarSettings, normalizeAnnotations, SYMBOLS, fobRadii } from './planning-model.js';
 const STYLE_ID = 'zz-tactical-map-styles';
 const ACCENT = '#b5e8fa';
 const TOOLS = new Set(['pan', ...DRAW_TOOLS]);
@@ -533,16 +534,16 @@ export class TacticalMap {
       }
       if (item.tool === 'pin') {
         pinIndex++;
-        const glyphs={fob:'⌂',rally:'⚑',infantry:'Ⅰ',vehicle:'▰',support:'＋',mine:'×',repair:'⚒',mortar:'⌖',hmg:'HMG'};
-        const svg=style.symbol==='pin'?`<svg class="zz-pin" viewBox="0 0 27 34" aria-hidden="true"><path d="M13.5 33S1 21 1 13.5a12.5 12.5 0 1 1 25 0C26 21 13.5 33 13.5 33Z" fill="${colour}" stroke="#101619" stroke-width="2"/><circle cx="13.5" cy="13" r="4" fill="#14242c"/></svg>`:`<div class="zz-hab" style="color:${colour};border-color:${colour};font-size:${style.symbol==='hmg'?10:19}px">${glyphs[style.symbol]}</div>`;
+        const svg=style.symbol==='pin'?`<svg class="zz-pin" viewBox="0 0 27 34" aria-hidden="true"><path d="M13.5 33S1 21 1 13.5a12.5 12.5 0 1 1 25 0C26 21 13.5 33 13.5 33Z" fill="${colour}" stroke="#101619" stroke-width="2"/><circle cx="13.5" cy="13" r="4" fill="#14242c"/></svg>`:squadSymbol(style.symbol,colour);
         selectable(L.marker(latA, { icon: this._icon(svg), title:item.label||SYMBOLS[style.symbol] }));
         if (this.overlays.labels) this._label(a, escapeHTML(item.label || `İşaret ${pinIndex}`));
       } else if (item.tool === 'hab') {
-        selectable(L.marker(latA, { icon: this._icon(`<div class="zz-hab" style="color:${colour};border-color:${colour}">⌂</div>`),title:item.label||'HAB' }));
-        if (this.overlays.labels) this._label(a, escapeHTML(item.label || 'HAB') + '<br><span style="opacity:.7">Plan: 150 / 400 m</span>');
+        const radii=fobRadii(this.config.id);
+        selectable(L.marker(latA, { icon: this._icon(squadSymbol('hab',colour)),title:item.label||'HAB' }));
+        if (this.overlays.labels) this._label(a, escapeHTML(item.label || 'HAB') + `<br><span style="opacity:.7">FOB telsizi: ${radii.build} / ${radii.exclusion} m</span>`);
         if (this.overlays.ranges) {
-          L.circle(latA, { pane: 'zz-ranges', radius: 400, color: paletteFor(this.colorMode).flight, weight: 1.5, opacity: 0.7, dashArray: '6 6', fillColor: paletteFor(this.colorMode).flight, fillOpacity: 0.035, interactive: false }).addTo(this.rangeLayer);
-          L.circle(latA, { pane: 'zz-ranges', radius: 150, color: paletteFor(this.colorMode).ground, weight: 1.5, opacity: 0.8, fillColor: paletteFor(this.colorMode).ground, fillOpacity: 0.10, interactive: false }).addTo(this.rangeLayer);
+          L.circle(latA, { pane: 'zz-ranges', radius: radii.exclusion, color: paletteFor(this.colorMode).flight, weight: 1.5, opacity: 0.7, dashArray: '6 6', fillColor: paletteFor(this.colorMode).flight, fillOpacity: 0.035, interactive: false }).addTo(this.rangeLayer);
+          L.circle(latA, { pane: 'zz-ranges', radius: radii.build, color: paletteFor(this.colorMode).ground, weight: 1.5, opacity: 0.8, fillColor: paletteFor(this.colorMode).ground, fillOpacity: 0.10, interactive: false }).addTo(this.rangeLayer);
         }
       } else if (b) {
         const geometry = this._geometry(a, b);
@@ -555,7 +556,7 @@ export class TacticalMap {
         } else {
           L.circleMarker(latB, { radius: 5, color, weight: 2, fillColor: '#172129', fillOpacity: 1, interactive: false }).addTo(this.annotationLayer);
         }
-        if (item.tool === 'mortar') L.marker(latA, { icon: this._icon('<div class="zz-mortar">⌖</div>'), interactive: false, keyboard: false }).addTo(this.annotationLayer);
+        if (item.tool === 'mortar') L.marker(latA, { icon: this._icon(squadSymbol(({grad:'grad',hell:'hell',m121:'m121',m121_air:'m121'})[item.mortar?.weapon]||'mortar',color)), interactive: false, keyboard: false }).addTo(this.annotationLayer);
         else L.circleMarker(latA, { radius: 3.5, color, weight: 2, fillColor: '#172129', fillOpacity: 1, interactive: false }).addTo(this.annotationLayer);
         if (this.overlays.labels) {
           const mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };

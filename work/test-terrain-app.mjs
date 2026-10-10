@@ -5,7 +5,8 @@ import assert from 'node:assert/strict';
 import {webcrypto} from 'node:crypto';
 const root=path.resolve('outputs/zerozone-haritalar'),storage=new Map(),nodes=new Map(),errors=[];
 const node=()=>({value:'',dataset:{},style:{setProperty(){}},classList:{add(){},remove(){},toggle(){}},querySelector(){return node()},setAttribute(){},addEventListener(){},append(){},insertAdjacentHTML(){},focus(){},close(){},showModal(){}});
-const document={querySelector(s){if(!nodes.has(s))nodes.set(s,node());return nodes.get(s);},querySelectorAll(){return [];},createElement:node,body:node(),addEventListener(){}};
+const handlers={};
+const document={querySelector(s){if(!nodes.has(s))nodes.set(s,node());return nodes.get(s);},querySelectorAll(){return [];},createElement:node,body:node(),addEventListener(k,fn){(handlers[k]??=[]).push(fn);}};
 const context=vm.createContext({document,console:{...console,error:e=>errors.push(e)},localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)},location:{href:'http://127.0.0.1:4173/haritalar?map=Gorodok&layer=Gorodok_AAS_v1',search:'?map=Gorodok&layer=Gorodok_AAS_v1'},history:{replaceState(){}},URL,URLSearchParams,crypto:webcrypto,Blob,setInterval:()=>0,setTimeout:()=>0,clearTimeout(){},fetch:async url=>({ok:true,json:async()=>JSON.parse(await fs.readFile(path.join(root,url),'utf8'))})});
 const modules=new Map();
 async function load(file){
@@ -53,3 +54,11 @@ await api.actions['restore-import']();assert.equal(api.workspaceBackup().timerPi
 const legacyPins=structuredClone(pinned);delete legacyPins.timerPins;await api.importWorkspace(legacyPins);
 assert.equal(api.workspaceBackup().timerPins.length,1,'old backups preserve existing pin preferences');
 console.log('PASS: pinned timer full backup, cross-layer rollback, invalid pins rejected before mutation, legacy preferences preserved.');
+api.setTool('mortar');
+assert.doesNotMatch(nodes.get('#tools-content').innerHTML,/id="terrain-sight"/,'sight is no longer inside mortar panel');
+assert.match(nodes.get('#side-content').innerHTML,/data-tools-mode="sight"/,'dedicated sight tab exists');
+for(const fn of handlers.click||[])await fn({target:{closest:s=>s==='button'?{dataset:{toolsMode:'sight'},hasAttribute:()=>false}:null},preventDefault(){}});
+await new Promise(r=>setImmediate(r));
+assert.match(nodes.get('#tools-content').innerHTML,/id="sight-panel"/);
+api.setTab('teams');assert.match(nodes.get('#side-content').innerHTML,/vehicle-photo/,'team inventory renders vehicle photographs');
+console.log('PASS: standalone sight routing and inventory artwork (DOM substitutes).');

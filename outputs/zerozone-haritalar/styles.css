@@ -113,3 +113,18 @@ body.colorblind .region-toggle input,body.colorblind .region-row input{accent-co
 body.colorblind :is(.search-field:focus-within,.map-card:hover,.map-card.chosen,[data-terrain-fly][aria-pressed=true]){border-color:var(--cb-team1)}
 body.colorblind .library-filters button[aria-pressed=true]{border-color:var(--cb-team1)}
 body.colorblind .terrain-dialog canvas:focus-visible{outline-color:var(--cb-team1)}
+/* Squad SDK silhouettes and vehicle artwork; text remains the primary identifier. */
+.vehicle-visual{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;background:#11191c;border-radius:8px;overflow:hidden}
+.vehicle-visual img{display:block;width:100%;height:110px;object-fit:contain}
+.vehicle-card .vehicle-visual{margin-bottom:8px}
+.vehicle-class-icon img{width:64px;height:78px;object-fit:contain}
+.vehicle-class-icon{gap:12px;min-height:78px}
+.vehicle-class-icon small{color:var(--muted)}
+.build-row:has(.vehicle-visual){display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:8px}
+.build-row .vehicle-visual img{width:64px;height:52px}
+.build-row .vehicle-visual small{display:none}
+.zz-squad-symbol{display:grid;place-items:center;width:34px;height:34px;border:2px solid var(--symbol-color);border-radius:7px;background:#14242deb;box-shadow:0 2px 7px #0009;transform:translate(-50%,-50%)}
+.zz-squad-symbol img{display:block;width:29px;height:29px;object-fit:contain;filter:grayscale(1) brightness(1.7);pointer-events:none}
+body.colorblind .vehicle-visual img{filter:var(--map-image-filter,none)}
+.timer-row .vehicle-visual{max-height:84px;margin-bottom:8px}
+.timer-row .vehicle-visual img{height:84px}

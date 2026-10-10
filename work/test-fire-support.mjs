@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {WEAPONS,solveWeapon,gridPoint,spreadEstimate,spreadPolygon} from '../outputs/zerozone-haritalar/fire-support.js';
+import {WEAPONS,elevationText,solveWeapon,gridPoint,spreadEstimate,spreadPolygon} from '../outputs/zerozone-haritalar/fire-support.js';
 import {analyzeLine} from '../outputs/zerozone-haritalar/terrain-model.js';
 import {cleanMortarSettings,normalizeAnnotations} from '../outputs/zerozone-haritalar/planning-model.js';
 import {TacticalMap} from '../outputs/zerozone-haritalar/map-engine.js';
@@ -22,4 +22,7 @@ const data={cols:2,rows:2,widthMeters:2000,heightMeters:2000,values:[0,0,0,0]};
 const a=analyzeLine(data,{x:.2,y:.6},{x:.4,y:.3},2000,2000);const spread=spreadEstimate(a);assert.ok(spread.along>0&&spread.across>0);assert.equal(spreadPolygon(a,2000,2000).length,64);assert.ok(spreadPolygon(a,2000,2000).every(p=>Number.isFinite(p.x)&&Number.isFinite(p.y)));
 assert.equal(spreadEstimate({...a,solution:null}),null);
 console.log('PASS:',cases,'weapon/arc/height trajectories, error',maxError,'m; live reference result, grid roundtrips/bounds, settings persistence, spread geometry. Numerical validation, not in-game calibration.');
+assert.equal(elevationText({mil:1600,degrees:90},WEAPONS.mortar),'1600 milyem');
+assert.equal(elevationText({mil:800,degrees:45},WEAPONS.grad),'45.0°');
+assert.equal(elevationText(null,WEAPONS.mortar),'—');
 

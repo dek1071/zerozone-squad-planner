@@ -1,0 +1,1553 @@
+{
+  "commit": "24828d6d3081c7ce52b10ef39ec86036ebf010b5",
+  "checkedAt": "2026-10-10T07:09:15.904Z",
+  "files": [
+    {
+      "file": "assets/squad/icons/deployable_ammocrate.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/deployables/deployable_ammocrate.webp",
+      "sha256": "82f96de8ceec37bcd97223e70d0f175e05cadc4ecd91b2eb7b26f81221ed1fa7",
+      "bytes": 2192
+    },
+    {
+      "file": "assets/squad/icons/deployable_fob.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/deployables/deployable_fob.webp",
+      "sha256": "2e4853b3af39de29cea9561cd99a3ea7a742e8bd7e0be97dd1143fc648777934",
+      "bytes": 968
+    },
+    {
+      "file": "assets/squad/icons/deployable_hab.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/deployables/deployable_hab.webp",
+      "sha256": "0808d4cf32f283ca9051315a16879d8174e34e0673f2b04951d690c31d142217",
+      "bytes": 850
+    },
+    {
+      "file": "assets/squad/icons/deployable_hellcannon.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/deployables/deployable_hellcannon.webp",
+      "sha256": "d5a93ebc7e7b046c8262538bec6fea879991bef7b66d20a70b694db09b6c4058",
+      "bytes": 1734
+    },
+    {
+      "file": "assets/squad/icons/deployable_HMG.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/deployables/deployable_HMG.webp",
+      "sha256": "60ab6d34e1ebb487d3ec8a8832ea3057e3d836a01f42222592a0a05f8f9b980e",
+      "bytes": 1556
+    },
+    {
+      "file": "assets/squad/icons/deployable_mortars.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/deployables/deployable_mortars.webp",
+      "sha256": "3019f347f1e177ab84c37a92af232c46e36d57820b2e643a07eb8fd7004507c8",
+      "bytes": 1310
+    },
+    {
+      "file": "assets/squad/icons/deployable_repairstation.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/deployables/deployable_repairstation.webp",
+      "sha256": "fdbfe76bb583834298db6b664986b13a037357c1cb8c6b309a02015891d8eded",
+      "bytes": 2260
+    },
+    {
+      "file": "assets/squad/icons/map_antiair.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_antiair.webp",
+      "sha256": "f3ef8de825a250c74871b8c2d1d28a5e6916dc9ccdb42571fee0eb322bfa4d83",
+      "bytes": 874
+    },
+    {
+      "file": "assets/squad/icons/map_apc.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_apc.webp",
+      "sha256": "efea3d241b8395e83f661d150c2f53798d889f057f2962f7adf705c55d572e17",
+      "bytes": 1166
+    },
+    {
+      "file": "assets/squad/icons/map_attackhelo.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_attackhelo.webp",
+      "sha256": "b9a247207f1842ccb00857bd23191da47c52b8fb754a323fa6b7342554e6081c",
+      "bytes": 2018
+    },
+    {
+      "file": "assets/squad/icons/map_boat.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_boat.webp",
+      "sha256": "b547f09b0804aa7a899235ff692463b022d3773931b21bf62e75774abc1409ec",
+      "bytes": 934
+    },
+    {
+      "file": "assets/squad/icons/map_genericinfantry.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/infantry/map_genericinfantry.webp",
+      "sha256": "d25ec5e4530a4b0d15d1ba4e1de1e37d38e4cd1ce6f0af4b1ef86de450a174d2",
+      "bytes": 1250
+    },
+    {
+      "file": "assets/squad/icons/map_ifv.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_ifv.webp",
+      "sha256": "08f0d496f29ef83ca7601c027f5329fe4fc567f6732df0c4f8166dbe2b68193e",
+      "bytes": 1030
+    },
+    {
+      "file": "assets/squad/icons/map_jeep_antitank.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_jeep_antitank.webp",
+      "sha256": "eb52b8463bda2ec2053acaa954b444a82cbda0ff2f260ad7326bf2e826c0549a",
+      "bytes": 680
+    },
+    {
+      "file": "assets/squad/icons/map_jeep_artillery.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_jeep_artillery.webp",
+      "sha256": "252bbe868a62ca35f270fefec57f762f0314d1585b98280cc231b50d76efb4a9",
+      "bytes": 846
+    },
+    {
+      "file": "assets/squad/icons/map_jeep_logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_jeep_logistics.webp",
+      "sha256": "4f5fcd84a55f1c6111c4ecfbf6b413f200f871c05363341f164d9cf42d0ec0e7",
+      "bytes": 882
+    },
+    {
+      "file": "assets/squad/icons/map_jeep_transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_jeep_transport.webp",
+      "sha256": "8e0b2b12ec95af94328dfb05e11b2042cd749b9bd9cd5f9ab3c53de35d7dc4da",
+      "bytes": 632
+    },
+    {
+      "file": "assets/squad/icons/map_jeep_turret.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_jeep_turret.webp",
+      "sha256": "4bb69fcad48f3c1bb72914e5638a21f9e231a557cf0952b154198c77e6284841",
+      "bytes": 792
+    },
+    {
+      "file": "assets/squad/icons/map_jeep.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_jeep.webp",
+      "sha256": "a3f9a4f972049e3c37c45df4b05a1040000bc3ca9f7aead7e982010474571338",
+      "bytes": 732
+    },
+    {
+      "file": "assets/squad/icons/map_mine.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/deployables/map_mine.webp",
+      "sha256": "fa851a92bfadeb03be82541c8bc8f81d4c038a92fa03dc757faab3cb630b9ba0",
+      "bytes": 2938
+    },
+    {
+      "file": "assets/squad/icons/map_motorcycle.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_motorcycle.webp",
+      "sha256": "245516a934277f43f7bf3ecc8b6d43899d8881c2883208d562baec64d8329e4d",
+      "bytes": 682
+    },
+    {
+      "file": "assets/squad/icons/map_tank.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_tank.webp",
+      "sha256": "953a0f3224da7e13c426b320003d67febf07be3382a031df861b7c396cd7f31f",
+      "bytes": 876
+    },
+    {
+      "file": "assets/squad/icons/map_trackedapc.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_trackedapc.webp",
+      "sha256": "486d71fc04318f50129713efb8429bfd9f290f0016e9968d28244485b68d6f4f",
+      "bytes": 866
+    },
+    {
+      "file": "assets/squad/icons/map_trackedifv.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_trackedifv.webp",
+      "sha256": "269b3b740452817fcd2e694fa646cb61a7bf9545e9d261121ca91fd26ffa6876",
+      "bytes": 754
+    },
+    {
+      "file": "assets/squad/icons/map_trackedjeep.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_trackedjeep.webp",
+      "sha256": "18040c9fc11cec622d9ebdda6a6c759b4268f04a97a595e84d23c396a6c3aeb6",
+      "bytes": 846
+    },
+    {
+      "file": "assets/squad/icons/map_transporthelo.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_transporthelo.webp",
+      "sha256": "c0e6ea8d65b8996548a23715a6ed38a555961f801d9aa87faf92f5d57112a337",
+      "bytes": 2288
+    },
+    {
+      "file": "assets/squad/icons/map_truck_antiair.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_truck_antiair.webp",
+      "sha256": "9facf3acee5770b0cf9d952e234ef6bbd85818628837d434ee2a4ff68e97e779",
+      "bytes": 1222
+    },
+    {
+      "file": "assets/squad/icons/map_truck_logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_truck_logistics.webp",
+      "sha256": "84df488d7468bcdf8c7dc0f7ec6f7240170a776f7217db9948b053a160235a96",
+      "bytes": 1222
+    },
+    {
+      "file": "assets/squad/icons/map_truck_transport_armed.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_truck_transport_armed.webp",
+      "sha256": "6086a732d0f93324eb8eee26ffa57a5976cf86c7e4baa5d1f05b21f709343059",
+      "bytes": 1092
+    },
+    {
+      "file": "assets/squad/icons/map_truck_transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/map_truck_transport.webp",
+      "sha256": "e868d5e09852aa5204e5ba6c74873f8a8f77555c8291ab41d236f2978c43944e",
+      "bytes": 916
+    },
+    {
+      "file": "assets/squad/icons/rallypoint.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/deployables/rallypoint.webp",
+      "sha256": "54138e79e993f4709bec4185db35277d84f557578b7f7c7d4e8d8df9c761929d",
+      "bytes": 702
+    },
+    {
+      "file": "assets/squad/icons/T_map_apc_open_turret.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_apc_open_turret.webp",
+      "sha256": "86846140334014e32199b7ebf5dc3d5f1904e54e01c50ef4653654f09778769c",
+      "bytes": 1026
+    },
+    {
+      "file": "assets/squad/icons/T_map_boat_logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_boat_logistics.webp",
+      "sha256": "f5a9585de026308e359526c507df9b328e9f74cbc1b3c2db726b1bca44fc8fea",
+      "bytes": 1214
+    },
+    {
+      "file": "assets/squad/icons/T_map_boat_openturret.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_boat_openturret.webp",
+      "sha256": "51f2d9adfd5c7b64501402cd67e0a86081ca7d13bd318dc4e841659fea165c74",
+      "bytes": 966
+    },
+    {
+      "file": "assets/squad/icons/T_map_helicopter_lightcas.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_helicopter_lightcas.webp",
+      "sha256": "87ff589d5abc68ffd35d7166b548425da8b935c4ec9706b200da522078da0067",
+      "bytes": 2318
+    },
+    {
+      "file": "assets/squad/icons/T_map_helicopter_scout.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_helicopter_scout.webp",
+      "sha256": "e7bb5e5daaedee97fe7c20124b6ec60d7499eccb4452f8fbbc5dc6ee6f09f943",
+      "bytes": 2292
+    },
+    {
+      "file": "assets/squad/icons/T_map_jeep_antiair.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_jeep_antiair.webp",
+      "sha256": "c9e7dd45d494af410fe9f161562debecc83ab94082daff7ab58871cbe2b0aca3",
+      "bytes": 892
+    },
+    {
+      "file": "assets/squad/icons/T_map_mgs.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_mgs.webp",
+      "sha256": "9359edfa8b6401a8299820d3197d72159e0095a741aec94cf5dabee089241a97",
+      "bytes": 924
+    },
+    {
+      "file": "assets/squad/icons/T_map_trackedapc_artillery.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_trackedapc_artillery.webp",
+      "sha256": "86b9d3f2272eac976ee0b271fbfdb9bc3e9049a90be0f93210aa391c83bef9a3",
+      "bytes": 890
+    },
+    {
+      "file": "assets/squad/icons/T_map_trackedapc_logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_trackedapc_logistics.webp",
+      "sha256": "a289f858d6584e9b01cce10aa941e6187afa952b9987b91998715581d279f24f",
+      "bytes": 934
+    },
+    {
+      "file": "assets/squad/icons/T_map_trackedapc_msv.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_trackedapc_msv.webp",
+      "sha256": "1bcdc0a3086b3663df302f08893705a81cedeb0a6a39414d2b6d461626bf66b2",
+      "bytes": 698
+    },
+    {
+      "file": "assets/squad/icons/T_map_trackedapc_noturret.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_trackedapc_noturret.webp",
+      "sha256": "973009d3c2e70d6eb3a651bdc183982fac31e78b3e9108afc3cc9b91e029525c",
+      "bytes": 622
+    },
+    {
+      "file": "assets/squad/icons/T_map_trackedrecon.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_trackedrecon.webp",
+      "sha256": "566aee2b601a73a4588b8ede126e442809405758eb7fa6091693b521471f56b7",
+      "bytes": 1010
+    },
+    {
+      "file": "assets/squad/icons/T_map_truck_artillery.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_truck_artillery.webp",
+      "sha256": "54e98153f2b01e40552d83e3f231682247621f3fd4906a22617de6f93c68750b",
+      "bytes": 1216
+    },
+    {
+      "file": "assets/squad/icons/T_map_wheeledrecon.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/icons/ally/vehicles/T_map_wheeledrecon.webp",
+      "sha256": "f28a9dbd0e43a552d21bd2dca2dbe933013c633aa2a895ea7fe5374c8a1671c1",
+      "bytes": 1316
+    },
+    {
+      "file": "assets/squad/vehicles/AAVC-7A1 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/AAVC-7A1 Logistics.webp",
+      "sha256": "133b1df3d9c056114a636823582660ab88176bb08ebd36f2bc249d85554e8859",
+      "bytes": 138902
+    },
+    {
+      "file": "assets/squad/vehicles/AAVP-7A1.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/AAVP-7A1.webp",
+      "sha256": "565ecc292f3d8096befa3315d3a6b9aa0d68cb837a9867b0fcaa804f1cd2f17c",
+      "bytes": 154156
+    },
+    {
+      "file": "assets/squad/vehicles/ACV-15 25mm.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ACV-15 25mm.webp",
+      "sha256": "ce00e9787e7c5005e22b723f5361c5621e11e4803d41f48574b055746cec3cf3",
+      "bytes": 31030
+    },
+    {
+      "file": "assets/squad/vehicles/ACV-15 M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ACV-15 M2.webp",
+      "sha256": "e2ae4fedd582c97374dde34a6133580563f59238a57b89f5e6ada0abf9311139",
+      "bytes": 27376
+    },
+    {
+      "file": "assets/squad/vehicles/ACV-15 MG3.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ACV-15 MG3.webp",
+      "sha256": "11141912346313a3e228fe0a18419946ae7445460db5188c93939714ba0ffebe",
+      "bytes": 31810
+    },
+    {
+      "file": "assets/squad/vehicles/ASLAV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ASLAV.webp",
+      "sha256": "319859d5d42fc260bf86c8439add0cf93eb2d5a8340b42783817e594adced5ba",
+      "bytes": 101306
+    },
+    {
+      "file": "assets/squad/vehicles/BMC-185 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMC-185 Logistics.webp",
+      "sha256": "b78fe195530094c1535ab6d103ca4176bee28aa43e1e525f8c35a2a0e4bc6191",
+      "bytes": 32412
+    },
+    {
+      "file": "assets/squad/vehicles/BMC-185 Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMC-185 Transport.webp",
+      "sha256": "aed981ec66f112311a6669c7a188e97869a8665e8f26719341f0648bc25ea6b8",
+      "bytes": 35700
+    },
+    {
+      "file": "assets/squad/vehicles/BMD-1M.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMD-1M.webp",
+      "sha256": "16f1b814b0b785685b243f5d5bb1ccc7784fe9cfba1275a110b7f71bd59d568e",
+      "bytes": 37586
+    },
+    {
+      "file": "assets/squad/vehicles/BMD-4M.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMD-4M.webp",
+      "sha256": "11f46c9deea43fedfbc9eb00e499b555f322edb34f03c0a5111f6ac3aa9a107c",
+      "bytes": 29302
+    },
+    {
+      "file": "assets/squad/vehicles/BMP-1.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMP-1.webp",
+      "sha256": "b306ce6b0cfced4c8c6beeac1f91409a7a13f1253233f50377d5c9087004b32d",
+      "bytes": 49816
+    },
+    {
+      "file": "assets/squad/vehicles/BMP-1AM.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMP-1AM.webp",
+      "sha256": "a76f70cab8f4269bd820bd2a271a051ca14f7e015c55822795b0ed498daa7949",
+      "bytes": 75018
+    },
+    {
+      "file": "assets/squad/vehicles/BMP-1TS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMP-1TS.webp",
+      "sha256": "840e36c79e7f8414cf8c38e9899e885263a406022c2d8f4d9b8a3bbe5b89468b",
+      "bytes": 83048
+    },
+    {
+      "file": "assets/squad/vehicles/BMP-2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMP-2.webp",
+      "sha256": "2dde321484863a4a580f2571c6871fa6ad019ad0025bc2e025d12f747563c40a",
+      "bytes": 48760
+    },
+    {
+      "file": "assets/squad/vehicles/BMP-2M.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMP-2M.webp",
+      "sha256": "06b9a4708ff36be85375713d03c1a8230050297bbfef784dc19908a040f4d925",
+      "bytes": 92286
+    },
+    {
+      "file": "assets/squad/vehicles/BMP-3M.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BMP-3M.webp",
+      "sha256": "cbb35d290a4a6d1432ba6a073909c0b46b8762f5d00e81859b4f414c018d1e05",
+      "bytes": 53980
+    },
+    {
+      "file": "assets/squad/vehicles/BRDM-2 Spandrel.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BRDM-2 Spandrel.webp",
+      "sha256": "5ff894c201da2d8493c678f61a85114d3af0434fe97f83dee64efe2b721c8210",
+      "bytes": 44186
+    },
+    {
+      "file": "assets/squad/vehicles/BRDM-2 UB-32.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BRDM-2 UB-32.webp",
+      "sha256": "3e118b48c781ad016828193945f8eaeee28858405736af8825c2161193841744",
+      "bytes": 20210
+    },
+    {
+      "file": "assets/squad/vehicles/BRDM-2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BRDM-2.webp",
+      "sha256": "ead86f61e97980848e8ed7ab30e327df6568d028ab8f11c1fc747f47847351a9",
+      "bytes": 77076
+    },
+    {
+      "file": "assets/squad/vehicles/BRDM-2L1.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BRDM-2L1.webp",
+      "sha256": "7a8b8ea6f70dca53acf69ee7c2f96b02d8f9e5c383b2e362680d6ce8dafd96b3",
+      "bytes": 103132
+    },
+    {
+      "file": "assets/squad/vehicles/BTR-4.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-4.webp",
+      "sha256": "07ee393e81fb7e6d15f7672ebd8eec57dbd7fa5911eb59f9bf0e1d91a98c96fd",
+      "bytes": 71658
+    },
+    {
+      "file": "assets/squad/vehicles/BTR-80.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-80.webp",
+      "sha256": "92f82655a1bff9af5b65c6c78b9aa4fad521693d10686c385fa9034de5f92364",
+      "bytes": 51082
+    },
+    {
+      "file": "assets/squad/vehicles/BTR-82A.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-82A.webp",
+      "sha256": "4e390375fd23663e4d3aa2d1ce5029723f2bfbb9d10d92bcbf45e999ce141dea",
+      "bytes": 53452
+    },
+    {
+      "file": "assets/squad/vehicles/BTR-D AGS-17.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-D AGS-17.webp",
+      "sha256": "0c220c535959683bdd6352f53ffeff7392da014c2486240e2b17e310e79d9cfa",
+      "bytes": 129434
+    },
+    {
+      "file": "assets/squad/vehicles/BTR-D Kord.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-D Kord.webp",
+      "sha256": "2550279c3fce3d8bf31ad932ebbc648ba1583a13c58c44217de3afcd5123f713",
+      "bytes": 37690
+    },
+    {
+      "file": "assets/squad/vehicles/BTR-D.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-D.webp",
+      "sha256": "1e3528155628145fd10a3cc28096d401542507f0905c84abe9ae97a96b04fab8",
+      "bytes": 36038
+    },
+    {
+      "file": "assets/squad/vehicles/BTR-DG Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-DG Logistics.webp",
+      "sha256": "29863e351694430035d336c37892541cb1cf8cd3c8321808e22b31b0b8d99894",
+      "bytes": 32356
+    },
+    {
+      "file": "assets/squad/vehicles/BTR-MDM.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-MDM.webp",
+      "sha256": "d870d3b0ce51b9cc9b0f1448ac58312d0680fff5b82180f4f4384f97bdc08d08",
+      "bytes": 24164
+    },
+    {
+      "file": "assets/squad/vehicles/BTR-ZD.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/BTR-ZD.webp",
+      "sha256": "7c5ff42a954d8cfe0147ff3f4f74af1b7081f7a528e4592160d843f1d38ddada",
+      "bytes": 41844
+    },
+    {
+      "file": "assets/squad/vehicles/CH-146 CAS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CH-146 CAS.webp",
+      "sha256": "f63f8dcb5988d279e09b1f8de211b45970e11a9799fd3885f958c3a19b6313d1",
+      "bytes": 87094
+    },
+    {
+      "file": "assets/squad/vehicles/CH-146.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CH-146.webp",
+      "sha256": "e130970d6e10ee7343c2708f5f482c08563e733727d5793054d6037736a1d68b",
+      "bytes": 20332
+    },
+    {
+      "file": "assets/squad/vehicles/Cobra II M2 RWS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Cobra II M2 RWS.webp",
+      "sha256": "11790aab14117017515aca2e7436a6b19a50363da5f5756c85cae2b908d184ea",
+      "bytes": 27796
+    },
+    {
+      "file": "assets/squad/vehicles/Cobra II M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Cobra II M2.webp",
+      "sha256": "4058dab55e9e5df226144f4f70fd6e6b5642f1cb40c78459ec6e4c13a3474c86",
+      "bytes": 32864
+    },
+    {
+      "file": "assets/squad/vehicles/Cobra II MG3.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Cobra II MG3.webp",
+      "sha256": "2ab7ba382d93a062f46af04b477c25f3a1944bbf4324eb6608555f80f09e5bd5",
+      "bytes": 30946
+    },
+    {
+      "file": "assets/squad/vehicles/Coyote.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Coyote.webp",
+      "sha256": "995e9c4fc382eb52b0e5750470278294ae9b825f24ccc88ff8d364a1e5d9e269",
+      "bytes": 54770
+    },
+    {
+      "file": "assets/squad/vehicles/CPV M134 Minigun.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CPV M134 Minigun.webp",
+      "sha256": "4318d866b63d0dfa6139d3e6f94e1dc29964eb4ff2dcf79c5b1cb101fea82e56",
+      "bytes": 49304
+    },
+    {
+      "file": "assets/squad/vehicles/CPV Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CPV Transport.webp",
+      "sha256": "e8876ab3f3badaaea0a69d51f6644075e61fd2a21517bb484a242f2bb86ab2e7",
+      "bytes": 35308
+    },
+    {
+      "file": "assets/squad/vehicles/CSK131 HJ8.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CSK131 HJ8.webp",
+      "sha256": "f18cb5ae7be4ff3df91ab8b3afaf7c4d9d2ba2fceb6858801a03bb6aa50483e7",
+      "bytes": 34640
+    },
+    {
+      "file": "assets/squad/vehicles/CSK131 QJC88 RWS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CSK131 QJC88 RWS.webp",
+      "sha256": "952f73776b85e289564a9a6cf85a66572cbacfc2ef728b7dff165e735af3438d",
+      "bytes": 33866
+    },
+    {
+      "file": "assets/squad/vehicles/CSK131 QJY88.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CSK131 QJY88.webp",
+      "sha256": "bc920e55e57b8a3afdb910ce84f69978b28ff184a94de8b0a3c0257142f39722",
+      "bytes": 40476
+    },
+    {
+      "file": "assets/squad/vehicles/CSK131 QJZ89.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CSK131 QJZ89.webp",
+      "sha256": "768cd2fc2c5aa58bc1810153a6ddf4523701fa70f868aa8bfe6780b91df2f3a7",
+      "bytes": 32476
+    },
+    {
+      "file": "assets/squad/vehicles/CSK131 QLZ87.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CSK131 QLZ87.webp",
+      "sha256": "29b0bc4912df40722ac468e0bc4bc5eebabec2fd0ae160d2a7d90ea4233e013d",
+      "bytes": 135040
+    },
+    {
+      "file": "assets/squad/vehicles/CTM131 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CTM131 Logistics.webp",
+      "sha256": "2a3200cde998abbacb5175d341fab993c2490bcb0b595d66841e26504aba259d",
+      "bytes": 36710
+    },
+    {
+      "file": "assets/squad/vehicles/CTM131 QJY88.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CTM131 QJY88.webp",
+      "sha256": "21df91f07b7d569c18e8bc57fc8cb690802480a178fdc85190e2f8d012e7f51d",
+      "bytes": 40382
+    },
+    {
+      "file": "assets/squad/vehicles/CTM131 QJZ89.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CTM131 QJZ89.webp",
+      "sha256": "56679ad787af9ff9f196fff0d0c0f66a21e673666d99c83ed4311e1dabe0355a",
+      "bytes": 31228
+    },
+    {
+      "file": "assets/squad/vehicles/CTM131 Transport QJY88.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CTM131 Transport QJY88.webp",
+      "sha256": "56679ad787af9ff9f196fff0d0c0f66a21e673666d99c83ed4311e1dabe0355a",
+      "bytes": 31228
+    },
+    {
+      "file": "assets/squad/vehicles/CTM131 Transport QJZ89.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/CTM131 Transport QJZ89.webp",
+      "sha256": "56679ad787af9ff9f196fff0d0c0f66a21e673666d99c83ed4311e1dabe0355a",
+      "bytes": 31228
+    },
+    {
+      "file": "assets/squad/vehicles/FV107.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/FV107.webp",
+      "sha256": "0010d7015d1263a90b17bc382ca8d9509f5900676e7f290dd11658cb534f744f",
+      "bytes": 116582
+    },
+    {
+      "file": "assets/squad/vehicles/FV4034.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/FV4034.webp",
+      "sha256": "622b45ccef4ae8160c2f63b8e50c810d946e608f62f4f3ded08048baff6483ca",
+      "bytes": 44136
+    },
+    {
+      "file": "assets/squad/vehicles/FV432 L11A1 RWS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/FV432 L11A1 RWS.webp",
+      "sha256": "50f01749abb41c2157678732a57f76b7ea73afe62c444783ccde8e8b9664ff21",
+      "bytes": 61728
+    },
+    {
+      "file": "assets/squad/vehicles/FV432 L11A1.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/FV432 L11A1.webp",
+      "sha256": "8edf0567e37842c1cfd204be61099835eb0354659c361646688fc7f2005b3634",
+      "bytes": 106472
+    },
+    {
+      "file": "assets/squad/vehicles/FV432 L37A2 RWS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/FV432 L37A2 RWS.webp",
+      "sha256": "7096430302305b46f59e45a1f63d0daffb0bdcf6daecfd7ee396db7964689c8a",
+      "bytes": 134976
+    },
+    {
+      "file": "assets/squad/vehicles/FV510 UA.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/FV510 UA.webp",
+      "sha256": "c61272a8d3728d79295af64a44e8c6308191af3a73807982446cf9cc3f2242eb",
+      "bytes": 49430
+    },
+    {
+      "file": "assets/squad/vehicles/FV510.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/FV510.webp",
+      "sha256": "f0e82a8c386ec65b99ceb782a38a2d55fa950c8fa1b5ba9b70af995ae582e200",
+      "bytes": 50730
+    },
+    {
+      "file": "assets/squad/vehicles/HX60 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/HX60 Logistics.webp",
+      "sha256": "034afaedc35339165c08b871c8d2274f3ff687c5fef445dd67cd96e607ac9c70",
+      "bytes": 62866
+    },
+    {
+      "file": "assets/squad/vehicles/HX60 Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/HX60 Transport.webp",
+      "sha256": "ddd045936526ce89d6d6dfe68cc96bee0f5017475b0a71ba084388420aab5cbd",
+      "bytes": 59354
+    },
+    {
+      "file": "assets/squad/vehicles/KamAZ 5350 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/KamAZ 5350 Logistics.webp",
+      "sha256": "3dfafdfca74141bdfc0c8a482e0a68656934105e4fd87847d25d218abd9eba7c",
+      "bytes": 45044
+    },
+    {
+      "file": "assets/squad/vehicles/KamAZ 5350 Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/KamAZ 5350 Transport.webp",
+      "sha256": "ee1b2085b19e700a183f06f90364e675cb0eb6dab3faf81afb71365579fb6564",
+      "bytes": 78712
+    },
+    {
+      "file": "assets/squad/vehicles/Kozak-2M1 AGS-17.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Kozak-2M1 AGS-17.webp",
+      "sha256": "649f15249ac0a4e75d7fd4c56ae113193b71944b94822e2afd6539ab031c6921",
+      "bytes": 133842
+    },
+    {
+      "file": "assets/squad/vehicles/Kozak-2M1 NSV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Kozak-2M1 NSV.webp",
+      "sha256": "bfd903d3d02ff3c798a9909c5d08c94c0da157ad8a5f3dfef9bb0cec5cc8c350",
+      "bytes": 75092
+    },
+    {
+      "file": "assets/squad/vehicles/KrAZ-6322 BM-21 Grad.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/KrAZ-6322 BM-21 Grad.webp",
+      "sha256": "30c674d67d2ae75402851e4f542e49e5ee51d9a27cd17949be08f1abee9dcf93",
+      "bytes": 84518
+    },
+    {
+      "file": "assets/squad/vehicles/KrAZ-6322 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/KrAZ-6322 Logistics.webp",
+      "sha256": "1793e1e292b3aaf8d396388afb60a8be564212c9c7d436afb0afb48b6ac17d1c",
+      "bytes": 60838
+    },
+    {
+      "file": "assets/squad/vehicles/KrAZ-6322 Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/KrAZ-6322 Transport.webp",
+      "sha256": "039f0fe4feaef41fb7a28013268d440a578ba3ab17336f398b407d05ff5408a5",
+      "bytes": 89644
+    },
+    {
+      "file": "assets/squad/vehicles/LAV 6.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LAV 6.webp",
+      "sha256": "ebfa753b0ae1f0ce0cd3cac8e9fbc8b7c30db5e99205246876c48a343da1d0cb",
+      "bytes": 58312
+    },
+    {
+      "file": "assets/squad/vehicles/LAV III C6 RWS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LAV III C6 RWS.webp",
+      "sha256": "d66547088d0fa08872c7ed3aceed3664df4f3873094b0b0ee81d15a66f6a7d46",
+      "bytes": 80324
+    },
+    {
+      "file": "assets/squad/vehicles/LAV-25.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LAV-25.webp",
+      "sha256": "94929c8b200aa4f38e56d320d712c1f35fece6b4265dfcf04a5e154348461c0d",
+      "bytes": 38302
+    },
+    {
+      "file": "assets/squad/vehicles/Leopard 2A6M CAN.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Leopard 2A6M CAN.webp",
+      "sha256": "ddb66f598abef8e4e1ca496b741d8465c817c496d972f644f5a598b258720686",
+      "bytes": 37262
+    },
+    {
+      "file": "assets/squad/vehicles/Light FSV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Light FSV.webp",
+      "sha256": "7953c7f9029a70b929d6ac7e0e4f579e642c0a48af4932db2adf32bc33abbad1",
+      "bytes": 102408
+    },
+    {
+      "file": "assets/squad/vehicles/Light Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Light Transport.webp",
+      "sha256": "06726ee15830bf596f5d08f7415e120a8d31def89df9d2d6fd4bfbf7ec6a96d2",
+      "bytes": 150938
+    },
+    {
+      "file": "assets/squad/vehicles/Loach CAS Small.png",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Loach CAS Small.webp",
+      "sha256": "71e27730ef6e30bebc7602b6168add1b6ebce210d650ea70fc73c728554e2756",
+      "bytes": 579724
+    },
+    {
+      "file": "assets/squad/vehicles/Loach Scout.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Loach Scout.webp",
+      "sha256": "64bdbfea47f484e5fc70474b72d5cd52e6619decd85c356bf03ec897126448ea",
+      "bytes": 59316
+    },
+    {
+      "file": "assets/squad/vehicles/Logistics Modern Pickup.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Logistics Modern Pickup.webp",
+      "sha256": "a36c609bf920e468abbede9ce551e4877a7a6caf244095ab4502335b9b8e562d",
+      "bytes": 86536
+    },
+    {
+      "file": "assets/squad/vehicles/Logistics Pickup Truck.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Logistics Pickup Truck.webp",
+      "sha256": "772042e59e0b209390a2f2c2b7c08219bedf145b528ae0a3072ddf0deef929e5",
+      "bytes": 63948
+    },
+    {
+      "file": "assets/squad/vehicles/LPPV RWS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LPPV RWS.webp",
+      "sha256": "98fb7435c29eb47bc56655276e0989bf1e5bd4a7ac86b15fe2235ad42ef89fa6",
+      "bytes": 70218
+    },
+    {
+      "file": "assets/squad/vehicles/LPPV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LPPV.webp",
+      "sha256": "b9c02284b5722ae4a180b4edf72b50dd9d312c3fa5b7c5773f4f32afadb467a2",
+      "bytes": 42596
+    },
+    {
+      "file": "assets/squad/vehicles/LUVW C6.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LUVW C6.webp",
+      "sha256": "f08978130712c64650620dcff6d966bbf6797be85cb4966e879dbb074eb74de9",
+      "bytes": 57326
+    },
+    {
+      "file": "assets/squad/vehicles/LUVW Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LUVW Logistics.webp",
+      "sha256": "c6bdf34cdfc91bd7ff0ca0eb7bd19f099691850d0de44a8ad6c7cf4050af2548",
+      "bytes": 52808
+    },
+    {
+      "file": "assets/squad/vehicles/LUVW M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LUVW M2.webp",
+      "sha256": "a3a43bbe33a34271e610758c2eef38258bb67f0510acbba5113916eae06f5095",
+      "bytes": 92400
+    },
+    {
+      "file": "assets/squad/vehicles/LUVW Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/LUVW Transport.webp",
+      "sha256": "f11829fca43a30d28860a28a55ecb76460a7ee7b0aec0e29003feb6d7255de34",
+      "bytes": 43778
+    },
+    {
+      "file": "assets/squad/vehicles/Lynx8x8 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Lynx8x8 Logistics.webp",
+      "sha256": "a97d992b527e2f497a8efe55719962db721744912c01d85aae520736f1d1dfbf",
+      "bytes": 65204
+    },
+    {
+      "file": "assets/squad/vehicles/Lynx8x8 QJZ89.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Lynx8x8 QJZ89.webp",
+      "sha256": "5f57165a596dfab191d98f1dae36410e77e64b92c48714d4881bc357de58a08c",
+      "bytes": 59700
+    },
+    {
+      "file": "assets/squad/vehicles/Lynx8x8 QLZ87.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Lynx8x8 QLZ87.webp",
+      "sha256": "f2dc092cb92443020f1a3467d0a8fe19c6117365798357940ea74490f8faacc9",
+      "bytes": 78124
+    },
+    {
+      "file": "assets/squad/vehicles/Lynx8x8 Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Lynx8x8 Transport.webp",
+      "sha256": "03088af50fc14769f0d7abe426ca4230627778f2cb93ad32cdf8d7796338c2d0",
+      "bytes": 103150
+    },
+    {
+      "file": "assets/squad/vehicles/M-ATV CROWS M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M-ATV CROWS M2.webp",
+      "sha256": "6cfcb9bd3cfb62a7c54ffc67940a93c085a7939a6c34199cd9ac3b25b6282c59",
+      "bytes": 91204
+    },
+    {
+      "file": "assets/squad/vehicles/M-ATV M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M-ATV M2.webp",
+      "sha256": "dd85ec42013b2ceceb2e58e19c7035a81ea7256d33ac9d83dd74f5ce787a9d43",
+      "bytes": 125900
+    },
+    {
+      "file": "assets/squad/vehicles/M-ATV M240.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M-ATV M240.webp",
+      "sha256": "360d234b0dbe19e1275342eec5fcd390ac15f5ffd65818b3c7d716dfb4b3c90b",
+      "bytes": 133002
+    },
+    {
+      "file": "assets/squad/vehicles/M-ATV Mk19.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M-ATV Mk19.webp",
+      "sha256": "815fe0f3e13e01ebdba4c7a00fa193e115cad4be5aa6c9b7ed7c7b8b7e315e09",
+      "bytes": 96884
+    },
+    {
+      "file": "assets/squad/vehicles/M-ATV TOW.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M-ATV TOW.webp",
+      "sha256": "73b8be8be7fe49accf0974adce0666fdadc4240a62f47c77c4e2f3e6ca38681d",
+      "bytes": 126372
+    },
+    {
+      "file": "assets/squad/vehicles/M1064A3 M121.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1064A3 M121.webp",
+      "sha256": "66cd4bb5bf9dc2da7b45bdc26ccc936935e25838ede7bf4ac65a4473c1062192",
+      "bytes": 128214
+    },
+    {
+      "file": "assets/squad/vehicles/M1117.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1117.webp",
+      "sha256": "1e5cf469bea5007bb4d127ddd37acf79ad722405797a979e00cea5b79e0a6485",
+      "bytes": 34272
+    },
+    {
+      "file": "assets/squad/vehicles/M1126 CROWS M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1126 CROWS M2.webp",
+      "sha256": "9a0091ad5167e5a1f68209ca006fe44d42073985cd78b8e85a488bb8bb62dbf2",
+      "bytes": 88300
+    },
+    {
+      "file": "assets/squad/vehicles/M1126 CROWS M240.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1126 CROWS M240.webp",
+      "sha256": "56a17d5d7ef054375970360038fe1d62cc6103a41cffbed6d79026dd8b8ad2d6",
+      "bytes": 75254
+    },
+    {
+      "file": "assets/squad/vehicles/M1128 MGS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1128 MGS.webp",
+      "sha256": "6667ab76e05685b6092adfb13e4d8cfdfa4172ed14b9cb11a09af1ca554d2570",
+      "bytes": 28480
+    },
+    {
+      "file": "assets/squad/vehicles/M113A2 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M113A2 Logistics.webp",
+      "sha256": "1444d252579a3c22c0964715729f368535da23eb8ed37913554505b7eb71b36c",
+      "bytes": 70972
+    },
+    {
+      "file": "assets/squad/vehicles/M113A2T M121.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M113A2T M121.webp",
+      "sha256": "66cd4bb5bf9dc2da7b45bdc26ccc936935e25838ede7bf4ac65a4473c1062192",
+      "bytes": 128214
+    },
+    {
+      "file": "assets/squad/vehicles/M113A3 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M113A3 Logistics.webp",
+      "sha256": "4fb484da6b14d1acafd2866269d0a92a91b750535c7eccedf7d930cc8a0ec4bd",
+      "bytes": 65006
+    },
+    {
+      "file": "assets/squad/vehicles/M113A3 M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M113A3 M2.webp",
+      "sha256": "c8067a427b3d8a0136a744def9cd123fece74c99334ab87756099f99c18eba84",
+      "bytes": 60546
+    },
+    {
+      "file": "assets/squad/vehicles/M113A3 Mk19.png",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M113A3 Mk19.webp",
+      "sha256": "6720d5987e2ba6c54ca13af9c726528f60f94cc271381235f5764cec7b90d26f",
+      "bytes": 629419
+    },
+    {
+      "file": "assets/squad/vehicles/M113A3 MSV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M113A3 MSV.webp",
+      "sha256": "d2c17088d8abee9a1523d4eaeeb1417d37926846347989afb2078aa164d0176e",
+      "bytes": 51042
+    },
+    {
+      "file": "assets/squad/vehicles/M113A3 TLAV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M113A3 TLAV.webp",
+      "sha256": "ffb8fb0037eb35ac40684e2c49487ffaf0e1c17318fc9f6e0393dd327e8ee64c",
+      "bytes": 42044
+    },
+    {
+      "file": "assets/squad/vehicles/M113A3.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M113A3.webp",
+      "sha256": "782dbb4ec2a4a5677ffbf1ab8cd808f16e5e16a3a4fb25505474e8180b2fe876",
+      "bytes": 115578
+    },
+    {
+      "file": "assets/squad/vehicles/M1151 CROWS M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1151 CROWS M2.webp",
+      "sha256": "b7747872fbe6df4ac7edbafa6d25494a3a116c004ab60808eb2d35e6c1f3b944",
+      "bytes": 28240
+    },
+    {
+      "file": "assets/squad/vehicles/M1151 M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1151 M2.webp",
+      "sha256": "05fd4b79e2e6752381281f3ebbe604803bfc20f63aafcb14732b46f68450b824",
+      "bytes": 24820
+    },
+    {
+      "file": "assets/squad/vehicles/M1151 M240.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1151 M240.webp",
+      "sha256": "0b94c1084c5bacef3c30d8e9a20f7286d8d92cc39a29f4eaaee48bb166a93aa9",
+      "bytes": 30688
+    },
+    {
+      "file": "assets/squad/vehicles/M1151 Mk19.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1151 Mk19.webp",
+      "sha256": "9043b48f3cfb9fa44b84fe766e65b7af445bf7425cf4ce69d7a5c392240a82ee",
+      "bytes": 49314
+    },
+    {
+      "file": "assets/squad/vehicles/M1151 Technical DSHK.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1151 Technical DSHK.webp",
+      "sha256": "5bdcb5de869138cf291b3b04bd50d43e7871f0f9e7f956087462425394a01fae",
+      "bytes": 34834
+    },
+    {
+      "file": "assets/squad/vehicles/M1151 TOW.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1151 TOW.webp",
+      "sha256": "5ee2991dc274808b3b46b4e284be3e2d1d342da49f91c6e915ea37989a626404",
+      "bytes": 74102
+    },
+    {
+      "file": "assets/squad/vehicles/M1A1.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1A1.webp",
+      "sha256": "1c3a07ef51dbfc90ee9a33a1b3d07aa86224f23e0bde8fec8b830c8bc763d51b",
+      "bytes": 150644
+    },
+    {
+      "file": "assets/squad/vehicles/M1A2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M1A2.webp",
+      "sha256": "bfb144a5488d4d0d445097e247964c230f66543bc8b44127bd6bbeae55482bf3",
+      "bytes": 58552
+    },
+    {
+      "file": "assets/squad/vehicles/M2A3.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M2A3.webp",
+      "sha256": "cdcbff1994b87ca255c8ae7987fe3e2c14ee4bcd31742571aa59d2d5f9a00fb4",
+      "bytes": 70580
+    },
+    {
+      "file": "assets/squad/vehicles/M60T.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M60T.webp",
+      "sha256": "1ec376187375036e6a6e3475cdbeccd21b045464a2f1557620a69c725c4de85d",
+      "bytes": 30178
+    },
+    {
+      "file": "assets/squad/vehicles/M7A3.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M7A3.webp",
+      "sha256": "e879a89b7aa0551c20c0ac4dd56a3304386c870ffb9c93cdcb6b3123a6e8388f",
+      "bytes": 45904
+    },
+    {
+      "file": "assets/squad/vehicles/M939 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M939 Logistics.webp",
+      "sha256": "657f78b06d88fc8b3649d979f0f8e53e9af9088f4ab2ed43a8a6640271140d70",
+      "bytes": 69214
+    },
+    {
+      "file": "assets/squad/vehicles/M939 Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/M939 Transport.webp",
+      "sha256": "fa28cd0c6cd5f77d1af8dc6b3c930f4259632259e08f2c241bf8c66cd92b676f",
+      "bytes": 83542
+    },
+    {
+      "file": "assets/squad/vehicles/MATV CROWS M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MATV CROWS M2.webp",
+      "sha256": "19481131e5b8d2f53d3478232bce077fcebc37537673e3cf398e26ecfea7c693",
+      "bytes": 94100
+    },
+    {
+      "file": "assets/squad/vehicles/MATV M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MATV M2.webp",
+      "sha256": "dd85ec42013b2ceceb2e58e19c7035a81ea7256d33ac9d83dd74f5ce787a9d43",
+      "bytes": 125900
+    },
+    {
+      "file": "assets/squad/vehicles/MATV Mk19.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MATV Mk19.webp",
+      "sha256": "815fe0f3e13e01ebdba4c7a00fa193e115cad4be5aa6c9b7ed7c7b8b7e315e09",
+      "bytes": 96884
+    },
+    {
+      "file": "assets/squad/vehicles/MATV TOW.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MATV TOW.webp",
+      "sha256": "73b8be8be7fe49accf0974adce0666fdadc4240a62f47c77c4e2f3e6ca38681d",
+      "bytes": 126372
+    },
+    {
+      "file": "assets/squad/vehicles/Mi-8.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Mi-8.webp",
+      "sha256": "af447002bb95a5672526507e3e7f4f263184891dedefe14b76044803a0b35fa7",
+      "bytes": 46802
+    },
+    {
+      "file": "assets/squad/vehicles/Mi-8MTV-5.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Mi-8MTV-5.webp",
+      "sha256": "6b4e66fc9361f48b427da424e511551c61a9cb0e83088009918be63bf5676a6c",
+      "bytes": 163060
+    },
+    {
+      "file": "assets/squad/vehicles/Minsk 400.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Minsk 400.webp",
+      "sha256": "0289cf39ebb6b1f51e40924c4f7552a72dc8297f869cc05f73b761a16beb5d88",
+      "bytes": 41480
+    },
+    {
+      "file": "assets/squad/vehicles/MRH-90.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MRH-90.webp",
+      "sha256": "885de0f5f2284a93ad42e295863a22f221e8dd7292522c3e783ef02981949e76",
+      "bytes": 100342
+    },
+    {
+      "file": "assets/squad/vehicles/MSVS Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MSVS Logistics.webp",
+      "sha256": "58c6b332f3fe64f61008edf506f7b0a5497bb1db4e499958f9f2ee9be242b553",
+      "bytes": 57782
+    },
+    {
+      "file": "assets/squad/vehicles/MSVS Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MSVS Transport.webp",
+      "sha256": "5cb681bd42fca82750f802ccbc5bae45d2bb62d449279f2f1cc39604ca8ac79b",
+      "bytes": 105544
+    },
+    {
+      "file": "assets/squad/vehicles/MT-LB Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MT-LB Logistics.webp",
+      "sha256": "1e00b18e1697edafcab3f652a679434aa0915792dc6eea16e33014a6a8e1c96f",
+      "bytes": 95696
+    },
+    {
+      "file": "assets/squad/vehicles/MT-LB PKT.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MT-LB PKT.webp",
+      "sha256": "87254ce4973a95059a009065eb6a38eb148a943e2d54984a5cd91292560f5534",
+      "bytes": 88302
+    },
+    {
+      "file": "assets/squad/vehicles/MT-LB VMK.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MT-LB VMK.webp",
+      "sha256": "7486833554a17b15a9892eccf87dc414f43816107d36ebc18a6ac55462918a58",
+      "bytes": 65790
+    },
+    {
+      "file": "assets/squad/vehicles/MT-LB ZU-23-2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MT-LB ZU-23-2.webp",
+      "sha256": "5072b63f1784599e23cde98ecf9dc01ddd51fc649f9301b8d72190c5fafb59d4",
+      "bytes": 94920
+    },
+    {
+      "file": "assets/squad/vehicles/MT-LBM 6MA.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MT-LBM 6MA.webp",
+      "sha256": "9b60bb8e8c0d342ddd90c54078e59183069e650e385bc16c4d6112863d4ce4a7",
+      "bytes": 104916
+    },
+    {
+      "file": "assets/squad/vehicles/MT-LBM 6MB.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MT-LBM 6MB.webp",
+      "sha256": "8a19f0e2aad4898e896bcfb0fc42bc8d899f30c0395e7ee56f9c82a3f46cc6ff",
+      "bytes": 130692
+    },
+    {
+      "file": "assets/squad/vehicles/MTLB 6MA UB-32.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MTLB 6MA UB-32.webp",
+      "sha256": "e99dab0a802c7fb32e8dde529ac446002d3fd295ebcfeeb2829ebbe3a1417876",
+      "bytes": 45084
+    },
+    {
+      "file": "assets/squad/vehicles/MTLB Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MTLB Logistics.webp",
+      "sha256": "1814e8614b321f0012e775bcff8952c47087eeaf00a4827f9c7d1cdc209f8842",
+      "bytes": 111938
+    },
+    {
+      "file": "assets/squad/vehicles/MTLB PKT.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MTLB PKT.webp",
+      "sha256": "774ac803f5a5aa87b6afdca57b60072fe15dd8f12e2cc217a1fad4e47419cada",
+      "bytes": 136808
+    },
+    {
+      "file": "assets/squad/vehicles/MTLB ZU23.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/MTLB ZU23.webp",
+      "sha256": "28e50448514b67636ef93ec5f1222d169c9c53a403f89207a1afbd203e2d3ca4",
+      "bytes": 87770
+    },
+    {
+      "file": "assets/squad/vehicles/PARS III 25mm.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/PARS III 25mm.webp",
+      "sha256": "28743071ae3a725ec16e6034650ec34805087c150546cc903e67bf0704e54bf4",
+      "bytes": 22928
+    },
+    {
+      "file": "assets/squad/vehicles/PARS III M2 RWS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/PARS III M2 RWS.webp",
+      "sha256": "1b70c18dcf99097bebdc514b807a43ccb67e16a9c389a9932d9c97edc4890407",
+      "bytes": 25002
+    },
+    {
+      "file": "assets/squad/vehicles/PARS III MG3 RWS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/PARS III MG3 RWS.webp",
+      "sha256": "dcbac6070b89511d09209b5c41898ebf074c98e8f1bcc37f0adfad7518bc732c",
+      "bytes": 26324
+    },
+    {
+      "file": "assets/squad/vehicles/PARS III Mk19 RWS.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/PARS III Mk19 RWS.webp",
+      "sha256": "003be14d3d41de2a344a7bd480839b1ff8ac0d9eb3e861e60716a7f4470b6717",
+      "bytes": 20384
+    },
+    {
+      "file": "assets/squad/vehicles/PMV Mag58.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/PMV Mag58.webp",
+      "sha256": "810ede9fe9382cfbc1929d5bed23275f3d30edc5ac67e64ae18fa3e97ed0bb9b",
+      "bytes": 59202
+    },
+    {
+      "file": "assets/squad/vehicles/PMV RWS M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/PMV RWS M2.webp",
+      "sha256": "66c55e453fedef2117bcf6172aea82b3441e6604a4b97d0782cae1b265c45814",
+      "bytes": 72108
+    },
+    {
+      "file": "assets/squad/vehicles/Quad Bike.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Quad Bike.webp",
+      "sha256": "232e9a13b851cbb9bb06e3e7edb3137a7226440bb2f318c0a758032440959047",
+      "bytes": 25328
+    },
+    {
+      "file": "assets/squad/vehicles/Raven Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Raven Transport.webp",
+      "sha256": "d076965183ca5f06d9952d922de1e828ee0d25950fad21e18fb584c458ed18aa",
+      "bytes": 73470
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB AGS-17.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB AGS-17.webp",
+      "sha256": "3568f695f4cccf26348114028bf898dfa057ebe3c1079d6b0a176ce7b8825697",
+      "bytes": 89318
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB DShK.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB DShK.webp",
+      "sha256": "46a74088ddcfdd618d179071c7fdcf7b9e1a28db1626538a5d1014266ae17930",
+      "bytes": 74346
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB Logistics.webp",
+      "sha256": "8aa76d06f37a5a2584c25507ab73ce602872433bc5374ccb6f5df48dce51e1e7",
+      "bytes": 44372
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB M134.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB M134.webp",
+      "sha256": "832a8baefc190aac0b9f3b0b4c6567ddfc9c1a9cb9f47f99690cbf5ea66900d4",
+      "bytes": 118374
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB M2.webp",
+      "sha256": "bdc2b0448a7b909cbd89d5bad9aba9292005a13d5348290b2439e29d87a9158a",
+      "bytes": 112470
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB M240.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB M240.webp",
+      "sha256": "05d52df238e3d1c6b52ae8a31addf6f056e81ef1e927581858e554df9b4d2158",
+      "bytes": 75494
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB MG3.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB MG3.webp",
+      "sha256": "832a8baefc190aac0b9f3b0b4c6567ddfc9c1a9cb9f47f99690cbf5ea66900d4",
+      "bytes": 118374
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB Mk19.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB Mk19.webp",
+      "sha256": "633353c810994939f9fa168e7297cbef4df73f9ab2698d0306c9b411c6092ec4",
+      "bytes": 53796
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB NSV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB NSV.webp",
+      "sha256": "b676c99740fef2d28af66cf9cd5793775c4fdac38feb27c7d65209d114b36526",
+      "bytes": 96662
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB PKM.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB PKM.webp",
+      "sha256": "865567bf6df46d243b24c6e11bfadc3df5c5f9906dd4996e4502ab90a731b149",
+      "bytes": 62832
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB PKP.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB PKP.webp",
+      "sha256": "47900b313d969dd65019c362faac96e0eb01b0b4e86f54e3e523ede79cb2da1a",
+      "bytes": 46290
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB QJY88.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB QJY88.webp",
+      "sha256": "e9c1d1b4c0f9df1c445c8985926df32d52cbbc96311dd9cbb08d597a82bfa0bd",
+      "bytes": 38038
+    },
+    {
+      "file": "assets/squad/vehicles/RHIB QJZ89.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/RHIB QJZ89.webp",
+      "sha256": "e9c1d1b4c0f9df1c445c8985926df32d52cbbc96311dd9cbb08d597a82bfa0bd",
+      "bytes": 38038
+    },
+    {
+      "file": "assets/squad/vehicles/SA330.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/SA330.webp",
+      "sha256": "72fe522c50d24ae4b2761df4ed0ac3b9998cceb377b2d14b0b000a76a2adaf0f",
+      "bytes": 74310
+    },
+    {
+      "file": "assets/squad/vehicles/Safir AGS-17.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Safir AGS-17.webp",
+      "sha256": "d576d7571919fe41131f651df3c21949da22291725840457984b501fd3f55e82",
+      "bytes": 44768
+    },
+    {
+      "file": "assets/squad/vehicles/Safir Kord.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Safir Kord.webp",
+      "sha256": "241d95c94505609f4377488fe93e44b6655bd7ddf685833e111fa83d9c5db0c6",
+      "bytes": 32130
+    },
+    {
+      "file": "assets/squad/vehicles/Safir Kornet.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Safir Kornet.webp",
+      "sha256": "2454d16ff24d584c23d2f503776fb9886fef399160dfdc2d313a0b8a5ef3a01a",
+      "bytes": 26298
+    },
+    {
+      "file": "assets/squad/vehicles/Safir Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Safir Logistics.webp",
+      "sha256": "ec1d59f05fe2151e12d744288ccf7c850418f93795871334c35071a58e97822d",
+      "bytes": 27270
+    },
+    {
+      "file": "assets/squad/vehicles/Safir MG3.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Safir MG3.webp",
+      "sha256": "61c85ad4fab47a84cee4436ffa918e95d3177f247917ccc50cba62f0dddaf2c8",
+      "bytes": 26060
+    },
+    {
+      "file": "assets/squad/vehicles/Sprut-SDM1.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Sprut-SDM1.webp",
+      "sha256": "3ffd1dc07e6b1e81c356b980bb0bf0cf328f791d9eac70a489cb66c7436c98f9",
+      "bytes": 23082
+    },
+    {
+      "file": "assets/squad/vehicles/T-62.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/T-62.webp",
+      "sha256": "acfa04f71ff5ca94299e2e80e0a8d1261c3b343dac5dc9ded4a92f7591166fd6",
+      "bytes": 67886
+    },
+    {
+      "file": "assets/squad/vehicles/T-64BM2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/T-64BM2.webp",
+      "sha256": "541f2f1323327c34db65dc50003e2916abf03c1fabb029c535dd334630d759bb",
+      "bytes": 69864
+    },
+    {
+      "file": "assets/squad/vehicles/T-72A.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/T-72A.webp",
+      "sha256": "c7071df958836fbd5ffeebfae58cd19331e2bfcfbf4a1cd31cf07fdf3577a766",
+      "bytes": 108360
+    },
+    {
+      "file": "assets/squad/vehicles/T-72B3.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/T-72B3.webp",
+      "sha256": "6610c8791f04d4bdfce6ce8e87df70b5fe413b80f2e5d06f02a96aefbff90468",
+      "bytes": 43348
+    },
+    {
+      "file": "assets/squad/vehicles/T-72S.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/T-72S.webp",
+      "sha256": "454cc8ff95aed291b3c16536cca75c2ef517302cf342d72a976cb3c7d1fd9cd1",
+      "bytes": 40074
+    },
+    {
+      "file": "assets/squad/vehicles/T-90A.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/T-90A.webp",
+      "sha256": "6210be90099f281a5a63de23bfb0babe1e7855f6b2665cbeceeb8afed4366ed3",
+      "bytes": 41084
+    },
+    {
+      "file": "assets/squad/vehicles/TAPV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/TAPV.webp",
+      "sha256": "466a7d8531a6360aada61ae8e838de4d3c317baed90825cb8cc24c63cc6a7333",
+      "bytes": 50442
+    },
+    {
+      "file": "assets/squad/vehicles/Technical AGS-17.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical AGS-17.webp",
+      "sha256": "bb57dba646b3f5d22c00de133b85c4951dc62ef72dcb063daf71e52fdbd8c683",
+      "bytes": 42758
+    },
+    {
+      "file": "assets/squad/vehicles/Technical BMP-1.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical BMP-1.webp",
+      "sha256": "f6f003a925fa14aeb0d61688e2ec045a10d2551e72f7321f140773c9bd482693",
+      "bytes": 85130
+    },
+    {
+      "file": "assets/squad/vehicles/Technical HMG.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical HMG.webp",
+      "sha256": "7a3f193a1f3cfeb45116117e86f68e34dc469b25127a8923d59d062cc0ca82f0",
+      "bytes": 62020
+    },
+    {
+      "file": "assets/squad/vehicles/Technical Kornet.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical Kornet.webp",
+      "sha256": "a46f238027021c33385d09ce0c6a130ce97f9dab942df0f05ba4ef7e75fb6cf0",
+      "bytes": 30038
+    },
+    {
+      "file": "assets/squad/vehicles/Technical Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical Logistics.webp",
+      "sha256": "4c7f18794c0722c35d079a2f6b763a40cfa50a14fd32f40a5f1738a3a8d1e029",
+      "bytes": 128002
+    },
+    {
+      "file": "assets/squad/vehicles/Technical M134 Minigun.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical M134 Minigun.webp",
+      "sha256": "85c469d4897867e7cb209cef3a9c13ee47169a29dbe75b8d7aa311b561a95b74",
+      "bytes": 63986
+    },
+    {
+      "file": "assets/squad/vehicles/Technical M2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical M2.webp",
+      "sha256": "77f436cff43b27585990a8c2942364aa843a7c86980ced62bbe377903cd317cb",
+      "bytes": 43338
+    },
+    {
+      "file": "assets/squad/vehicles/Technical Mortar.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical Mortar.webp",
+      "sha256": "82c8b0177577c206a848fb968f61538739a1d03a3a09c22c3bf9f72e4e157d44",
+      "bytes": 46334
+    },
+    {
+      "file": "assets/squad/vehicles/Technical SPG-9.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical SPG-9.webp",
+      "sha256": "d463af81d328b58532dd63f601825c10bc6f991767c3341402e79bcfb74ebf68",
+      "bytes": 79334
+    },
+    {
+      "file": "assets/squad/vehicles/Technical UB-32.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical UB-32.webp",
+      "sha256": "8072556d093ff535b3a62b835dc86f44c3ee1e94d1d1292cb8efa89975a9f059",
+      "bytes": 47138
+    },
+    {
+      "file": "assets/squad/vehicles/Technical ZU-23-2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Technical ZU-23-2.webp",
+      "sha256": "ae268f1c83e96212473e1eb58c0077a600f8db3485fbc48cf9cd50f57a648f94",
+      "bytes": 86666
+    },
+    {
+      "file": "assets/squad/vehicles/Tigr-M AGS-17.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Tigr-M AGS-17.webp",
+      "sha256": "8d11da705ee289fb900fe39c88b96912ebd223ac16101e6cd5b2cee70ec1f63d",
+      "bytes": 100334
+    },
+    {
+      "file": "assets/squad/vehicles/Tigr-M Kord.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Tigr-M Kord.webp",
+      "sha256": "c3d5bfe50713dd4626d15320f072703765530d03f32a08441148e50888f109ed",
+      "bytes": 49318
+    },
+    {
+      "file": "assets/squad/vehicles/Tigr-M RWS Kord.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Tigr-M RWS Kord.webp",
+      "sha256": "96242f8d7f1b818748b40685049a2605e4f7dbf764c9e5ec40caa69f54cb751f",
+      "bytes": 61468
+    },
+    {
+      "file": "assets/squad/vehicles/UH-1H MG3.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/UH-1H MG3.webp",
+      "sha256": "b20e27350dadb45001eab81d03f7f74228c56a81f78a8ceac68652763370920c",
+      "bytes": 58014
+    },
+    {
+      "file": "assets/squad/vehicles/UH-1Y.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/UH-1Y.webp",
+      "sha256": "ea091acbda887eb2ee2b4ae71b6372f53f18394c6a3a312785275c76f6d1af4f",
+      "bytes": 132976
+    },
+    {
+      "file": "assets/squad/vehicles/UH-60M.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/UH-60M.webp",
+      "sha256": "1b90ff064e279326205cbb5060cbb740946b56aa76c62075bcd5917eca9d692b",
+      "bytes": 67468
+    },
+    {
+      "file": "assets/squad/vehicles/UH60 PKM.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/UH60 PKM.webp",
+      "sha256": "ac70bd59d9a510f83c32327e4ae911fb496aa392c4a382441557689f471e09af",
+      "bytes": 106838
+    },
+    {
+      "file": "assets/squad/vehicles/Ural-375D BM-21 Grad.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Ural-375D BM-21 Grad.webp",
+      "sha256": "1c6572253735ba10816937b772dd87f071eb986c7d0a8b1c7afa50fc6c43e119",
+      "bytes": 39972
+    },
+    {
+      "file": "assets/squad/vehicles/Ural-375D Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Ural-375D Logistics.webp",
+      "sha256": "60672ec7d16de164952b2c9b435707ab27b1b89892e8b79edd0984c4fa5521b9",
+      "bytes": 96306
+    },
+    {
+      "file": "assets/squad/vehicles/Ural-375D Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Ural-375D Transport.webp",
+      "sha256": "d107de4f040bf27d3e40d261ee8b54c5de356c7cc373192d6f3ff0f990097cb0",
+      "bytes": 95636
+    },
+    {
+      "file": "assets/squad/vehicles/Ural-375D ZU-23-2.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Ural-375D ZU-23-2.webp",
+      "sha256": "3d380013e06840fd5d3bcddf46432ff7f2ce172d4de71f23da6c775626c8bcb1",
+      "bytes": 96456
+    },
+    {
+      "file": "assets/squad/vehicles/Ural-4320 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Ural-4320 Logistics.webp",
+      "sha256": "5f2b5f92c604e78fe4b982ec7b2b8ba48d52984bc0158af92ecbbf560a6eed11",
+      "bytes": 27466
+    },
+    {
+      "file": "assets/squad/vehicles/Ural-4320 Transport.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Ural-4320 Transport.webp",
+      "sha256": "b002255fcd575f313b4655a5d950e737f6a97122f673c84a7e3121bb96d910da",
+      "bytes": 27266
+    },
+    {
+      "file": "assets/squad/vehicles/Z-8G.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Z-8G.webp",
+      "sha256": "017db971a5461ec862c7d9bf33f556f1e212764d111d0cde5d72a9b66eaf91c0",
+      "bytes": 39742
+    },
+    {
+      "file": "assets/squad/vehicles/Z-8J.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Z-8J.webp",
+      "sha256": "834df06ed263a66fcb5ce48f675fb03821877b624f17e854c2afeed1883a2869",
+      "bytes": 51032
+    },
+    {
+      "file": "assets/squad/vehicles/Z-9A.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/Z-9A.webp",
+      "sha256": "7877d66994bf003bb29f15ef8d9fbdf3fb0d86c2cd50e2524b119d6a97ddd01b",
+      "bytes": 102700
+    },
+    {
+      "file": "assets/squad/vehicles/ZBD04A.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZBD04A.webp",
+      "sha256": "ee7499730dbee93bb63b9cf7e693e4570377adcdaa3290155b796eacb3d9377b",
+      "bytes": 77660
+    },
+    {
+      "file": "assets/squad/vehicles/ZBD05.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZBD05.webp",
+      "sha256": "be853a613224a54b155b6177632dfce081f7305eae56658c5afc554b8280bf25",
+      "bytes": 48576
+    },
+    {
+      "file": "assets/squad/vehicles/ZBL08.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZBL08.webp",
+      "sha256": "57857017e44fa3775e3911a1185a53447e98c2cdcdbde8bd52e600d92c7d5297",
+      "bytes": 49222
+    },
+    {
+      "file": "assets/squad/vehicles/ZSD05 Logistics.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZSD05 Logistics.webp",
+      "sha256": "d360754966da62821f2943bcde4f49aa0c4ca48af12dd92bcc37ed360d7e96e2",
+      "bytes": 49378
+    },
+    {
+      "file": "assets/squad/vehicles/ZSD05.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZSD05.webp",
+      "sha256": "acf5754f37a63833ad50f841e5c160386e6b46dba4644d8a7b3480728b5f0885",
+      "bytes": 27114
+    },
+    {
+      "file": "assets/squad/vehicles/ZSD89II IFV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZSD89II IFV.webp",
+      "sha256": "a5a818dd31a2c695d4029b6e121a9191d2a494f89797dd785f42ab222fd28d18",
+      "bytes": 69228
+    },
+    {
+      "file": "assets/squad/vehicles/ZSL10 QJZ89.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZSL10 QJZ89.webp",
+      "sha256": "1e3b5583d0577729e5383f4c2902f5f41baa4a9b56ffbcc726abad66f1352e80",
+      "bytes": 57346
+    },
+    {
+      "file": "assets/squad/vehicles/ZSL10.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZSL10.webp",
+      "sha256": "d2e8dfd84ab3f7d3be4f73249c7bd779c4419220041531bb3776bd79ee612662",
+      "bytes": 31274
+    },
+    {
+      "file": "assets/squad/vehicles/ZSL92 IFV.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZSL92 IFV.webp",
+      "sha256": "b71bd06ca7755f64b93a71f8df91f59fa6eac85cebcf7ef163841b702fec6853",
+      "bytes": 53304
+    },
+    {
+      "file": "assets/squad/vehicles/ZSL92A APC QJZ89.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZSL92A APC QJZ89.webp",
+      "sha256": "1f767790d724465882596f3c616a2d6fdb4a0b01669214e8be14e36a6ad8b47e",
+      "bytes": 70592
+    },
+    {
+      "file": "assets/squad/vehicles/ZSL92A APC QLZ87.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZSL92A APC QLZ87.webp",
+      "sha256": "726486b6792b967d96b78b09459df8bb0d35b52f2abb401270dd411fa3ce4d4e",
+      "bytes": 78750
+    },
+    {
+      "file": "assets/squad/vehicles/ZTD05.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZTD05.webp",
+      "sha256": "163185b62c14a4accb6abebd980a181aad4125b3fcabe0abd8de7f75c51fb5de",
+      "bytes": 22356
+    },
+    {
+      "file": "assets/squad/vehicles/ZTZ99A.webp",
+      "source": "https://raw.githubusercontent.com/sh4rkman/SquadCalc/24828d6d3081c7ce52b10ef39ec86036ebf010b5/public/img/vehicles/vanilla/ZTZ99A.webp",
+      "sha256": "848ea72ad039751cb700b089b3a37185d53d5bc47a996d008eb847c459255d38",
+      "bytes": 32160
+    }
+  ],
+  "missingPhotos": [
+    "BMP-1 ZU-23-2",
+    "BTR-D PKM",
+    "CH-178",
+    "Cobra II MG3 RWS",
+    "FV520 CTAS40",
+    "LAV III M2 RWS",
+    "LUV-A1 Logistics",
+    "LUV-A1 Transport",
+    "M-ATV CROWS M240",
+    "M113A2T M2",
+    "M113A2T Mk19",
+    "M113A3 C6",
+    "MTLB VMK",
+    "Modern Technical UB-32",
+    "Pickup Truck",
+    "RHIB Transport",
+    "Transport Modern Pickup",
+    "Transport Pickup Truck",
+    "ZSD05 QJZ89",
+    "ZSD89 APC QJZ89",
+    "ZSD89 APC QLZ87"
+  ]
+}

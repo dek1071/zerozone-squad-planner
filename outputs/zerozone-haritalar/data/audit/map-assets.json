@@ -1,0 +1,730 @@
+[
+  {
+    "file": "assets/maps/albasrah/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/albasrah/thumbnail.webp",
+    "bytes": 94038,
+    "same": true,
+    "remoteHash": "0ecb604d5627fca51159e41104249a84874e33792ffb088374f54b3ff4411191"
+  },
+  {
+    "file": "assets/maps/albasrah/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/albasrah/basemap.webp",
+    "bytes": 2795178,
+    "same": true,
+    "remoteHash": "112658516f313ec2f4e27b44e3d1a2c525a4144cd95271f8978e477626f3e418"
+  },
+  {
+    "file": "assets/maps/albasrah/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/albasrah/terrainmap.webp",
+    "bytes": 4665490,
+    "same": true,
+    "remoteHash": "8dba5424360392d357b87b80631dc1f757be51d55611dc4776b621f5a9d719f1"
+  },
+  {
+    "file": "assets/maps/anvil/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/anvil/basemap.webp",
+    "bytes": 2343716,
+    "same": true,
+    "remoteHash": "f42c001af53deed66665816407c4d3f66a926a68a06402c36d948f6a82ed24b6"
+  },
+  {
+    "file": "assets/maps/albasrah/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/albasrah/topomap.webp",
+    "bytes": 3778980,
+    "same": true,
+    "remoteHash": "3ae397bb4887d94d2f7633a38d9e5616663c039cf4842ab9e4cd56f380ce5a4a"
+  },
+  {
+    "file": "assets/maps/anvil/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/anvil/thumbnail.webp",
+    "bytes": 105928,
+    "same": true,
+    "remoteHash": "b93ad5579166b30d80744f9e4f9ba0b7049eeb605710b431fd9adee0bb606a0a"
+  },
+  {
+    "file": "assets/maps/anvil/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/anvil/terrainmap.webp",
+    "bytes": 3435692,
+    "same": true,
+    "remoteHash": "e8de74223e6f31dbf49fe2a79dc77d86bcdc4f84ee1b8359195ce159ec74f791"
+  },
+  {
+    "file": "assets/maps/anvil/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/anvil/topomap.webp",
+    "bytes": 1630994,
+    "same": true,
+    "remoteHash": "50b6db6ba4b38dd175354f8d84b0f2cc917661e2492c7c40fc4def1869697b4f"
+  },
+  {
+    "file": "assets/maps/belaya/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/belaya/thumbnail.webp",
+    "bytes": 66804,
+    "same": true,
+    "remoteHash": "60053fca76354680bcb63b8d9f8b6c408fb3f7daa7f8916682170ba29415579b"
+  },
+  {
+    "file": "assets/maps/belaya/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/belaya/basemap.webp",
+    "bytes": 1538992,
+    "same": true,
+    "remoteHash": "65e20d9ae5c97b8db4d91176f3d29e72b7d154b9123898b0070808518934df91"
+  },
+  {
+    "file": "assets/maps/belaya/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/belaya/terrainmap.webp",
+    "bytes": 2817956,
+    "same": true,
+    "remoteHash": "bb2b3b98f1324d77f2ba02da7a36986ea43e8370259341bc86210b224780bbfa"
+  },
+  {
+    "file": "assets/maps/belaya/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/belaya/topomap.webp",
+    "bytes": 1482638,
+    "same": true,
+    "remoteHash": "dc3af0bdf2d3868f23a0874e7a9c79e4ab314a809f8b7c2e1e632c06a97c2ada"
+  },
+  {
+    "file": "assets/maps/blackcoast/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/blackcoast/basemap.webp",
+    "bytes": 3028958,
+    "same": true,
+    "remoteHash": "d1645c8b3dd20ad29637573b834f8579ccff4871c28aeef215ea75dc6c5b0be3"
+  },
+  {
+    "file": "assets/maps/blackcoast/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/blackcoast/thumbnail.webp",
+    "bytes": 93378,
+    "same": true,
+    "remoteHash": "71cb4d3bf3eb54f3968e6bf8ecf682a2b207351fa20e43486e73e90b6be0cc24"
+  },
+  {
+    "file": "assets/maps/blackcoast/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/blackcoast/terrainmap.webp",
+    "bytes": 3742138,
+    "same": true,
+    "remoteHash": "363b9526591d52858257e1c37655d59bd01af9f5b808a8a4faa69904eacd49b2"
+  },
+  {
+    "file": "assets/maps/blackcoast/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/blackcoast/topomap.webp",
+    "bytes": 1509986,
+    "same": true,
+    "remoteHash": "1f0bd33bf22cb15e73911e399806963ff732b7255e4b038d82d5ebe59a4194b8"
+  },
+  {
+    "file": "assets/maps/chora/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/chora/thumbnail.webp",
+    "bytes": 75266,
+    "same": true,
+    "remoteHash": "afd405639122ad622ec0f51c1ef215402045b831550ac8ed1d161c94d5551e5d"
+  },
+  {
+    "file": "assets/maps/chora/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/chora/basemap.webp",
+    "bytes": 3614440,
+    "same": true,
+    "remoteHash": "bef7de1d5b6905b8c38345d814d64d1d81887de09a17cace214480d086d14e41"
+  },
+  {
+    "file": "assets/maps/chora/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/chora/topomap.webp",
+    "bytes": 3012298,
+    "same": true,
+    "remoteHash": "cbf453df6502284a8e7fd4e069301453454ac3ad63ec97d29c318e17bda9f379"
+  },
+  {
+    "file": "assets/maps/chora/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/chora/terrainmap.webp",
+    "bytes": 3603828,
+    "same": true,
+    "remoteHash": "dc7bad4b49b6dda0c4675570fb271db4fb67a0c6853693d1f661815f5c3a28f8"
+  },
+  {
+    "file": "assets/maps/fallujah/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/fallujah/basemap.webp",
+    "bytes": 1953252,
+    "same": true,
+    "remoteHash": "008aea743a53248a0cd1bec8bb3586211e75efe6fb3c9e61bb247db34d97f74c"
+  },
+  {
+    "file": "assets/maps/fallujah/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/fallujah/thumbnail.webp",
+    "bytes": 72696,
+    "same": true,
+    "remoteHash": "c0ba5268e6acf34859ce4dae03ef8bc58a61d804a9d65bd09811cf81e25c535e"
+  },
+  {
+    "file": "assets/maps/fallujah/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/fallujah/topomap.webp",
+    "bytes": 1146558,
+    "same": true,
+    "remoteHash": "019085cfeaa780ca598f959db9609a37190cc6a75f3584dd530969fb3fe9cd62"
+  },
+  {
+    "file": "assets/maps/fallujah/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/fallujah/terrainmap.webp",
+    "bytes": 3512390,
+    "same": true,
+    "remoteHash": "1f55d92f993166d0d095e9fb4ea025757f56f8c2260243343414f3e182c6d855"
+  },
+  {
+    "file": "assets/maps/foolsroad/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/foolsroad/thumbnail.webp",
+    "bytes": 101734,
+    "same": true,
+    "remoteHash": "4ef365123bdd85ce9733274146c6755d5ef738fd2cd1a58830e213291030d45c"
+  },
+  {
+    "file": "assets/maps/foolsroad/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/foolsroad/basemap.webp",
+    "bytes": 4427186,
+    "same": true,
+    "remoteHash": "649d83f8241cc43479fb1623af7adb33dd9e07c112a5c5e127b49a89c1257e2b"
+  },
+  {
+    "file": "assets/maps/foolsroad/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/foolsroad/terrainmap.webp",
+    "bytes": 4288004,
+    "same": true,
+    "remoteHash": "6e3e0a3d8ac65c09bb5639efd6e9982a5721dd0fed0a751b4b98f010bf8134c6"
+  },
+  {
+    "file": "assets/maps/foolsroad/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/foolsroad/topomap.webp",
+    "bytes": 1472354,
+    "same": true,
+    "remoteHash": "4b04ac264dd95c24bdef6e45bf675a07c054b2cd990a73c0e9bf6a7e39ba86cc"
+  },
+  {
+    "file": "assets/maps/goosebay/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/goosebay/basemap.webp",
+    "bytes": 3202234,
+    "same": true,
+    "remoteHash": "290f00daa0cd04885493c71e3b28c82b6452d6d1cce35d95595def94971ab89c"
+  },
+  {
+    "file": "assets/maps/goosebay/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/goosebay/thumbnail.webp",
+    "bytes": 100120,
+    "same": true,
+    "remoteHash": "ad561da8191f82117cca312a031c81672d5d137572e9b7ca52ef85ac8dfcec57"
+  },
+  {
+    "file": "assets/maps/goosebay/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/goosebay/terrainmap.webp",
+    "bytes": 3945966,
+    "same": true,
+    "remoteHash": "91a808cd6c7de37c27de99a2199619e6627fcbc98444b0d36d9cdc4035636fc6"
+  },
+  {
+    "file": "assets/maps/goosebay/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/goosebay/topomap.webp",
+    "bytes": 1711002,
+    "same": true,
+    "remoteHash": "3215f25e4dfaba04e292797a0a272c51163f0a3048860a78814b48f6cf5daaf9"
+  },
+  {
+    "file": "assets/maps/gorodok/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/gorodok/thumbnail.webp",
+    "bytes": 67940,
+    "same": true,
+    "remoteHash": "5c6863db28cde58cc44961b710d17ceb99e9dee6956a2304cec4e299dc5d7fa1"
+  },
+  {
+    "file": "assets/maps/gorodok/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/gorodok/basemap.webp",
+    "bytes": 1776640,
+    "same": true,
+    "remoteHash": "5f95de1dbfdbc05707b4f37d1e583b890615d3f5aad9eae5671acfd767ed07d9"
+  },
+  {
+    "file": "assets/maps/gorodok/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/gorodok/terrainmap.webp",
+    "bytes": 2147204,
+    "same": true,
+    "remoteHash": "eae31d07ce55f1cb02cb9c766c15d52169d32eb1272f326b1472e53a24175c47"
+  },
+  {
+    "file": "assets/maps/gorodok/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/gorodok/topomap.webp",
+    "bytes": 3675534,
+    "same": true,
+    "remoteHash": "5ff2950416c1c8510d0c50e2e83f3d6e7e0c9c4c73c88eb6c300d449f557388a"
+  },
+  {
+    "file": "assets/maps/harju/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/harju/basemap.webp",
+    "bytes": 3404866,
+    "same": true,
+    "remoteHash": "d2ec2d98bf78b1f6639213cab7eb17b09373820fdf54ae0fe4d255c97bc01fdb"
+  },
+  {
+    "file": "assets/maps/harju/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/harju/terrainmap.webp",
+    "bytes": 3351184,
+    "same": true,
+    "remoteHash": "0d408390f0fb46aff6d4cc5841dfc190ff1cf791884187a014387174b6076804"
+  },
+  {
+    "file": "assets/maps/harju/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/harju/thumbnail.webp",
+    "bytes": 103630,
+    "same": true,
+    "remoteHash": "36988e3b0622898451378538b9a3332516dd0b679f064a2263d8fbc05b073552"
+  },
+  {
+    "file": "assets/maps/harju/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/harju/topomap.webp",
+    "bytes": 1132912,
+    "same": true,
+    "remoteHash": "ec7f9da28f67ce094f6e6af5157d503e0e9683b8177ea0ad01ab835b2aafa28a"
+  },
+  {
+    "file": "assets/maps/jensen/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/jensen/thumbnail.webp",
+    "bytes": 68792,
+    "same": true,
+    "remoteHash": "6758b11e3aa26d2ab6f2c342e2c0aee433752f1ebcd6a7876d24ad62d8f45bf8"
+  },
+  {
+    "file": "assets/maps/jensen/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/jensen/basemap.webp",
+    "bytes": 1124430,
+    "same": true,
+    "remoteHash": "0f80fcd485a91c08cda9bb970ffad960842ba73b9a823108240ab9686c8ebf02"
+  },
+  {
+    "file": "assets/maps/jensen/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/jensen/terrainmap.webp",
+    "bytes": 1582092,
+    "same": true,
+    "remoteHash": "8a00dc9d02571a2a31f64ef57965e2a594cc24e6724e7b1acc8b3edc4eb5a872"
+  },
+  {
+    "file": "assets/maps/jensen/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/jensen/topomap.webp",
+    "bytes": 795172,
+    "same": true,
+    "remoteHash": "6c8dea259160b1f6338dbe86ffe66441cf48ee3bca2d3ff2f63e2f2d12542c71"
+  },
+  {
+    "file": "assets/maps/kamdesh/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/kamdesh/thumbnail.webp",
+    "bytes": 103866,
+    "same": true,
+    "remoteHash": "3d09ddef32f15fdc6a20537bd5a6935448a7904ea202b7957751c490ff108bc2"
+  },
+  {
+    "file": "assets/maps/kamdesh/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/kamdesh/basemap.webp",
+    "bytes": 4959702,
+    "same": true,
+    "remoteHash": "20520563584792e55d2f54dd7834609eab17c0c5fd22581ba000238227054876"
+  },
+  {
+    "file": "assets/maps/kamdesh/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/kamdesh/topomap.webp",
+    "bytes": 2400642,
+    "same": true,
+    "remoteHash": "e72cc841bb7e5d435d209206afdef9c42cc711f320f22ce9edda1d0a6b177c09"
+  },
+  {
+    "file": "assets/maps/kohat/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/kohat/basemap.webp",
+    "bytes": 2685454,
+    "same": true,
+    "remoteHash": "38b1a52bbe529517784b232f5e6dea850d309ddcad6871e19d537ad79ef13e28"
+  },
+  {
+    "file": "assets/maps/kohat/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/kohat/thumbnail.webp",
+    "bytes": 125142,
+    "same": true,
+    "remoteHash": "e009ad7206e8768b4981340668a704bd32bd440133612551660ffbebb6841b41"
+  },
+  {
+    "file": "assets/maps/kohat/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/kohat/terrainmap.webp",
+    "bytes": 3241262,
+    "same": true,
+    "remoteHash": "4e718a731609c73248f91e86a0b9c5f868d0f235c9c8c81d5bd6bb435f17a113"
+  },
+  {
+    "file": "assets/maps/kamdesh/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/kamdesh/terrainmap.webp",
+    "bytes": 5114532,
+    "same": true,
+    "remoteHash": "cd8037ace2ed834ab8dd0e9d6c91c18fd1b2ab26d2049fe22f0dd0fe1b4fb50f"
+  },
+  {
+    "file": "assets/maps/kohat/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/kohat/topomap.webp",
+    "bytes": 2491474,
+    "same": true,
+    "remoteHash": "2e26f24b01cc5fdbad79052c3dac49162b00cdc3beab0c714fd4ee2ac64db749"
+  },
+  {
+    "file": "assets/maps/kokan/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/kokan/thumbnail.webp",
+    "bytes": 63806,
+    "same": true,
+    "remoteHash": "b30bca81d40b91304a2c6415d6a8dc0b4dbf63745dd8429479bb2b49f2a6ef12"
+  },
+  {
+    "file": "assets/maps/kokan/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/kokan/basemap.webp",
+    "bytes": 1230456,
+    "same": true,
+    "remoteHash": "21ef49cc7d7e1281856dc6f314aaf4c4c5887d774ceaaa01ac251c2c53775da8"
+  },
+  {
+    "file": "assets/maps/kokan/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/kokan/terrainmap.webp",
+    "bytes": 1297230,
+    "same": true,
+    "remoteHash": "21da7bdf3d2a03a3dc1880021e1fd36ae348fad21733f92deec057d3d344070e"
+  },
+  {
+    "file": "assets/maps/kokan/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/kokan/topomap.webp",
+    "bytes": 1359162,
+    "same": true,
+    "remoteHash": "ea5e840b871869eeef0626504f2b79d525fcc70183a1e93acb977d8da5fc5740"
+  },
+  {
+    "file": "assets/maps/lashkar/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/lashkar/thumbnail.webp",
+    "bytes": 115730,
+    "same": true,
+    "remoteHash": "572ae2f89283de024d0db67ad46459dd9ddeb73ebdc90110e16e9a0e35d50ff7"
+  },
+  {
+    "file": "assets/maps/lashkar/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/lashkar/basemap.webp",
+    "bytes": 4265030,
+    "same": true,
+    "remoteHash": "377f8c7e5d89a1e25b115863fc098ba0fa024b9b31601804c7ef138ac9f0bd8b"
+  },
+  {
+    "file": "assets/maps/lashkar/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/lashkar/terrainmap.webp",
+    "bytes": 4033702,
+    "same": true,
+    "remoteHash": "ff538c028613e019843b85515c4db39d690af85e58348f83377848647835b544"
+  },
+  {
+    "file": "assets/maps/lashkar/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/lashkar/topomap.webp",
+    "bytes": 3376960,
+    "same": true,
+    "remoteHash": "dc7ae1ed27a8abb393c7e206d7e470eb7e3fea8aa64d662e98999745b810cc98"
+  },
+  {
+    "file": "assets/maps/logar/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/logar/thumbnail.webp",
+    "bytes": 70240,
+    "same": true,
+    "remoteHash": "bfb00d4082304f57739f0b048e6281e980e109fdee4a32341cfec2542127358e"
+  },
+  {
+    "file": "assets/maps/logar/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/logar/basemap.webp",
+    "bytes": 2526890,
+    "same": true,
+    "remoteHash": "371e0caa1fb4aef1227c39ce8771856d0d29a3bd4d8aa9fa32428ca1dd24a652"
+  },
+  {
+    "file": "assets/maps/logar/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/logar/topomap.webp",
+    "bytes": 1181960,
+    "same": true,
+    "remoteHash": "5ec50768e4f6a0a9862f9eb6e2c8b7f38d0b032390fcdd8df588e856195c20bd"
+  },
+  {
+    "file": "assets/maps/logar/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/logar/terrainmap.webp",
+    "bytes": 2316066,
+    "same": true,
+    "remoteHash": "a4474bd9b020cb8039b6bb34c7d2de30ba4702afdf9a022f0d6deb1cdf2ed8b8"
+  },
+  {
+    "file": "assets/maps/manicouagan/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/manicouagan/thumbnail.webp",
+    "bytes": 106400,
+    "same": true,
+    "remoteHash": "7e6e347959924092ce93749a08267538b8ca0377f4feea7c3a20e292b3903ead"
+  },
+  {
+    "file": "assets/maps/manicouagan/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/manicouagan/basemap.webp",
+    "bytes": 3695248,
+    "same": true,
+    "remoteHash": "4f8df28a11c0ae2733b9020f9cae8f324bd8c3a43062b182d05c5da07a54f203"
+  },
+  {
+    "file": "assets/maps/manicouagan/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/manicouagan/terrainmap.webp",
+    "bytes": 3458722,
+    "same": true,
+    "remoteHash": "cb85ab9a1b8041cfac637afa29db7a272b2f8873ca0c886637f5693437e0de4b"
+  },
+  {
+    "file": "assets/maps/manicouagan/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/manicouagan/topomap.webp",
+    "bytes": 2904810,
+    "same": true,
+    "remoteHash": "2842dc8ddb462d68f92dd4dd0b2ca0d09127e94857ba00d5bfe600a37ccc6b6f"
+  },
+  {
+    "file": "assets/maps/mestia/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/mestia/thumbnail.webp",
+    "bytes": 48880,
+    "same": true,
+    "remoteHash": "d1984dd73887f76bf66ca8c68fd74a3c211eac1cd02951826db99f1ee7fb92d1"
+  },
+  {
+    "file": "assets/maps/mestia/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/mestia/basemap.webp",
+    "bytes": 1764050,
+    "same": true,
+    "remoteHash": "ce36e0c740faadbc394dd90e282d526ddfcbe477a5e8ad4659abc99b294451f2"
+  },
+  {
+    "file": "assets/maps/mestia/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/mestia/terrainmap.webp",
+    "bytes": 1644604,
+    "same": true,
+    "remoteHash": "a80a459a0c84e39e87e109ed656c4bf6b510a835a5eeb3e0833b4e3e39db21b0"
+  },
+  {
+    "file": "assets/maps/mestia/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/mestia/topomap.webp",
+    "bytes": 1819830,
+    "same": true,
+    "remoteHash": "58e004076e248ecc3320b49660c0c421cbbb8edac92ddbba4d855464fbf4661d"
+  },
+  {
+    "file": "assets/maps/mutaha/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/mutaha/thumbnail.webp",
+    "bytes": 95280,
+    "same": true,
+    "remoteHash": "d7ade43dead5bccbb49fd022e68363f3c309f89345e6ec7b98963731926bd1a4"
+  },
+  {
+    "file": "assets/maps/mutaha/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/mutaha/basemap.webp",
+    "bytes": 3198442,
+    "same": true,
+    "remoteHash": "adceee196bdf14f2984212fac3c34d71568f937def4b060e7670629f7f6de07e"
+  },
+  {
+    "file": "assets/maps/mutaha/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/mutaha/terrainmap.webp",
+    "bytes": 3428960,
+    "same": true,
+    "remoteHash": "7ea361d4997849128b6629277ef45086c71197b996a08f757a1eb0a5e9afb428"
+  },
+  {
+    "file": "assets/maps/mutaha/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/mutaha/topomap.webp",
+    "bytes": 1340114,
+    "same": true,
+    "remoteHash": "926ce65a84fc2908da567f1776550c1627471bbcf79e85de0e6f4b77c99d2780"
+  },
+  {
+    "file": "assets/maps/narva/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/narva/thumbnail.webp",
+    "bytes": 85284,
+    "same": true,
+    "remoteHash": "89cb69632ef1adbf43c6d8ecb8c30576ebf6c8b46e60d2f428d629f807012c5f"
+  },
+  {
+    "file": "assets/maps/narva/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/narva/basemap.webp",
+    "bytes": 2066290,
+    "same": true,
+    "remoteHash": "3cb0b784170dab710f1b80d6d377d3d44a8b1cc4641fd729d1c92e9819ccf0ae"
+  },
+  {
+    "file": "assets/maps/narva/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/narva/topomap.webp",
+    "bytes": 1347880,
+    "same": true,
+    "remoteHash": "c49e1742b1a675b85143dd5c33a9a48d6211a265b5f0f05be24240bb514b7dec"
+  },
+  {
+    "file": "assets/maps/narva/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/narva/terrainmap.webp",
+    "bytes": 2034668,
+    "same": true,
+    "remoteHash": "ecee58c2f610f8a5f038a3d35ab81da1f93eea219d1b2dd031608f4eb0e857a8"
+  },
+  {
+    "file": "assets/maps/pacific/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/pacific/thumbnail.webp",
+    "bytes": 19036,
+    "same": true,
+    "remoteHash": "58783ea9d19508c168b6bd4a340045a6b44348f0df3f287d30997f3d10403562"
+  },
+  {
+    "file": "assets/maps/pacific/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/pacific/basemap.webp",
+    "bytes": 513884,
+    "same": true,
+    "remoteHash": "810263758036557c6536d0c7d50ee9310b1a74a5544257ff6c7f58a1b204bf7e"
+  },
+  {
+    "file": "assets/maps/pacific/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/pacific/terrainmap.webp",
+    "bytes": 1216306,
+    "same": true,
+    "remoteHash": "74543a9a8e487b2ed888099d623c71aab563afa45bd54c1dd25a755a50238d86"
+  },
+  {
+    "file": "assets/maps/pacific/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/pacific/topomap.webp",
+    "bytes": 2461738,
+    "same": true,
+    "remoteHash": "d2951523b3e87a9ee751c767dfb85036bdd8798c1094c271d00181cb41b9e3ff"
+  },
+  {
+    "file": "assets/maps/sanxian/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/sanxian/basemap.webp",
+    "bytes": 1037840,
+    "same": true,
+    "remoteHash": "39d89414cb4d302aa822d8eb593fecf78ffb22dc5e29c74713aef2420e0358e7"
+  },
+  {
+    "file": "assets/maps/sanxian/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/sanxian/thumbnail.webp",
+    "bytes": 44784,
+    "same": true,
+    "remoteHash": "6a3c95623efd46c8a4beeec72fd0adeb469d380966ceb320028a3ecc55ff379e"
+  },
+  {
+    "file": "assets/maps/sanxian/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/sanxian/topomap.webp",
+    "bytes": 992750,
+    "same": true,
+    "remoteHash": "f083220a1797bf99f60ae3839ee3145d40783e186552f0a9e15e5bd3dbf1208c"
+  },
+  {
+    "file": "assets/maps/sanxian/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/sanxian/terrainmap.webp",
+    "bytes": 1060152,
+    "same": true,
+    "remoteHash": "224cb6272905f9cab381d3e312da9a0cd9939d5aca00923479d03ff323e58c21"
+  },
+  {
+    "file": "assets/maps/skorpo/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/skorpo/thumbnail.webp",
+    "bytes": 68084,
+    "same": true,
+    "remoteHash": "dd0300606cf040925391fab6c3d847fe56dcd0036ab78128cab61fea26182de6"
+  },
+  {
+    "file": "assets/maps/skorpo/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/skorpo/basemap.webp",
+    "bytes": 1891444,
+    "same": true,
+    "remoteHash": "459f3c2b7bdce268b92a37257c009c0c39f4885d0d76a2ba9c50405c4a667120"
+  },
+  {
+    "file": "assets/maps/skorpo/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/skorpo/terrainmap.webp",
+    "bytes": 1753706,
+    "same": true,
+    "remoteHash": "b8ced232fd6f402f3d9660cae777f367e18ecbc81f08bbbfe3506d73bd43bae2"
+  },
+  {
+    "file": "assets/maps/skorpo/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/skorpo/topomap.webp",
+    "bytes": 981330,
+    "same": true,
+    "remoteHash": "ee28bacfee125ab3ce773839dcb611325c500b8dcbd8a5b61a0399c61e5d3847"
+  },
+  {
+    "file": "assets/maps/sumari/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/sumari/thumbnail.webp",
+    "bytes": 54434,
+    "same": true,
+    "remoteHash": "af621be673caff89e8ae3b01baacb53009fd664d111c6f122a6071c9402d1ddc"
+  },
+  {
+    "file": "assets/maps/sumari/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/sumari/basemap.webp",
+    "bytes": 1588722,
+    "same": true,
+    "remoteHash": "5a9f89a86317d84b5f22b3b563c00eebfd304d17b95a10dfb864a56fee1a25cf"
+  },
+  {
+    "file": "assets/maps/sumari/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/sumari/topomap.webp",
+    "bytes": 573770,
+    "same": true,
+    "remoteHash": "eec9f7d893f2dde6aa2e05f705805cc505aef4d873ebc4f38a8d1e50ce88f399"
+  },
+  {
+    "file": "assets/maps/tallil/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/tallil/basemap.webp",
+    "bytes": 1876758,
+    "same": true,
+    "remoteHash": "ba6c53fbb36445676edaf3932db5dda3e8b51387be8322fd8ce0771408ab8a39"
+  },
+  {
+    "file": "assets/maps/tallil/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/tallil/thumbnail.webp",
+    "bytes": 78582,
+    "same": true,
+    "remoteHash": "06167938de9a2413fea90cb3b94fe0c1ba91d6088b5d5a022b8eb115762ba2c9"
+  },
+  {
+    "file": "assets/maps/tallil/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/tallil/terrainmap.webp",
+    "bytes": 2134992,
+    "same": true,
+    "remoteHash": "e224b972d418fe6956e1da31b5ec7b5b6a4d908ba01afb41e91b2bdd18280e49"
+  },
+  {
+    "file": "assets/maps/sumari/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/sumari/terrainmap.webp",
+    "bytes": 1566792,
+    "same": true,
+    "remoteHash": "3fb152b57c76229f94f602f1777be4a79501db28e1a5ee7c10cb839c92d1fdfa"
+  },
+  {
+    "file": "assets/maps/yehorivka/basemap.webp",
+    "url": "https://squadmaps.com/assets/maps/yehorivka/basemap.webp",
+    "bytes": 2188302,
+    "same": true,
+    "remoteHash": "b05cd0124d556d92548966c87d447c5085a1162ea6759d1281101b543eba8a15"
+  },
+  {
+    "file": "assets/maps/yehorivka/thumbnail.webp",
+    "url": "https://squadmaps.com/assets/maps/yehorivka/thumbnail.webp",
+    "bytes": 72412,
+    "same": true,
+    "remoteHash": "63e02e616fa80a1e2b74bc85ab867fdc449b3d75ea024182f2db682518fe61ab"
+  },
+  {
+    "file": "assets/maps/tallil/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/tallil/topomap.webp",
+    "bytes": 1177230,
+    "same": true,
+    "remoteHash": "8d9d60dd05d7ee9cd2f42e539fd484844d63b9a86c7cf30d6d3cd3cf48bc7b6f"
+  },
+  {
+    "file": "assets/maps/yehorivka/terrainmap.webp",
+    "url": "https://squadmaps.com/assets/maps/yehorivka/terrainmap.webp",
+    "bytes": 4869918,
+    "same": true,
+    "remoteHash": "5739a48ac3f8c129982d13e47969a93570c73abe00558f9e9d51b60e8884c384"
+  },
+  {
+    "file": "assets/maps/yehorivka/topomap.webp",
+    "url": "https://squadmaps.com/assets/maps/yehorivka/topomap.webp",
+    "bytes": 2956600,
+    "same": true,
+    "remoteHash": "5c2a67839b8a1e77036c84488bc39c4c4e4bc8c66922d4a5adb124a483942e83"
+  }
+]

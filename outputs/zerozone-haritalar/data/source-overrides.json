@@ -1,0 +1,46 @@
+{
+  "Harju_RAAS_v3_CL": {
+    "A1-Lumber Yard": {
+      "name": "A1-CaptureZoneCluster_4",
+      "pointPosition": 2,
+      "avgLocation": {
+        "location_x": 125292.4765625,
+        "location_y": -60920.19140625,
+        "location_z": 608.9970703125
+      },
+      "points": [
+        {
+          "name": "Lumber Yard",
+          "objectName": "A1-TruckingDepot",
+          "objectDisplayName": "A1-Lumber Yard",
+          "location_x": 125292.4765625,
+          "location_y": -60920.19140625,
+          "location_z": 608.9970703125,
+          "objects": [
+            {
+              "objectName": "Box",
+              "location_x": 125257.578125,
+              "location_y": -61660.4921875,
+              "location_z": 68.16961669921875,
+              "isSphere": false,
+              "sphereRadius": "11167.797852",
+              "isBox": true,
+              "boxExtent": {
+                "extent_x": 3500,
+                "extent_y": 3500,
+                "extent_z": 3000,
+                "rotation_x": 0,
+                "rotation_y": 0,
+                "rotation_z": 79.24860972166061,
+                "scaling_x": 2.0652875900268555,
+                "scaling_y": 1.6417630910873413,
+                "scaling_z": 1
+              },
+              "isCapsule": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "map": "AlBasrah",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "18da6b159b060071aa612ab10b97903f215bf00f095c02b287267644538e1253"
+  },
+  {
+    "map": "Anvil",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "be4b0c390c43de00d9171da8ec418afcc096e1c7e4702a57679245e48e8961f3"
+  },
+  {
+    "map": "BlackCoast",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "deae64142291c531423b3c73b0ab3a1e01c95dbf3295d258c6731796fb5cc132"
+  },
+  {
+    "map": "Chora",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "25c2af31d51615e2bcbaa008d7eb281a8c0d0e7034d441cf750dd255d09fa5f6"
+  },
+  {
+    "map": "Fallujah",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "c564f0585938d5fc39ab164eb0c883f8a9b85dba4b7f7251bade53d840c613c6"
+  },
+  {
+    "map": "FoolsRoad",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "9e9f8f5f7f40c104ddc39fc071ddae6d8205ac35e4b036cbde942341806d88ed"
+  },
+  {
+    "map": "GooseBay",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "3c0777931f7ca32817a8ae7cc5d88f7949c58f6f2faf785939d99811bead66ab"
+  },
+  {
+    "map": "Gorodok",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "2a3749eb1027680bd79b56e9200a8ac32fd8fd8d940157acad951922482100ed"
+  },
+  {
+    "map": "Harju",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "8d59d0af0b8f18a938d040c0676dbc1ecb34a1f638cd1a863c8f27a199011dd5"
+  },
+  {
+    "map": "JensensRange",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "5e99ca40f0fa58ccc1fec689fab5576a31f373d5f6e26d031c72e073b6fa1488"
+  },
+  {
+    "map": "Kamdesh",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "271c29e0204c1e57732b5d9cad766609669875ebdd3faee4539993984aa89e28"
+  },
+  {
+    "map": "Kohat",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "0bfffb65139f0bbd7c50a8b722c4393be52d724dbf7b26ae20e11ae3c1954fc6"
+  },
+  {
+    "map": "Kokan",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "e1f4f28c49ee437dbf9addb275b2124d6a3d44353700366f53738bb3d14d4548"
+  },
+  {
+    "map": "Lashkar",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "e1ca7a3fc7e743c6d26b7276be03e4d759b2d3885886fbcc1070aaf2b2175231"
+  },
+  {
+    "map": "Logar",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "a8e911dae9897a520e1ff20e6e267044455ddddb1526813ede89a9e50756fbbc"
+  },
+  {
+    "map": "Manicouagan",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "9fbffa46b6bdc32774a3af1a6840be6db9f03d225c37b6a97311b4dbf552cad3"
+  },
+  {
+    "map": "Mestia",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "8de8b25f5ca1cfb07c12eec138fab913324bed69752dc5076bd9475f8ae9a066"
+  },
+  {
+    "map": "Mutaha",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "43a224931d43e2ce3c30c8eeb1e9108d4bd06f9670d96cd5780a04c232a2fee4"
+  },
+  {
+    "map": "Narva",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "87c29dcfc5c7d698c2b57e69a1b65f667f004aec66c7f8c5e45e101dee3ff647"
+  },
+  {
+    "map": "PacificProvingGrounds",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "a413130c01ecec290a63362026312b0af35bd0009c73c9afea17a6a733bc06d7"
+  },
+  {
+    "map": "Sanxian_Islands",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "99611d9eaf21e531a90cf249417fcae4abeb216aef28fa7c249a759eaac7ea50"
+  },
+  {
+    "map": "Skorpo",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "8963206552a42acbec988f6b29c8b45fc80055a640fdb3e85f8b2e40157ebd9a"
+  },
+  {
+    "map": "Sumari",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "2425dae65a7ef515473227c53dd9c47ef10671177379886343fd209b147311e6"
+  },
+  {
+    "map": "Tallil",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "a30250191468340d45da345bf3297749e3705519cd224c88f3f5e2c81ca01495"
+  },
+  {
+    "map": "Yehorivka",
+    "samples": 263169,
+    "changedSamples": 0,
+    "maxError": 0,
+    "sha256": "64083a1b9cf1d6389566fce64166ab6d9a716c795dedc82a0f2376f7632355e7"
+  }
+]

@@ -23,3 +23,13 @@ for(const map of read('catalog.json'))for(const l of read(map.id+'.json')){
  for(const team of [1,2]){let s={team,selected:[]};for(let depth=0;depth<50;depth++){const pr=capturePrediction(l,s);close(pr.lanes.reduce((a,l)=>a+l.probability,0),1);if(pr.complete)break;assert.ok(pr.next.length,l.id+' missing next');close(pr.next.reduce((a,p)=>a+p.probability,0),1);s=chooseCapture(l,s,pr.next[0]);assert.equal(s.selected.length,depth+1,l.id+' did not advance');}assert.ok(capturePrediction(l,s).complete,l.id+' did not finish');checked++;}
 }
 console.log(`PASS: reference probabilities, forward/reverse selection, truncation, future rejection, shared locations, ${checked} full route traversals, ${zones} region geometries.`);
+const mestia=read('Mestia.json').find(l=>l.id==='Mestia_RAAS_v1');
+assert.equal(mestia.mains.length,2);assert.deepEqual(mestia.mains.map(m=>m.team).sort(),[1,2]);
+assert.ok(!mestia.points.some(p=>p.name==='Main'),'main bases must not become capture targets');
+for(const team of [1,2])assert.ok(capturePrediction(mestia,{team,selected:[]}).next.every(p=>p.name!=='Main'));
+const harju=read('Harju.json').find(l=>l.id==='Harju_RAAS_v3_CL'),lumber=harju.points.find(p=>p.id==='A1-Lumber Yard');
+assert.ok(lumber);assert.ok(harju.lanes.find(l=>l.name==='Alpha').ids.includes(lumber.id));
+const box=lumber.candidates[0].zones[0].points,edges=box.map((p,i)=>Math.hypot((p.x-box[(i+1)%box.length].x)*harju.widthMeters,(p.y-box[(i+1)%box.length].y)*harju.heightMeters)).sort((a,b)=>a-b);
+assert.equal(box.length,4);assert.ok(Math.abs(edges[0]-70*1.6417630910873413)<1e-6);assert.ok(Math.abs(edges[3]-70*2.0652875900268555)<1e-6,'SDK box scale applied before rotation');
+assert.ok(capturePrediction(harju,{team:1,selected:[]}).next.some(p=>p.name==='Lumber Yard'));
+console.log('PASS: Mestia main classification, Harju missing lane node and rotated/scaled capture footprint.');

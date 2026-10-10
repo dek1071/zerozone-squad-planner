@@ -4,6 +4,7 @@
 - Harita/layer/capture/birlik verisi kaynağı: https://squadmaps.com/ — Ekim 2026 snapshot.
 - Yükseklik ve 3B sahne verisi kaynağı: https://squadcalc.app/ ve https://github.com/sh4rkman/SquadCalc — Ekim 2026 snapshot. Bina ve bitki yerleşimleri yerel paket olarak saklanır; bitki ve bazı yapı görünümleri basitleştirilmiştir.
 - SquadCalc kaynak lisansı: `outputs/zerozone-haritalar/data/terrain/SQUADCALC-LICENSE.txt` (MIT Non-Commercial). Bu kaynaklardan gelen içeriğe sınırsız ticari kullanım izni verildiği varsayılmamalıdır.
+- Araç fotoğrafları ve oyun ikonları: SquadCalc `public/img/vehicles/vanilla` ve `public/img/icons/ally`; Squad / Offworld Industries ve ilgili hak sahipleri. Tam kaynak, sabit commit ve dosya hash'leri `outputs/zerozone-haritalar/assets/squad/manifest.json` içindedir. SquadCalc lisansı ve oyun varlıklarının hakları geçerlidir.
 - Three.js r180: `outputs/zerozone-haritalar/assets/vendor/THREE-LICENSE.txt` (MIT).
 - Leaflet 1.9.4: `outputs/zerozone-haritalar/assets/vendor/Leaflet-LICENSE.txt` (BSD-2-Clause).
 - Montserrat: `outputs/zerozone-haritalar/assets/brand/Montserrat-OFL.txt` (SIL OFL).

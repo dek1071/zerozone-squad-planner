@@ -16,7 +16,7 @@ export function solveWeapon(distance,delta,id='mortar',arc='high'){
  if(degrees<w.minAngle||degrees>w.maxAngle||!Number.isFinite(time)||time<=0)return null;
  return {radians,degrees,mil:radians*3200/Math.PI,time,arc};
 }
-export function elevationText(solution,weapon){return !solution?'—':weapon.unit==='mil'?`${solution.mil.toFixed(0)} mil`:`${solution.degrees.toFixed(1)}°`;}
+export function elevationText(solution,weapon){return !solution?'—':weapon.unit==='mil'?`${solution.mil.toFixed(0)} milyem`:`${solution.degrees.toFixed(1)}°`;}
 export function gridPoint(text,width,height){
  const match=String(text).trim().toUpperCase().replace(/\s+/g,'').match(/^([A-Z]{1,3})([1-9]\d*)(?:-([1-9]))?(?:-([1-9]))?$/);
  if(!match||![width,height].every(v=>Number.isFinite(v)&&v>0))throw Error('Koordinatı A1-7-3 biçiminde yaz.');

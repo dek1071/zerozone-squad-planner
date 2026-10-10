@@ -1,0 +1,1776 @@
+[
+  {
+    "layer": "AlBasrah_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "AlBasrah_AAS_v3_CL",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "AlBasrah_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "AlBasrah_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "AlBasrah_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "AlBasrah_Invasion_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "AlBasrah_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "AlBasrah_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "AlBasrah_RAAS_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "AlBasrah_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "AlBasrah_Seed_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "AlBasrah_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "AlBasrah_Skirmish_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "AlBasrah_Skirmish_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Anvil_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Anvil_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Anvil_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Anvil_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Anvil_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Anvil_TC_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Belaya_AAS_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Belaya_AAS_v2",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Belaya_AAS_v3",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Belaya_Invasion_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Belaya_Invasion_v2",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Belaya_RAAS_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Belaya_Skirmish_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Belaya_TC_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "BlackCoast_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "BlackCoast_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "BlackCoast_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "BlackCoast_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "BlackCoast_Invasion_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "BlackCoast_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "BlackCoast_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "BlackCoast_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "BlackCoast_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Chora_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Chora_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Chora_AAS_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Chora_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Chora_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Chora_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Chora_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Chora_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Chora_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Fallujah_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Fallujah_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Fallujah_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Fallujah_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Fallujah_Invasion_v3_CL",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Fallujah_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Fallujah_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Fallujah_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Fallujah_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Fallujah_Skirmish_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Fallujah_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "FoolsRoad_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "FoolsRoad_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "FoolsRoad_Destruction_v1",
+    "different": [
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "FoolsRoad_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "FoolsRoad_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "FoolsRoad_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "FoolsRoad_Skirmish_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "FoolsRoad_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "GooseBay_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "GooseBay_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "GooseBay_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "GooseBay_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "GooseBay_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "GooseBay_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "GooseBay_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Gorodok_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Gorodok_Destruction_v1",
+    "different": [
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Gorodok_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Gorodok_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Gorodok_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Gorodok_Invasion_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Gorodok_Invasion_v4_CL",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Gorodok_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Gorodok_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Gorodok_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Gorodok_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Harju_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Harju_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Harju_AAS_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Harju_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Harju_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Harju_Invasion_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Harju_Invasion_v4_CL",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Harju_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Harju_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Harju_RAAS_v3_CL",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Harju_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Harju_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Harju_Skirmish_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Harju_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Jensens_Range_ADF-PLAAGF",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Jensens_Range_AFU-RGF",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Jensens_Range_BAF-IMF",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Jensens_Range_CAF-MEI",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Jensens_Range_CRF-VDV",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Jensens_Range_USA-PLA",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Jensens_Range_USMC-GFI",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Jensens_Range_WPMC-TLF",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Kamdesh_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kamdesh_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Kamdesh_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kamdesh_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kamdesh_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Kamdesh_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kohat_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kohat_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Kohat_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kohat_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kohat_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kohat_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kohat_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Kohat_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Kokan_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Kokan_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Kokan_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Kokan_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Kokan_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Kokan_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Kokan_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Lashkar_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Lashkar_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Lashkar_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Lashkar_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Lashkar_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Lashkar_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Lashkar_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Lashkar_TC_v2",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Logar_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Logar_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Logar_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Logar_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Logar_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Logar_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Manicouagan_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Manicouagan_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Manicouagan_AAS_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Manicouagan_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Manicouagan_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Manicouagan_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Manicouagan_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Manicouagan_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Manicouagan_Seed_v2_CL",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Manicouagan_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Manicouagan_Skirmish_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Manicouagan_Skirmish_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Mestia_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mestia_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mestia_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mestia_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mestia_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Mestia_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mutaha_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mutaha_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mutaha_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mutaha_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mutaha_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Mutaha_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Mutaha_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Mutaha_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Narva_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Narva_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Narva_AAS_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Narva_Destruction_v1",
+    "different": [
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Narva_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Narva_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Narva_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Narva_Skirmish_v1",
+    "different": [
+      "mapTextureCorners",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Narva_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "PacificProvingGrounds_AAS_v1",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "PacificProvingGrounds_Seed_v1",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sanxian_AAS_v1",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Sanxian_AAS_v2",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Sanxian_AAS_v3",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Sanxian_Invasion_v1",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Sanxian_Invasion_v2",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Sanxian_Invasion_v3",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Sanxian_RAAS_v1",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Sanxian_RAAS_v2",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Sanxian_RAAS_v3_CL",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Sanxian_Seed_v1",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sanxian_Skirmish_v1",
+    "different": [
+      "mapId",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Skorpo_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Skorpo_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Skorpo_Invasion_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Skorpo_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "boatsAvailable"
+    ]
+  },
+  {
+    "layer": "Skorpo_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sumari_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sumari_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sumari_AAS_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sumari_Insurgency_v1",
+    "error": "HTTP 404"
+  },
+  {
+    "layer": "Sumari_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sumari_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sumari_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sumari_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Sumari_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Tallil_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Tallil_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Tallil_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Tallil_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Tallil_Seed_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Tallil_Skirmish_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Tallil_Skirmish_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Tallil_Skirmish_v3",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Tallil_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Yehorivka_AAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Yehorivka_AAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Yehorivka_Destruction_v1",
+    "different": [
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Yehorivka_Invasion_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Yehorivka_Invasion_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Yehorivka_RAAS_v1",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Yehorivka_RAAS_v2",
+    "different": [
+      "objectives",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Yehorivka_Skirmish_v1",
+    "different": [
+      "mapTextureCorners",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Yehorivka_Skirmish_v2",
+    "different": [
+      "mapTextureCorners",
+      "objectives",
+      "capturePoints",
+      "teamConfigs",
+      "commanderDisabled"
+    ]
+  },
+  {
+    "layer": "Yehorivka_TC_v1",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  },
+  {
+    "layer": "Yehorivka_TC_v2",
+    "different": [
+      "gamemode",
+      "capturePoints",
+      "teamConfigs"
+    ]
+  }
+]

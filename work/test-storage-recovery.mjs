@@ -1,0 +1,3 @@
+import {spawnSync}from'node:child_process';import assert from'node:assert/strict';
+for(const seed of [{favorites:{}},{favorites:[null,1,'Gorodok']},{plans:{}},{plans:[null,{}, {title:'Broken',annotations:null}]},{display:[],last:[]},{'draft:Gorodok_AAS_v1':{annotations:{},units:{},capture:{selected:'bad'},logistics:null}}]){const r=spawnSync(process.execPath,['--experimental-vm-modules','work/test-workspace-app.mjs'],{encoding:'utf8',env:{...process.env,ZEROZONE_TEST_STORAGE:JSON.stringify(seed)}});assert.equal(r.status,0,JSON.stringify(seed)+'\n'+r.stdout+r.stderr);}
+console.log('PASS: six malformed local storage scenarios recover without preventing app initialization, saved plans, valid imports or undo.');

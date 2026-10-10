@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import {webcrypto} from 'node:crypto';
-const root=path.resolve('outputs/zerozone-haritalar'),storage=new Map(),nodes=new Map(),errors=[];
+const root=path.resolve('outputs/zerozone-haritalar'),storage=new Map(Object.entries(JSON.parse(process.env.ZEROZONE_TEST_STORAGE||'{}')).map(([k,v])=>['zerozone-maps-v1:'+k,JSON.stringify(v)])),nodes=new Map(),errors=[];
 const node=()=>({value:'',dataset:{},style:{setProperty(){}},classList:{add(){},remove(){},toggle(){}},setAttribute(){},addEventListener(){},append(){},insertAdjacentHTML(){},focus(){},close(){},showModal(){}});
 const document={querySelector(s){if(!nodes.has(s))nodes.set(s,node());return nodes.get(s);},querySelectorAll(){return [];},createElement:node,body:node(),addEventListener(){}};
 const context=vm.createContext({document,console:{...console,error:e=>errors.push(e)},localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)},location:{href:'http://127.0.0.1:4173/haritalar?map=Gorodok&layer=Gorodok_AAS_v1',search:'?map=Gorodok&layer=Gorodok_AAS_v1'},history:{replaceState(){}},URL,URLSearchParams,crypto:webcrypto,Blob,setTimeout:()=>0,clearTimeout(){},fetch:async url=>({ok:true,json:async()=>JSON.parse(await fs.readFile(path.join(root,url),'utf8'))})});
@@ -11,7 +11,7 @@ const modules=new Map();
 async function load(file){
   if(modules.has(file))return modules.get(file);
   let source;
-  if(file.endsWith('map-engine.js'))source=`export class TacticalMap{constructor(element,callbacks){this.element=element;this.callbacks=callbacks;this.annotations=[];this.overlays={};this.tool='pan';this.map={doubleClickZoom:{enable(){},disable(){}}};this.L={layerGroup:()=>({addTo(){return this},clearLayers(){}})};}setVisuals(){}setTool(v){this.tool=v;}setMap(c){this.config=c;this.annotations=[];}updateObjectives(c){Object.assign(this.config,c);}exportPlan(){return this.annotations;}importPlan(a){this.annotations=a;this.callbacks.onChange(a);} _renderObjectives(){} _renderRedZones(){} _renderAnnotations(){} getGrid(){return 'A1';}}`;
+  if(file.endsWith('map-engine.js'))source=`export class TacticalMap{constructor(element,callbacks){this.element=element;this.callbacks=callbacks;this.annotations=[];this.overlays={};this.tool='pan';this.map={doubleClickZoom:{enable(){},disable(){}}};this.L={layerGroup:()=>({addTo(){return this},clearLayers(){}})};}setVisuals(){}setTool(v){this.tool=v;}setMap(c){this.config=c;this.annotations=[];}updateObjectives(c){Object.assign(this.config,c);}exportPlan(){return this.annotations;}importPlan(a){if(!Array.isArray(a))throw Error('invalid annotations');this.annotations=a;this.callbacks.onChange(a);} _renderObjectives(){} _renderRedZones(){} _renderAnnotations(){} getGrid(){return 'A1';}}`;
   else if(file.endsWith('planning-tools.js'))source=`export function createPlanningTools(){return {render(){},compare(){},timerPins(){return [];},restoreTimerPins(){}}}`;
   else source=await fs.readFile(file,'utf8');
   if(file.endsWith('app.js'))source+='\nexport {setTab,selectMap,workspaceBackup,importWorkspace,actions,regionEditor,regionLibrary};';
@@ -19,7 +19,7 @@ async function load(file){
   return m;
 }
 const app=await load(path.join(root,'app.js'));await app.link((spec,ref)=>load(path.resolve(path.dirname(ref.identifier),spec)));await app.evaluate();assert.deepEqual(errors,[],'application initializes without errors');
-const api=app.namespace;api.setTab('regions');assert.match(nodes.get('#side-content').innerHTML,/Sınır setleri/);
+const api=app.namespace;api.actions.plans();api.actions.save();api.setTab('regions');assert.match(nodes.get('#side-content').innerHTML,/Sınır setleri/);
 const old=JSON.parse(JSON.stringify(api.workspaceBackup()));
 const incoming=JSON.parse(JSON.stringify(old));incoming.plan.title='İçe aktarılan';incoming.regions={regions:[],visible:false,hatch:false};incoming.sets=[{id:'event',name:'Etkinlik',state:{regions:[]}}];incoming.display={colorBlind:true,markerSize:40,labelSize:14};
 await api.importWorkspace(incoming);assert.equal(api.workspaceBackup().plan.title,'İçe aktarılan');assert.equal(api.workspaceBackup().regions.visible,false);assert.equal(api.workspaceBackup().sets.length,1);

@@ -4,6 +4,7 @@ const mime={'.glb':'model/gltf-binary','.wasm':'application/wasm','.bin':'applic
 http.createServer((req,res)=>{
  if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);res.end();return;}
  let pathname;try{pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400);res.end();return;}
+ if(pathname.includes('\0')){res.writeHead(400);res.end();return;}
  if(pathname==='/haritalar/'){res.writeHead(302,{Location:'/haritalar'+new URL(req.url,'http://localhost').search});res.end();return;}
  if(pathname==='/'||pathname==='/haritalar')pathname='/index.html';
  if(pathname==='/zirh'||pathname==='/zirh/')pathname='/armor.html';

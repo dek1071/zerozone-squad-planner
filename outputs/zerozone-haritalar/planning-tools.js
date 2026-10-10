@@ -6,7 +6,8 @@ import {createTerrainTools} from './terrain-tools.js';
 export function createPlanningTools({map,getState,escape:esc,icon,setTool,saveDraft,info,toast,readStore,store}) {
   let mode='strategy',buildFilter='',selected=null;
   const terrain=createTerrainTools({map,getState,setTool,escape:esc,toast,readStore,store});
-  const timers=new Map((readStore('timers',[])||[]).filter(p=>Array.isArray(p)&&typeof p[0]==='string'&&Number.isFinite(p[1])&&p[1]>Date.now()));
+  const storedTimers=readStore('timers',[]);
+  const timers=new Map((Array.isArray(storedTimers)?storedTimers:[]).filter(p=>Array.isArray(p)&&typeof p[0]==='string'&&Number.isFinite(p[1])&&p[1]>Date.now()));
   const storedPins=readStore('pinned-timers',[]),uniquePins=new Map();for(const p of Array.isArray(storedPins)?storedPins:[]){try{const [clean]=cleanPinnedTimers([p]);uniquePins.set(clean.id,clean);}catch{/* Ignore malformed local entries without losing valid pins. */}}let pins=[...uniquePins.values()].slice(-100),dockSignature='';
   const savePins=()=>store('pinned-timers',pins);
   function renderDock(){

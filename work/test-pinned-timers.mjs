@@ -31,3 +31,5 @@ api.restoreTimerPins('Test_RAAS_v1',pinSnapshot);assert.equal(api.timerPins().le
 assert.throws(()=>api.restoreTimerPins('Test_RAAS_v1',[{...pinSnapshot[0],seconds:Infinity}]));
 assert.equal(api.timerPins().length,2);
 console.log('Pinned timers: changed-unit badge, independent snapshots, per-layer restoration and invalid import isolation PASS');
+for(const value of [{},'bad',[null,{},['bad',Infinity]]]){storage.set('timers',value);for(const k of Object.keys(listeners))delete listeners[k];assert.doesNotThrow(()=>init());}
+console.log('Timers: malformed persisted timer entries recover PASS');
